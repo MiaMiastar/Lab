@@ -15,6 +15,9 @@ export function InstitutionLogo({
   className,
 }: InstitutionLogoProps) {
   const isImage = logo.startsWith("/");
+  const imageSrc = isImage
+    ? `${import.meta.env.BASE_URL}${logo.replace(/^\/+/, "")}`
+    : logo;
   const classes = [
     className,
     modifierClass,
@@ -26,7 +29,7 @@ export function InstitutionLogo({
 
   return (
     <span className={classes} aria-hidden="true">
-      {isImage ? <img src={logo} alt="" /> : logo}
+      {isImage ? <img src={imageSrc} alt="" /> : logo}
     </span>
   );
 }

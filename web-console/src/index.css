@@ -1438,8 +1438,8 @@ input, select { font-family: inherit; }
   flex-shrink: 0;
   position: relative;
   background-color: #d8e0eb;
-  -webkit-mask: url(/images/stream-switch.png) center / contain no-repeat;
-  mask: url(/images/stream-switch.png) center / contain no-repeat;
+  -webkit-mask: url("/Lab/images/stream-switch.png") center / contain no-repeat;
+  mask: url("/Lab/images/stream-switch.png") center / contain no-repeat;
   transition: background-color 0.2s, opacity 0.2s, filter 0.2s;
   opacity: 1;
   filter: drop-shadow(0 1px 4px rgba(0, 0, 0, 0.45));

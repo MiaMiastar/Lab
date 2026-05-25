@@ -3,7 +3,9 @@ import type { Discipline } from "../types";
 /**
  * 演示素材：自动化实验近景（demo 用途）
  */
-const localVideo = (file: string) => `/videos/${file}`;
+const publicAsset = (path: string) =>
+  `${import.meta.env.BASE_URL}${path.replace(/^\/+/, "")}`;
+const localVideo = (file: string) => publicAsset(`videos/${file}`);
 const AUTOMATED_EXPERIMENT_CLOSEUP_STREAM = localVideo("high-throughput-lab.mp4");
 
 export const HIGH_THROUGHPUT_LAB_VIDEOS = {

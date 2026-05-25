@@ -23,7 +23,12 @@ export function openStreamInNewTab({ url, label, replay = false }: OpenStreamTab
   });
   if (replay) params.set("replay", "1");
 
-  const tab = window.open(`/stream?${params.toString()}`, "_blank", "noopener,noreferrer");
+  const basePath = import.meta.env.BASE_URL.replace(/\/$/, "");
+  const tab = window.open(
+    `${basePath}/stream?${params.toString()}`,
+    "_blank",
+    "noopener,noreferrer"
+  );
   return tab != null;
 }
 
