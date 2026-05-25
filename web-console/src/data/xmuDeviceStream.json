@@ -1,0 +1,444 @@
+{
+  "meta": {
+    "startedAt": "2026-05-22 08:10:00",
+    "finishedAt": "2026-05-22 08:24:11",
+    "queue": [
+      "test-008"
+    ],
+    "totalEvents": 48,
+    "logSource": "厦大.docx · 干实验",
+    "experimentLabel": "光刻胶聚合 · 1号反应器干实验",
+    "requestId": "test-008",
+    "results": [
+      "process_output/test-008_20260522"
+    ]
+  },
+  "steps": [
+    {
+      "id": "step_generate",
+      "title": "实验方案生成",
+      "description": "实验方案：1号反应器 · 二氧六环 10.0 ml · AIBME/二氧六环 4.2 ml · 70 ℃ · 12 h",
+      "status": "done",
+      "commandType": "step_generate",
+      "events": [
+        {
+          "timestamp": "2026-05-22 08:10:00",
+          "message": "POST /api/v1/experiment/generate · request_id=test-008",
+          "device": "API网关"
+        },
+        {
+          "timestamp": "2026-05-22 08:10:01",
+          "message": "实验方案：1号反应器 · 二氧六环 10.0 ml · AIBME/二氧六环 4.2 ml · 70 ℃ · 12 h",
+          "device": "实验平台"
+        }
+      ]
+    },
+    {
+      "id": "step_parse",
+      "title": "干实验指令转换",
+      "description": "已生成本地控制指令 34 条",
+      "status": "done",
+      "commandType": "step_parse",
+      "events": [
+        {
+          "timestamp": "2026-05-22 08:10:03",
+          "message": "本地指令解析任务已完成。",
+          "device": "指令解析"
+        },
+        {
+          "timestamp": "2026-05-22 08:10:04",
+          "message": "已生成本地控制指令 34 条",
+          "device": "指令解析"
+        }
+      ]
+    },
+    {
+      "id": "step_execute",
+      "title": "指令输入/执行",
+      "description": "已触发工艺流程执行",
+      "status": "done",
+      "commandType": "step_execute",
+      "events": [
+        {
+          "timestamp": "2026-05-22 08:11:07",
+          "message": "POST /api/v1/experiment/execute · EXECUTE_PROCESS_FILE",
+          "device": "API网关"
+        },
+        {
+          "timestamp": "2026-05-22 08:11:07",
+          "message": "工艺流程执行命令已下发，请通过 /api/v1/experiment/status 查询进度。",
+          "device": "工艺流程"
+        },
+        {
+          "timestamp": "2026-05-22 08:11:07",
+          "message": "已触发工艺流程执行",
+          "device": "工艺流程"
+        }
+      ]
+    },
+    {
+      "id": "step_poll",
+      "title": "状态轮询",
+      "description": "GET /status · success · 流程已结束",
+      "status": "done",
+      "commandType": "step_poll",
+      "events": [
+        {
+          "timestamp": "2026-05-22 08:11:17",
+          "message": "GET /status · running · process=control_instructions, step=4/34, current_command=Reactor_N2_on, executing=True",
+          "device": "状态服务"
+        },
+        {
+          "timestamp": "2026-05-22 08:11:17",
+          "message": "当前指令 · Reactor_N2_on",
+          "device": "反应器1"
+        },
+        {
+          "timestamp": "2026-05-22 08:11:19",
+          "message": "GET /status · running · process=control_instructions, step=8/34, current_command=Reactor_N2_on, executing=True",
+          "device": "状态服务"
+        },
+        {
+          "timestamp": "2026-05-22 08:11:19",
+          "message": "当前指令 · Reactor_N2_on",
+          "device": "反应器1"
+        },
+        {
+          "timestamp": "2026-05-22 08:24:11",
+          "message": "GET /status · success · 当前没有流程在执行（executing=False）",
+          "device": "状态服务"
+        },
+        {
+          "timestamp": "2026-05-22 08:24:11",
+          "message": "GET /status · success · 流程已结束",
+          "device": "状态服务"
+        }
+      ]
+    },
+    {
+      "id": "step_run",
+      "title": "工艺流程执行",
+      "description": "加液 · 通道 5 · 40.0 ml",
+      "status": "active",
+      "commandType": "step_run",
+      "events": [
+        {
+          "timestamp": "2026-05-22 08:11:20",
+          "message": "启动搅拌 · 300 rpm",
+          "device": "反应器1"
+        },
+        {
+          "timestamp": "2026-05-22 08:11:42",
+          "message": "加液 · 通道 3 · 10.0 ml",
+          "device": "反应器1"
+        },
+        {
+          "timestamp": "2026-05-22 08:12:05",
+          "message": "开启 N₂ 保护",
+          "device": "反应器1"
+        },
+        {
+          "timestamp": "2026-05-22 08:12:28",
+          "message": "等待 · 1200 s",
+          "device": "工艺流程"
+        },
+        {
+          "timestamp": "2026-05-22 08:12:50",
+          "message": "关闭 N₂ 保护",
+          "device": "反应器1"
+        },
+        {
+          "timestamp": "2026-05-22 08:13:13",
+          "message": "加液 · 通道 1 · 4.2 ml",
+          "device": "反应器1"
+        },
+        {
+          "timestamp": "2026-05-22 08:13:36",
+          "message": "开启 N₂ 保护",
+          "device": "反应器1"
+        },
+        {
+          "timestamp": "2026-05-22 08:13:59",
+          "message": "等待 · 600 s",
+          "device": "工艺流程"
+        },
+        {
+          "timestamp": "2026-05-22 08:22:41",
+          "message": "设定温度 · 25 ℃",
+          "device": "反应器1"
+        },
+        {
+          "timestamp": "2026-05-22 08:23:04",
+          "message": "等待 · 900 s",
+          "device": "工艺流程"
+        },
+        {
+          "timestamp": "2026-05-22 08:23:27",
+          "message": "启动搅拌 · 500 rpm",
+          "device": "反应器1"
+        },
+        {
+          "timestamp": "2026-05-22 08:23:50",
+          "message": "加液 · 通道 5 · 40.0 ml",
+          "device": "反应器1"
+        }
+      ]
+    },
+    {
+      "id": "step_done",
+      "title": "任务完成",
+      "description": "实验 test-008 执行完毕",
+      "status": "pending",
+      "commandType": "step_done",
+      "events": [
+        {
+          "timestamp": "2026-05-22 08:24:11",
+          "message": "实验 test-008 执行完毕",
+          "device": "实验平台"
+        }
+      ]
+    }
+  ],
+  "fullLog": [
+    {
+      "timestamp": "2026-05-22 08:10:00",
+      "message": "POST /api/v1/experiment/generate · request_id=test-008",
+      "device": "API网关"
+    },
+    {
+      "timestamp": "2026-05-22 08:10:01",
+      "message": "实验方案：1号反应器 · 二氧六环 10.0 ml · AIBME/二氧六环 4.2 ml · 70 ℃ · 12 h",
+      "device": "实验平台"
+    },
+    {
+      "timestamp": "2026-05-22 08:10:03",
+      "message": "本地指令解析任务已完成。",
+      "device": "指令解析"
+    },
+    {
+      "timestamp": "2026-05-22 08:10:04",
+      "message": "已生成本地控制指令 34 条",
+      "device": "指令解析"
+    },
+    {
+      "timestamp": "2026-05-22 08:11:07",
+      "message": "POST /api/v1/experiment/execute · EXECUTE_PROCESS_FILE",
+      "device": "API网关"
+    },
+    {
+      "timestamp": "2026-05-22 08:11:07",
+      "message": "工艺流程执行命令已下发，请通过 /api/v1/experiment/status 查询进度。",
+      "device": "工艺流程"
+    },
+    {
+      "timestamp": "2026-05-22 08:11:07",
+      "message": "已触发工艺流程执行",
+      "device": "工艺流程"
+    },
+    {
+      "timestamp": "2026-05-22 08:11:17",
+      "message": "GET /status · running · process=control_instructions, step=4/34, current_command=Reactor_N2_on, executing=True",
+      "device": "状态服务"
+    },
+    {
+      "timestamp": "2026-05-22 08:11:17",
+      "message": "当前指令 · Reactor_N2_on",
+      "device": "反应器1"
+    },
+    {
+      "timestamp": "2026-05-22 08:11:19",
+      "message": "GET /status · running · process=control_instructions, step=8/34, current_command=Reactor_N2_on, executing=True",
+      "device": "状态服务"
+    },
+    {
+      "timestamp": "2026-05-22 08:11:19",
+      "message": "当前指令 · Reactor_N2_on",
+      "device": "反应器1"
+    },
+    {
+      "timestamp": "2026-05-22 08:24:11",
+      "message": "GET /status · success · 当前没有流程在执行（executing=False）",
+      "device": "状态服务"
+    },
+    {
+      "timestamp": "2026-05-22 08:11:20",
+      "message": "启动搅拌 · 300 rpm",
+      "device": "反应器1"
+    },
+    {
+      "timestamp": "2026-05-22 08:11:42",
+      "message": "加液 · 通道 3 · 10.0 ml",
+      "device": "反应器1"
+    },
+    {
+      "timestamp": "2026-05-22 08:12:05",
+      "message": "开启 N₂ 保护",
+      "device": "反应器1"
+    },
+    {
+      "timestamp": "2026-05-22 08:12:28",
+      "message": "等待 · 1200 s",
+      "device": "工艺流程"
+    },
+    {
+      "timestamp": "2026-05-22 08:12:50",
+      "message": "关闭 N₂ 保护",
+      "device": "反应器1"
+    },
+    {
+      "timestamp": "2026-05-22 08:13:13",
+      "message": "加液 · 通道 1 · 4.2 ml",
+      "device": "反应器1"
+    },
+    {
+      "timestamp": "2026-05-22 08:13:36",
+      "message": "开启 N₂ 保护",
+      "device": "反应器1"
+    },
+    {
+      "timestamp": "2026-05-22 08:13:59",
+      "message": "等待 · 600 s",
+      "device": "工艺流程"
+    },
+    {
+      "timestamp": "2026-05-22 08:14:21",
+      "message": "关闭 N₂ 保护",
+      "device": "反应器1"
+    },
+    {
+      "timestamp": "2026-05-22 08:14:44",
+      "message": "设定温度 · 70 ℃",
+      "device": "反应器1"
+    },
+    {
+      "timestamp": "2026-05-22 08:15:07",
+      "message": "等待 · 43200 s",
+      "device": "工艺流程"
+    },
+    {
+      "timestamp": "2026-05-22 08:15:30",
+      "message": "设定温度 · 20 ℃",
+      "device": "反应器1"
+    },
+    {
+      "timestamp": "2026-05-22 08:15:52",
+      "message": "等待 · 900 s",
+      "device": "工艺流程"
+    },
+    {
+      "timestamp": "2026-05-22 08:16:15",
+      "message": "切换至空气氛围",
+      "device": "反应器1"
+    },
+    {
+      "timestamp": "2026-05-22 08:16:38",
+      "message": "等待 · 600 s",
+      "device": "工艺流程"
+    },
+    {
+      "timestamp": "2026-05-22 08:17:00",
+      "message": "关闭空气进气",
+      "device": "反应器1"
+    },
+    {
+      "timestamp": "2026-05-22 08:17:23",
+      "message": "启动搅拌 · 600 rpm",
+      "device": "反应器1"
+    },
+    {
+      "timestamp": "2026-05-22 08:17:46",
+      "message": "加液 · 通道 3 · 20.0 ml",
+      "device": "反应器1"
+    },
+    {
+      "timestamp": "2026-05-22 08:18:09",
+      "message": "加液 · 通道 4 · 17.0 ml",
+      "device": "反应器1"
+    },
+    {
+      "timestamp": "2026-05-22 08:18:31",
+      "message": "开启 N₂ 保护",
+      "device": "反应器1"
+    },
+    {
+      "timestamp": "2026-05-22 08:18:54",
+      "message": "等待 · 1200 s",
+      "device": "工艺流程"
+    },
+    {
+      "timestamp": "2026-05-22 08:19:17",
+      "message": "关闭 N₂ 保护",
+      "device": "反应器1"
+    },
+    {
+      "timestamp": "2026-05-22 08:19:40",
+      "message": "加液 · 通道 2 · 5.0 ml",
+      "device": "反应器1"
+    },
+    {
+      "timestamp": "2026-05-22 08:20:02",
+      "message": "开启 N₂ 保护",
+      "device": "反应器1"
+    },
+    {
+      "timestamp": "2026-05-22 08:20:25",
+      "message": "等待 · 600 s",
+      "device": "工艺流程"
+    },
+    {
+      "timestamp": "2026-05-22 08:20:48",
+      "message": "关闭 N₂ 保护",
+      "device": "反应器1"
+    },
+    {
+      "timestamp": "2026-05-22 08:21:10",
+      "message": "设定温度 · 60 ℃",
+      "device": "反应器1"
+    },
+    {
+      "timestamp": "2026-05-22 08:21:33",
+      "message": "等待 · 14400 s",
+      "device": "工艺流程"
+    },
+    {
+      "timestamp": "2026-05-22 08:21:56",
+      "message": "加液 · 通道 2 · 5.0 ml",
+      "device": "反应器1"
+    },
+    {
+      "timestamp": "2026-05-22 08:22:19",
+      "message": "等待 · 14400 s",
+      "device": "工艺流程"
+    },
+    {
+      "timestamp": "2026-05-22 08:22:41",
+      "message": "设定温度 · 25 ℃",
+      "device": "反应器1"
+    },
+    {
+      "timestamp": "2026-05-22 08:23:04",
+      "message": "等待 · 900 s",
+      "device": "工艺流程"
+    },
+    {
+      "timestamp": "2026-05-22 08:23:27",
+      "message": "启动搅拌 · 500 rpm",
+      "device": "反应器1"
+    },
+    {
+      "timestamp": "2026-05-22 08:23:50",
+      "message": "加液 · 通道 5 · 40.0 ml",
+      "device": "反应器1"
+    },
+    {
+      "timestamp": "2026-05-22 08:24:11",
+      "message": "GET /status · success · 流程已结束",
+      "device": "状态服务"
+    },
+    {
+      "timestamp": "2026-05-22 08:24:11",
+      "message": "实验 test-008 执行完毕",
+      "device": "实验平台"
+    }
+  ]
+}

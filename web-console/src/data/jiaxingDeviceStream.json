@@ -1,0 +1,6693 @@
+{
+  "meta": {
+    "startedAt": "2026-05-22 11:23:19",
+    "finishedAt": "2026-05-22 11:39:21",
+    "queue": [
+      "Co_1.0",
+      "Fe_1.0",
+      "Ni_1.0"
+    ],
+    "totalEvents": 436,
+    "totalRawLines": 436,
+    "logSource": "电催化-实验日志-完整的1次",
+    "experimentLabel": "电催化沉积 · 完整单次实验",
+    "results": [
+      "api_output/Co_1.0_20260522_112319_0",
+      "api_output/Fe_1.0_20260522_112320_1",
+      "api_output/Ni_1.0_20260522_112320_2",
+      "api_output/Ni_1.0_20260522_112320_3"
+    ]
+  },
+  "steps": [
+    {
+      "id": "step_queue",
+      "title": "任务入队",
+      "description": ">>> 任务已加入实验队列: ['Co_1.0', 'Fe_1.0', 'Ni_1.0']",
+      "status": "done",
+      "commandType": "step_queue",
+      "events": [
+        {
+          "timestamp": "2026-05-22 11:23:19",
+          "message": ">>> 任务已加入实验队列: ['Co_1.0', 'Fe_1.0', 'Ni_1.0']",
+          "device": "自动化平台",
+          "phaseId": "step_queue",
+          "phaseTitle": "任务入队"
+        }
+      ]
+    },
+    {
+      "id": "step_feed",
+      "title": "取料与下料",
+      "description": "已经推出镍片",
+      "status": "done",
+      "commandType": "step_feed",
+      "events": [
+        {
+          "timestamp": "2026-05-22 11:23:19",
+          "message": ">>> 任务已加入实验队列: ['Co_1.0', 'Fe_1.0', 'Ni_1.0']",
+          "device": "自动化平台",
+          "phaseId": "step_feed",
+          "phaseTitle": "取料与下料"
+        },
+        {
+          "timestamp": "2026-05-22 11:23:20",
+          "message": "电动阀 1 关闭",
+          "device": "电动阀",
+          "phaseId": "step_feed",
+          "phaseTitle": "取料与下料"
+        },
+        {
+          "timestamp": "2026-05-22 11:23:20",
+          "message": "下料电机前往取料位",
+          "device": "下料电机",
+          "phaseId": "step_feed",
+          "phaseTitle": "取料与下料"
+        },
+        {
+          "timestamp": "2026-05-22 11:23:20",
+          "message": "电动阀 2 关闭",
+          "device": "电动阀",
+          "phaseId": "step_feed",
+          "phaseTitle": "取料与下料"
+        },
+        {
+          "timestamp": "2026-05-22 11:23:20",
+          "message": "推料电机前往接料位",
+          "device": "推料电机",
+          "phaseId": "step_feed",
+          "phaseTitle": "取料与下料"
+        },
+        {
+          "timestamp": "2026-05-22 11:23:21",
+          "message": "电动阀 3 关闭",
+          "device": "电动阀",
+          "phaseId": "step_feed",
+          "phaseTitle": "取料与下料"
+        },
+        {
+          "timestamp": "2026-05-22 11:23:21",
+          "message": "电动阀 4 关闭",
+          "device": "电动阀",
+          "phaseId": "step_feed",
+          "phaseTitle": "取料与下料"
+        },
+        {
+          "timestamp": "2026-05-22 11:23:23",
+          "message": "已关闭所有电动阀",
+          "device": "电动阀",
+          "phaseId": "step_feed",
+          "phaseTitle": "取料与下料"
+        },
+        {
+          "timestamp": "2026-05-22 11:23:24",
+          "message": "停止泵 1",
+          "device": "蠕动泵组",
+          "phaseId": "step_feed",
+          "phaseTitle": "取料与下料"
+        },
+        {
+          "timestamp": "2026-05-22 11:23:25",
+          "message": "停止泵 2",
+          "device": "蠕动泵组",
+          "phaseId": "step_feed",
+          "phaseTitle": "取料与下料"
+        },
+        {
+          "timestamp": "2026-05-22 11:23:26",
+          "message": "停止泵 3",
+          "device": "蠕动泵组",
+          "phaseId": "step_feed",
+          "phaseTitle": "取料与下料"
+        },
+        {
+          "timestamp": "2026-05-22 11:23:27",
+          "message": "停止泵 4",
+          "device": "蠕动泵组",
+          "phaseId": "step_feed",
+          "phaseTitle": "取料与下料"
+        },
+        {
+          "timestamp": "2026-05-22 11:23:28",
+          "message": "停止泵 5",
+          "device": "蠕动泵组",
+          "phaseId": "step_feed",
+          "phaseTitle": "取料与下料"
+        },
+        {
+          "timestamp": "2026-05-22 11:23:29",
+          "message": "下料电机到达取料位",
+          "device": "下料电机",
+          "phaseId": "step_feed",
+          "phaseTitle": "取料与下料"
+        },
+        {
+          "timestamp": "2026-05-22 11:23:29",
+          "message": "停止泵 6",
+          "device": "蠕动泵组",
+          "phaseId": "step_feed",
+          "phaseTitle": "取料与下料"
+        },
+        {
+          "timestamp": "2026-05-22 11:23:29",
+          "message": "推料电机到达接料位",
+          "device": "推料电机",
+          "phaseId": "step_feed",
+          "phaseTitle": "取料与下料"
+        },
+        {
+          "timestamp": "2026-05-22 11:23:30",
+          "message": "振动电机打开",
+          "device": "振动电机",
+          "phaseId": "step_feed",
+          "phaseTitle": "取料与下料"
+        },
+        {
+          "timestamp": "2026-05-22 11:23:30",
+          "message": "停止泵 7",
+          "device": "蠕动泵组",
+          "phaseId": "step_feed",
+          "phaseTitle": "取料与下料"
+        },
+        {
+          "timestamp": "2026-05-22 11:23:31",
+          "message": "停止泵 8",
+          "device": "蠕动泵组",
+          "phaseId": "step_feed",
+          "phaseTitle": "取料与下料"
+        },
+        {
+          "timestamp": "2026-05-22 11:23:31",
+          "message": "下料电机前往下料位",
+          "device": "下料电机",
+          "phaseId": "step_feed",
+          "phaseTitle": "取料与下料"
+        },
+        {
+          "timestamp": "2026-05-22 11:23:32",
+          "message": "停止泵 9",
+          "device": "蠕动泵组",
+          "phaseId": "step_feed",
+          "phaseTitle": "取料与下料"
+        },
+        {
+          "timestamp": "2026-05-22 11:23:33",
+          "message": "停止泵 10",
+          "device": "蠕动泵组",
+          "phaseId": "step_feed",
+          "phaseTitle": "取料与下料"
+        },
+        {
+          "timestamp": "2026-05-22 11:23:34",
+          "message": "停止泵 11",
+          "device": "蠕动泵组",
+          "phaseId": "step_feed",
+          "phaseTitle": "取料与下料"
+        },
+        {
+          "timestamp": "2026-05-22 11:23:35",
+          "message": "停止泵 12",
+          "device": "蠕动泵组",
+          "phaseId": "step_feed",
+          "phaseTitle": "取料与下料"
+        },
+        {
+          "timestamp": "2026-05-22 11:23:36",
+          "message": "停止泵 13",
+          "device": "蠕动泵组",
+          "phaseId": "step_feed",
+          "phaseTitle": "取料与下料"
+        },
+        {
+          "timestamp": "2026-05-22 11:23:37",
+          "message": "停止泵 14",
+          "device": "蠕动泵组",
+          "phaseId": "step_feed",
+          "phaseTitle": "取料与下料"
+        },
+        {
+          "timestamp": "2026-05-22 11:23:38",
+          "message": "停止泵 15",
+          "device": "蠕动泵组",
+          "phaseId": "step_feed",
+          "phaseTitle": "取料与下料"
+        },
+        {
+          "timestamp": "2026-05-22 11:23:39",
+          "message": "停止泵 16",
+          "device": "蠕动泵组",
+          "phaseId": "step_feed",
+          "phaseTitle": "取料与下料"
+        },
+        {
+          "timestamp": "2026-05-22 11:23:40",
+          "message": "停止泵 17",
+          "device": "蠕动泵组",
+          "phaseId": "step_feed",
+          "phaseTitle": "取料与下料"
+        },
+        {
+          "timestamp": "2026-05-22 11:23:41",
+          "message": "振动电机关闭",
+          "device": "振动电机",
+          "phaseId": "step_feed",
+          "phaseTitle": "取料与下料"
+        },
+        {
+          "timestamp": "2026-05-22 11:23:41",
+          "message": "停止泵 18",
+          "device": "蠕动泵组",
+          "phaseId": "step_feed",
+          "phaseTitle": "取料与下料"
+        },
+        {
+          "timestamp": "2026-05-22 11:23:41",
+          "message": "下料电机到达下料位",
+          "device": "下料电机",
+          "phaseId": "step_feed",
+          "phaseTitle": "取料与下料"
+        },
+        {
+          "timestamp": "2026-05-22 11:23:42",
+          "message": "推料电机前往推料位",
+          "device": "推料电机",
+          "phaseId": "step_feed",
+          "phaseTitle": "取料与下料"
+        },
+        {
+          "timestamp": "2026-05-22 11:23:42",
+          "message": "停止泵 19",
+          "device": "蠕动泵组",
+          "phaseId": "step_feed",
+          "phaseTitle": "取料与下料"
+        },
+        {
+          "timestamp": "2026-05-22 11:23:43",
+          "message": "停止泵 20",
+          "device": "蠕动泵组",
+          "phaseId": "step_feed",
+          "phaseTitle": "取料与下料"
+        },
+        {
+          "timestamp": "2026-05-22 11:23:44",
+          "message": "停止泵 21",
+          "device": "蠕动泵组",
+          "phaseId": "step_feed",
+          "phaseTitle": "取料与下料"
+        },
+        {
+          "timestamp": "2026-05-22 11:23:45",
+          "message": "停止泵 22",
+          "device": "蠕动泵组",
+          "phaseId": "step_feed",
+          "phaseTitle": "取料与下料"
+        },
+        {
+          "timestamp": "2026-05-22 11:23:46",
+          "message": "停止泵 23",
+          "device": "蠕动泵组",
+          "phaseId": "step_feed",
+          "phaseTitle": "取料与下料"
+        },
+        {
+          "timestamp": "2026-05-22 11:23:47",
+          "message": "停止泵 24",
+          "device": "蠕动泵组",
+          "phaseId": "step_feed",
+          "phaseTitle": "取料与下料"
+        },
+        {
+          "timestamp": "2026-05-22 11:23:48",
+          "message": "停止泵 25",
+          "device": "蠕动泵组",
+          "phaseId": "step_feed",
+          "phaseTitle": "取料与下料"
+        },
+        {
+          "timestamp": "2026-05-22 11:23:49",
+          "message": "停止泵 26",
+          "device": "蠕动泵组",
+          "phaseId": "step_feed",
+          "phaseTitle": "取料与下料"
+        },
+        {
+          "timestamp": "2026-05-22 11:23:50",
+          "message": "停止泵 27",
+          "device": "蠕动泵组",
+          "phaseId": "step_feed",
+          "phaseTitle": "取料与下料"
+        },
+        {
+          "timestamp": "2026-05-22 11:23:50",
+          "message": "推料电机到达推料位",
+          "device": "推料电机",
+          "phaseId": "step_feed",
+          "phaseTitle": "取料与下料"
+        },
+        {
+          "timestamp": "2026-05-22 11:23:51",
+          "message": "已经推出镍片",
+          "device": "自动化平台",
+          "phaseId": "step_feed",
+          "phaseTitle": "取料与下料"
+        }
+      ]
+    },
+    {
+      "id": "step_pick",
+      "title": "夹取样品",
+      "description": "已经夹取镍片",
+      "status": "done",
+      "commandType": "step_pick",
+      "events": [
+        {
+          "timestamp": "2026-05-22 11:23:51",
+          "message": "已经推出镍片",
+          "device": "自动化平台",
+          "phaseId": "step_pick",
+          "phaseTitle": "夹取样品"
+        },
+        {
+          "timestamp": "2026-05-22 11:23:51",
+          "message": "电爪 1 打开",
+          "device": "电爪",
+          "phaseId": "step_pick",
+          "phaseTitle": "夹取样品"
+        },
+        {
+          "timestamp": "2026-05-22 11:23:51",
+          "message": "停止泵 28",
+          "device": "蠕动泵组",
+          "phaseId": "step_pick",
+          "phaseTitle": "夹取样品"
+        },
+        {
+          "timestamp": "2026-05-22 11:23:51",
+          "message": "电爪 2 打开",
+          "device": "电爪",
+          "phaseId": "step_pick",
+          "phaseTitle": "夹取样品"
+        },
+        {
+          "timestamp": "2026-05-22 11:23:52",
+          "message": "电爪 3 打开",
+          "device": "电爪",
+          "phaseId": "step_pick",
+          "phaseTitle": "夹取样品"
+        },
+        {
+          "timestamp": "2026-05-22 11:23:52",
+          "message": "停止泵 29",
+          "device": "蠕动泵组",
+          "phaseId": "step_pick",
+          "phaseTitle": "夹取样品"
+        },
+        {
+          "timestamp": "2026-05-22 11:23:52",
+          "message": "电爪 4 打开",
+          "device": "电爪",
+          "phaseId": "step_pick",
+          "phaseTitle": "夹取样品"
+        },
+        {
+          "timestamp": "2026-05-22 11:23:53",
+          "message": "停止泵 30",
+          "device": "蠕动泵组",
+          "phaseId": "step_pick",
+          "phaseTitle": "夹取样品"
+        },
+        {
+          "timestamp": "2026-05-22 11:23:54",
+          "message": "已打开所有电爪",
+          "device": "电爪",
+          "phaseId": "step_pick",
+          "phaseTitle": "夹取样品"
+        },
+        {
+          "timestamp": "2026-05-22 11:23:54",
+          "message": "停止泵 31",
+          "device": "蠕动泵组",
+          "phaseId": "step_pick",
+          "phaseTitle": "夹取样品"
+        },
+        {
+          "timestamp": "2026-05-22 11:23:54",
+          "message": "升降电机前往准备位",
+          "device": "升降电机",
+          "phaseId": "step_pick",
+          "phaseTitle": "夹取样品"
+        },
+        {
+          "timestamp": "2026-05-22 11:23:55",
+          "message": "停止泵 32",
+          "device": "蠕动泵组",
+          "phaseId": "step_pick",
+          "phaseTitle": "夹取样品"
+        },
+        {
+          "timestamp": "2026-05-22 11:23:56",
+          "message": "停止泵 33",
+          "device": "蠕动泵组",
+          "phaseId": "step_pick",
+          "phaseTitle": "夹取样品"
+        },
+        {
+          "timestamp": "2026-05-22 11:23:57",
+          "message": "停止泵 34",
+          "device": "蠕动泵组",
+          "phaseId": "step_pick",
+          "phaseTitle": "夹取样品"
+        },
+        {
+          "timestamp": "2026-05-22 11:23:58",
+          "message": "停止泵 35",
+          "device": "蠕动泵组",
+          "phaseId": "step_pick",
+          "phaseTitle": "夹取样品"
+        },
+        {
+          "timestamp": "2026-05-22 11:23:59",
+          "message": "升降电机到达准备位",
+          "device": "升降电机",
+          "phaseId": "step_pick",
+          "phaseTitle": "夹取样品"
+        },
+        {
+          "timestamp": "2026-05-22 11:23:59",
+          "message": "停止泵 36",
+          "device": "蠕动泵组",
+          "phaseId": "step_pick",
+          "phaseTitle": "夹取样品"
+        },
+        {
+          "timestamp": "2026-05-22 11:23:59",
+          "message": "平移电机前往取料位",
+          "device": "平移电机",
+          "phaseId": "step_pick",
+          "phaseTitle": "夹取样品"
+        },
+        {
+          "timestamp": "2026-05-22 11:24:00",
+          "message": "停止泵 37",
+          "device": "蠕动泵组",
+          "phaseId": "step_pick",
+          "phaseTitle": "夹取样品"
+        },
+        {
+          "timestamp": "2026-05-22 11:24:01",
+          "message": "停止泵 38",
+          "device": "蠕动泵组",
+          "phaseId": "step_pick",
+          "phaseTitle": "夹取样品"
+        },
+        {
+          "timestamp": "2026-05-22 11:24:02",
+          "message": "平移电机到达取料位",
+          "device": "平移电机",
+          "phaseId": "step_pick",
+          "phaseTitle": "夹取样品"
+        },
+        {
+          "timestamp": "2026-05-22 11:24:02",
+          "message": "停止泵 39",
+          "device": "蠕动泵组",
+          "phaseId": "step_pick",
+          "phaseTitle": "夹取样品"
+        },
+        {
+          "timestamp": "2026-05-22 11:24:02",
+          "message": "升降电机前往取料位",
+          "device": "升降电机",
+          "phaseId": "step_pick",
+          "phaseTitle": "夹取样品"
+        },
+        {
+          "timestamp": "2026-05-22 11:24:03",
+          "message": "停止泵 40",
+          "device": "蠕动泵组",
+          "phaseId": "step_pick",
+          "phaseTitle": "夹取样品"
+        },
+        {
+          "timestamp": "2026-05-22 11:24:03",
+          "message": "设置泵 3 的转动圈数为 70.417",
+          "device": "蠕动泵组",
+          "phaseId": "step_pick",
+          "phaseTitle": "夹取样品"
+        },
+        {
+          "timestamp": "2026-05-22 11:24:04",
+          "message": "设置泵 12 的转动圈数为 70.0",
+          "device": "蠕动泵组",
+          "phaseId": "step_pick",
+          "phaseTitle": "夹取样品"
+        },
+        {
+          "timestamp": "2026-05-22 11:24:05",
+          "message": "设置泵 28 的转动圈数为 75.0",
+          "device": "蠕动泵组",
+          "phaseId": "step_pick",
+          "phaseTitle": "夹取样品"
+        },
+        {
+          "timestamp": "2026-05-22 11:24:06",
+          "message": "设置泵 38 的转动圈数为 70.0",
+          "device": "蠕动泵组",
+          "phaseId": "step_pick",
+          "phaseTitle": "夹取样品"
+        },
+        {
+          "timestamp": "2026-05-22 11:24:07",
+          "message": "升降电机到达取料位",
+          "device": "升降电机",
+          "phaseId": "step_pick",
+          "phaseTitle": "夹取样品"
+        },
+        {
+          "timestamp": "2026-05-22 11:24:07",
+          "message": "电爪 1 关闭",
+          "device": "电爪",
+          "phaseId": "step_pick",
+          "phaseTitle": "夹取样品"
+        },
+        {
+          "timestamp": "2026-05-22 11:24:08",
+          "message": "电爪 2 关闭",
+          "device": "电爪",
+          "phaseId": "step_pick",
+          "phaseTitle": "夹取样品"
+        },
+        {
+          "timestamp": "2026-05-22 11:24:08",
+          "message": "启动泵 3",
+          "device": "蠕动泵组",
+          "phaseId": "step_pick",
+          "phaseTitle": "夹取样品"
+        },
+        {
+          "timestamp": "2026-05-22 11:24:08",
+          "message": "电爪 3 关闭",
+          "device": "电爪",
+          "phaseId": "step_pick",
+          "phaseTitle": "夹取样品"
+        },
+        {
+          "timestamp": "2026-05-22 11:24:09",
+          "message": "电爪 4 关闭",
+          "device": "电爪",
+          "phaseId": "step_pick",
+          "phaseTitle": "夹取样品"
+        },
+        {
+          "timestamp": "2026-05-22 11:24:09",
+          "message": "启动泵 12",
+          "device": "蠕动泵组",
+          "phaseId": "step_pick",
+          "phaseTitle": "夹取样品"
+        },
+        {
+          "timestamp": "2026-05-22 11:24:10",
+          "message": "已夹取镍片",
+          "device": "自动化平台",
+          "phaseId": "step_pick",
+          "phaseTitle": "夹取样品"
+        },
+        {
+          "timestamp": "2026-05-22 11:24:11",
+          "message": "已经夹取镍片",
+          "device": "自动化平台",
+          "phaseId": "step_pick",
+          "phaseTitle": "夹取样品"
+        }
+      ]
+    },
+    {
+      "id": "step_transfer",
+      "title": "测试位就位",
+      "description": "已经到达测试位",
+      "status": "done",
+      "commandType": "step_transfer",
+      "events": [
+        {
+          "timestamp": "2026-05-22 11:24:11",
+          "message": "已经夹取镍片",
+          "device": "自动化平台",
+          "phaseId": "step_transfer",
+          "phaseTitle": "测试位就位"
+        },
+        {
+          "timestamp": "2026-05-22 11:24:11",
+          "message": "升降电机前往准备位",
+          "device": "升降电机",
+          "phaseId": "step_transfer",
+          "phaseTitle": "测试位就位"
+        },
+        {
+          "timestamp": "2026-05-22 11:24:11",
+          "message": "启动泵 28",
+          "device": "蠕动泵组",
+          "phaseId": "step_transfer",
+          "phaseTitle": "测试位就位"
+        },
+        {
+          "timestamp": "2026-05-22 11:24:12",
+          "message": "启动泵 38",
+          "device": "蠕动泵组",
+          "phaseId": "step_transfer",
+          "phaseTitle": "测试位就位"
+        },
+        {
+          "timestamp": "2026-05-22 11:24:15",
+          "message": "升降电机到达准备位",
+          "device": "升降电机",
+          "phaseId": "step_transfer",
+          "phaseTitle": "测试位就位"
+        },
+        {
+          "timestamp": "2026-05-22 11:24:16",
+          "message": "平移电机前往测试位",
+          "device": "平移电机",
+          "phaseId": "step_transfer",
+          "phaseTitle": "测试位就位"
+        },
+        {
+          "timestamp": "2026-05-22 11:24:23",
+          "message": "平移电机到达测试位",
+          "device": "平移电机",
+          "phaseId": "step_transfer",
+          "phaseTitle": "测试位就位"
+        },
+        {
+          "timestamp": "2026-05-22 11:24:24",
+          "message": "升降电机前往测试位",
+          "device": "升降电机",
+          "phaseId": "step_transfer",
+          "phaseTitle": "测试位就位"
+        },
+        {
+          "timestamp": "2026-05-22 11:24:27",
+          "message": "升降电机到达测试位",
+          "device": "升降电机",
+          "phaseId": "step_transfer",
+          "phaseTitle": "测试位就位"
+        },
+        {
+          "timestamp": "2026-05-22 11:24:28",
+          "message": "已经到达测试位",
+          "device": "自动化平台",
+          "phaseId": "step_transfer",
+          "phaseTitle": "测试位就位"
+        }
+      ]
+    },
+    {
+      "id": "step_fill",
+      "title": "电解液加液",
+      "description": "所有泵已加液完成",
+      "status": "done",
+      "commandType": "step_fill",
+      "events": [
+        {
+          "timestamp": "2026-05-22 11:24:28",
+          "message": "已经到达测试位",
+          "device": "自动化平台",
+          "phaseId": "step_fill",
+          "phaseTitle": "电解液加液"
+        },
+        {
+          "timestamp": "2026-05-22 11:24:56",
+          "message": "所有泵已加液完成",
+          "device": "蠕动泵组",
+          "phaseId": "step_fill",
+          "phaseTitle": "电解液加液"
+        }
+      ]
+    },
+    {
+      "id": "step_deposit",
+      "title": "恒电流沉积",
+      "description": "恒电流沉积已完成",
+      "status": "done",
+      "commandType": "step_deposit",
+      "events": [
+        {
+          "timestamp": "2026-05-22 11:24:56",
+          "message": "所有泵已加液完成",
+          "device": "蠕动泵组",
+          "phaseId": "step_deposit",
+          "phaseTitle": "恒电流沉积"
+        },
+        {
+          "timestamp": "2026-05-22 11:24:56",
+          "message": "开始恒电流沉积",
+          "device": "电化学工作站",
+          "phaseId": "step_deposit",
+          "phaseTitle": "恒电流沉积"
+        },
+        {
+          "timestamp": "2026-05-22 11:27:12",
+          "message": "恒电流已完成，测量数据保存完成",
+          "device": "电化学工作站",
+          "phaseId": "step_deposit",
+          "phaseTitle": "恒电流沉积"
+        },
+        {
+          "timestamp": "2026-05-22 11:27:12",
+          "message": "恒电流沉积已完成",
+          "device": "电化学工作站",
+          "phaseId": "step_deposit",
+          "phaseTitle": "恒电流沉积"
+        }
+      ]
+    },
+    {
+      "id": "step_rinse1",
+      "title": "第一次水洗",
+      "description": "第一次加水已完成",
+      "status": "done",
+      "commandType": "step_rinse1",
+      "events": [
+        {
+          "timestamp": "2026-05-22 11:27:12",
+          "message": "恒电流沉积已完成",
+          "device": "电化学工作站",
+          "phaseId": "step_rinse1",
+          "phaseTitle": "第一次水洗"
+        },
+        {
+          "timestamp": "2026-05-22 11:27:13",
+          "message": "恒电流沉积已完成",
+          "device": "电化学工作站",
+          "phaseId": "step_rinse1",
+          "phaseTitle": "第一次水洗"
+        },
+        {
+          "timestamp": "2026-05-22 11:27:13",
+          "message": "电动阀 1 打开",
+          "device": "电动阀",
+          "phaseId": "step_rinse1",
+          "phaseTitle": "第一次水洗"
+        },
+        {
+          "timestamp": "2026-05-22 11:27:13",
+          "message": "电动阀 2 打开",
+          "device": "电动阀",
+          "phaseId": "step_rinse1",
+          "phaseTitle": "第一次水洗"
+        },
+        {
+          "timestamp": "2026-05-22 11:27:14",
+          "message": "电动阀 3 打开",
+          "device": "电动阀",
+          "phaseId": "step_rinse1",
+          "phaseTitle": "第一次水洗"
+        },
+        {
+          "timestamp": "2026-05-22 11:27:14",
+          "message": "电动阀 4 打开",
+          "device": "电动阀",
+          "phaseId": "step_rinse1",
+          "phaseTitle": "第一次水洗"
+        },
+        {
+          "timestamp": "2026-05-22 11:27:16",
+          "message": "已打开所有电动阀",
+          "device": "电动阀",
+          "phaseId": "step_rinse1",
+          "phaseTitle": "第一次水洗"
+        },
+        {
+          "timestamp": "2026-05-22 11:27:31",
+          "message": "电动阀 1 关闭",
+          "device": "电动阀",
+          "phaseId": "step_rinse1",
+          "phaseTitle": "第一次水洗"
+        },
+        {
+          "timestamp": "2026-05-22 11:27:32",
+          "message": "电动阀 2 关闭",
+          "device": "电动阀",
+          "phaseId": "step_rinse1",
+          "phaseTitle": "第一次水洗"
+        },
+        {
+          "timestamp": "2026-05-22 11:27:32",
+          "message": "电动阀 3 关闭",
+          "device": "电动阀",
+          "phaseId": "step_rinse1",
+          "phaseTitle": "第一次水洗"
+        },
+        {
+          "timestamp": "2026-05-22 11:27:33",
+          "message": "电动阀 4 关闭",
+          "device": "电动阀",
+          "phaseId": "step_rinse1",
+          "phaseTitle": "第一次水洗"
+        },
+        {
+          "timestamp": "2026-05-22 11:27:34",
+          "message": "已关闭所有电动阀",
+          "device": "电动阀",
+          "phaseId": "step_rinse1",
+          "phaseTitle": "第一次水洗"
+        },
+        {
+          "timestamp": "2026-05-22 11:27:35",
+          "message": "停止泵 1",
+          "device": "蠕动泵组",
+          "phaseId": "step_rinse1",
+          "phaseTitle": "第一次水洗"
+        },
+        {
+          "timestamp": "2026-05-22 11:27:36",
+          "message": "停止泵 2",
+          "device": "蠕动泵组",
+          "phaseId": "step_rinse1",
+          "phaseTitle": "第一次水洗"
+        },
+        {
+          "timestamp": "2026-05-22 11:27:37",
+          "message": "停止泵 3",
+          "device": "蠕动泵组",
+          "phaseId": "step_rinse1",
+          "phaseTitle": "第一次水洗"
+        },
+        {
+          "timestamp": "2026-05-22 11:27:38",
+          "message": "停止泵 4",
+          "device": "蠕动泵组",
+          "phaseId": "step_rinse1",
+          "phaseTitle": "第一次水洗"
+        },
+        {
+          "timestamp": "2026-05-22 11:27:39",
+          "message": "停止泵 5",
+          "device": "蠕动泵组",
+          "phaseId": "step_rinse1",
+          "phaseTitle": "第一次水洗"
+        },
+        {
+          "timestamp": "2026-05-22 11:27:41",
+          "message": "停止泵 6",
+          "device": "蠕动泵组",
+          "phaseId": "step_rinse1",
+          "phaseTitle": "第一次水洗"
+        },
+        {
+          "timestamp": "2026-05-22 11:27:42",
+          "message": "停止泵 7",
+          "device": "蠕动泵组",
+          "phaseId": "step_rinse1",
+          "phaseTitle": "第一次水洗"
+        },
+        {
+          "timestamp": "2026-05-22 11:27:43",
+          "message": "停止泵 8",
+          "device": "蠕动泵组",
+          "phaseId": "step_rinse1",
+          "phaseTitle": "第一次水洗"
+        },
+        {
+          "timestamp": "2026-05-22 11:27:44",
+          "message": "停止泵 9",
+          "device": "蠕动泵组",
+          "phaseId": "step_rinse1",
+          "phaseTitle": "第一次水洗"
+        },
+        {
+          "timestamp": "2026-05-22 11:27:45",
+          "message": "停止泵 10",
+          "device": "蠕动泵组",
+          "phaseId": "step_rinse1",
+          "phaseTitle": "第一次水洗"
+        },
+        {
+          "timestamp": "2026-05-22 11:27:46",
+          "message": "停止泵 11",
+          "device": "蠕动泵组",
+          "phaseId": "step_rinse1",
+          "phaseTitle": "第一次水洗"
+        },
+        {
+          "timestamp": "2026-05-22 11:27:47",
+          "message": "停止泵 12",
+          "device": "蠕动泵组",
+          "phaseId": "step_rinse1",
+          "phaseTitle": "第一次水洗"
+        },
+        {
+          "timestamp": "2026-05-22 11:27:48",
+          "message": "停止泵 13",
+          "device": "蠕动泵组",
+          "phaseId": "step_rinse1",
+          "phaseTitle": "第一次水洗"
+        },
+        {
+          "timestamp": "2026-05-22 11:27:49",
+          "message": "停止泵 14",
+          "device": "蠕动泵组",
+          "phaseId": "step_rinse1",
+          "phaseTitle": "第一次水洗"
+        },
+        {
+          "timestamp": "2026-05-22 11:27:50",
+          "message": "停止泵 15",
+          "device": "蠕动泵组",
+          "phaseId": "step_rinse1",
+          "phaseTitle": "第一次水洗"
+        },
+        {
+          "timestamp": "2026-05-22 11:27:51",
+          "message": "停止泵 16",
+          "device": "蠕动泵组",
+          "phaseId": "step_rinse1",
+          "phaseTitle": "第一次水洗"
+        },
+        {
+          "timestamp": "2026-05-22 11:27:52",
+          "message": "停止泵 17",
+          "device": "蠕动泵组",
+          "phaseId": "step_rinse1",
+          "phaseTitle": "第一次水洗"
+        },
+        {
+          "timestamp": "2026-05-22 11:27:53",
+          "message": "停止泵 18",
+          "device": "蠕动泵组",
+          "phaseId": "step_rinse1",
+          "phaseTitle": "第一次水洗"
+        },
+        {
+          "timestamp": "2026-05-22 11:27:54",
+          "message": "停止泵 19",
+          "device": "蠕动泵组",
+          "phaseId": "step_rinse1",
+          "phaseTitle": "第一次水洗"
+        },
+        {
+          "timestamp": "2026-05-22 11:27:55",
+          "message": "停止泵 20",
+          "device": "蠕动泵组",
+          "phaseId": "step_rinse1",
+          "phaseTitle": "第一次水洗"
+        },
+        {
+          "timestamp": "2026-05-22 11:27:56",
+          "message": "停止泵 21",
+          "device": "蠕动泵组",
+          "phaseId": "step_rinse1",
+          "phaseTitle": "第一次水洗"
+        },
+        {
+          "timestamp": "2026-05-22 11:27:57",
+          "message": "停止泵 22",
+          "device": "蠕动泵组",
+          "phaseId": "step_rinse1",
+          "phaseTitle": "第一次水洗"
+        },
+        {
+          "timestamp": "2026-05-22 11:27:58",
+          "message": "停止泵 23",
+          "device": "蠕动泵组",
+          "phaseId": "step_rinse1",
+          "phaseTitle": "第一次水洗"
+        },
+        {
+          "timestamp": "2026-05-22 11:27:59",
+          "message": "停止泵 24",
+          "device": "蠕动泵组",
+          "phaseId": "step_rinse1",
+          "phaseTitle": "第一次水洗"
+        },
+        {
+          "timestamp": "2026-05-22 11:28:00",
+          "message": "停止泵 25",
+          "device": "蠕动泵组",
+          "phaseId": "step_rinse1",
+          "phaseTitle": "第一次水洗"
+        },
+        {
+          "timestamp": "2026-05-22 11:28:01",
+          "message": "停止泵 26",
+          "device": "蠕动泵组",
+          "phaseId": "step_rinse1",
+          "phaseTitle": "第一次水洗"
+        },
+        {
+          "timestamp": "2026-05-22 11:28:02",
+          "message": "停止泵 27",
+          "device": "蠕动泵组",
+          "phaseId": "step_rinse1",
+          "phaseTitle": "第一次水洗"
+        },
+        {
+          "timestamp": "2026-05-22 11:28:03",
+          "message": "停止泵 28",
+          "device": "蠕动泵组",
+          "phaseId": "step_rinse1",
+          "phaseTitle": "第一次水洗"
+        },
+        {
+          "timestamp": "2026-05-22 11:28:04",
+          "message": "停止泵 29",
+          "device": "蠕动泵组",
+          "phaseId": "step_rinse1",
+          "phaseTitle": "第一次水洗"
+        },
+        {
+          "timestamp": "2026-05-22 11:28:05",
+          "message": "停止泵 30",
+          "device": "蠕动泵组",
+          "phaseId": "step_rinse1",
+          "phaseTitle": "第一次水洗"
+        },
+        {
+          "timestamp": "2026-05-22 11:28:06",
+          "message": "停止泵 31",
+          "device": "蠕动泵组",
+          "phaseId": "step_rinse1",
+          "phaseTitle": "第一次水洗"
+        },
+        {
+          "timestamp": "2026-05-22 11:28:07",
+          "message": "停止泵 32",
+          "device": "蠕动泵组",
+          "phaseId": "step_rinse1",
+          "phaseTitle": "第一次水洗"
+        },
+        {
+          "timestamp": "2026-05-22 11:28:08",
+          "message": "停止泵 33",
+          "device": "蠕动泵组",
+          "phaseId": "step_rinse1",
+          "phaseTitle": "第一次水洗"
+        },
+        {
+          "timestamp": "2026-05-22 11:28:09",
+          "message": "停止泵 34",
+          "device": "蠕动泵组",
+          "phaseId": "step_rinse1",
+          "phaseTitle": "第一次水洗"
+        },
+        {
+          "timestamp": "2026-05-22 11:28:10",
+          "message": "停止泵 35",
+          "device": "蠕动泵组",
+          "phaseId": "step_rinse1",
+          "phaseTitle": "第一次水洗"
+        },
+        {
+          "timestamp": "2026-05-22 11:28:11",
+          "message": "停止泵 36",
+          "device": "蠕动泵组",
+          "phaseId": "step_rinse1",
+          "phaseTitle": "第一次水洗"
+        },
+        {
+          "timestamp": "2026-05-22 11:28:12",
+          "message": "停止泵 37",
+          "device": "蠕动泵组",
+          "phaseId": "step_rinse1",
+          "phaseTitle": "第一次水洗"
+        },
+        {
+          "timestamp": "2026-05-22 11:28:13",
+          "message": "停止泵 38",
+          "device": "蠕动泵组",
+          "phaseId": "step_rinse1",
+          "phaseTitle": "第一次水洗"
+        },
+        {
+          "timestamp": "2026-05-22 11:28:14",
+          "message": "停止泵 39",
+          "device": "蠕动泵组",
+          "phaseId": "step_rinse1",
+          "phaseTitle": "第一次水洗"
+        },
+        {
+          "timestamp": "2026-05-22 11:28:15",
+          "message": "停止泵 40",
+          "device": "蠕动泵组",
+          "phaseId": "step_rinse1",
+          "phaseTitle": "第一次水洗"
+        },
+        {
+          "timestamp": "2026-05-22 11:28:16",
+          "message": "设置泵 10 的转动圈数为 70.417",
+          "device": "蠕动泵组",
+          "phaseId": "step_rinse1",
+          "phaseTitle": "第一次水洗"
+        },
+        {
+          "timestamp": "2026-05-22 11:28:17",
+          "message": "设置泵 20 的转动圈数为 60.0",
+          "device": "蠕动泵组",
+          "phaseId": "step_rinse1",
+          "phaseTitle": "第一次水洗"
+        },
+        {
+          "timestamp": "2026-05-22 11:28:18",
+          "message": "设置泵 30 的转动圈数为 70.0",
+          "device": "蠕动泵组",
+          "phaseId": "step_rinse1",
+          "phaseTitle": "第一次水洗"
+        },
+        {
+          "timestamp": "2026-05-22 11:28:19",
+          "message": "设置泵 40 的转动圈数为 70.0",
+          "device": "蠕动泵组",
+          "phaseId": "step_rinse1",
+          "phaseTitle": "第一次水洗"
+        },
+        {
+          "timestamp": "2026-05-22 11:28:20",
+          "message": "启动泵 10",
+          "device": "蠕动泵组",
+          "phaseId": "step_rinse1",
+          "phaseTitle": "第一次水洗"
+        },
+        {
+          "timestamp": "2026-05-22 11:28:22",
+          "message": "启动泵 20",
+          "device": "蠕动泵组",
+          "phaseId": "step_rinse1",
+          "phaseTitle": "第一次水洗"
+        },
+        {
+          "timestamp": "2026-05-22 11:28:23",
+          "message": "启动泵 30",
+          "device": "蠕动泵组",
+          "phaseId": "step_rinse1",
+          "phaseTitle": "第一次水洗"
+        },
+        {
+          "timestamp": "2026-05-22 11:28:25",
+          "message": "启动泵 40",
+          "device": "蠕动泵组",
+          "phaseId": "step_rinse1",
+          "phaseTitle": "第一次水洗"
+        },
+        {
+          "timestamp": "2026-05-22 11:29:08",
+          "message": "第一次加水已完成",
+          "device": "液路系统",
+          "phaseId": "step_rinse1",
+          "phaseTitle": "第一次水洗"
+        }
+      ]
+    },
+    {
+      "id": "step_rinse2",
+      "title": "第二次水洗",
+      "description": "第二次加水已完成",
+      "status": "done",
+      "commandType": "step_rinse2",
+      "events": [
+        {
+          "timestamp": "2026-05-22 11:29:08",
+          "message": "第一次加水已完成",
+          "device": "液路系统",
+          "phaseId": "step_rinse2",
+          "phaseTitle": "第二次水洗"
+        },
+        {
+          "timestamp": "2026-05-22 11:29:18",
+          "message": "电动阀 1 打开",
+          "device": "电动阀",
+          "phaseId": "step_rinse2",
+          "phaseTitle": "第二次水洗"
+        },
+        {
+          "timestamp": "2026-05-22 11:29:19",
+          "message": "电动阀 2 打开",
+          "device": "电动阀",
+          "phaseId": "step_rinse2",
+          "phaseTitle": "第二次水洗"
+        },
+        {
+          "timestamp": "2026-05-22 11:29:19",
+          "message": "电动阀 3 打开",
+          "device": "电动阀",
+          "phaseId": "step_rinse2",
+          "phaseTitle": "第二次水洗"
+        },
+        {
+          "timestamp": "2026-05-22 11:29:20",
+          "message": "电动阀 4 打开",
+          "device": "电动阀",
+          "phaseId": "step_rinse2",
+          "phaseTitle": "第二次水洗"
+        },
+        {
+          "timestamp": "2026-05-22 11:29:21",
+          "message": "已打开所有电动阀",
+          "device": "电动阀",
+          "phaseId": "step_rinse2",
+          "phaseTitle": "第二次水洗"
+        },
+        {
+          "timestamp": "2026-05-22 11:29:37",
+          "message": "电动阀 1 关闭",
+          "device": "电动阀",
+          "phaseId": "step_rinse2",
+          "phaseTitle": "第二次水洗"
+        },
+        {
+          "timestamp": "2026-05-22 11:29:37",
+          "message": "电动阀 2 关闭",
+          "device": "电动阀",
+          "phaseId": "step_rinse2",
+          "phaseTitle": "第二次水洗"
+        },
+        {
+          "timestamp": "2026-05-22 11:29:38",
+          "message": "电动阀 3 关闭",
+          "device": "电动阀",
+          "phaseId": "step_rinse2",
+          "phaseTitle": "第二次水洗"
+        },
+        {
+          "timestamp": "2026-05-22 11:29:38",
+          "message": "电动阀 4 关闭",
+          "device": "电动阀",
+          "phaseId": "step_rinse2",
+          "phaseTitle": "第二次水洗"
+        },
+        {
+          "timestamp": "2026-05-22 11:29:40",
+          "message": "已关闭所有电动阀",
+          "device": "电动阀",
+          "phaseId": "step_rinse2",
+          "phaseTitle": "第二次水洗"
+        },
+        {
+          "timestamp": "2026-05-22 11:29:41",
+          "message": "停止泵 1",
+          "device": "蠕动泵组",
+          "phaseId": "step_rinse2",
+          "phaseTitle": "第二次水洗"
+        },
+        {
+          "timestamp": "2026-05-22 11:29:42",
+          "message": "停止泵 2",
+          "device": "蠕动泵组",
+          "phaseId": "step_rinse2",
+          "phaseTitle": "第二次水洗"
+        },
+        {
+          "timestamp": "2026-05-22 11:29:43",
+          "message": "停止泵 3",
+          "device": "蠕动泵组",
+          "phaseId": "step_rinse2",
+          "phaseTitle": "第二次水洗"
+        },
+        {
+          "timestamp": "2026-05-22 11:29:44",
+          "message": "停止泵 4",
+          "device": "蠕动泵组",
+          "phaseId": "step_rinse2",
+          "phaseTitle": "第二次水洗"
+        },
+        {
+          "timestamp": "2026-05-22 11:29:45",
+          "message": "停止泵 5",
+          "device": "蠕动泵组",
+          "phaseId": "step_rinse2",
+          "phaseTitle": "第二次水洗"
+        },
+        {
+          "timestamp": "2026-05-22 11:29:46",
+          "message": "停止泵 6",
+          "device": "蠕动泵组",
+          "phaseId": "step_rinse2",
+          "phaseTitle": "第二次水洗"
+        },
+        {
+          "timestamp": "2026-05-22 11:29:47",
+          "message": "停止泵 7",
+          "device": "蠕动泵组",
+          "phaseId": "step_rinse2",
+          "phaseTitle": "第二次水洗"
+        },
+        {
+          "timestamp": "2026-05-22 11:29:48",
+          "message": "停止泵 8",
+          "device": "蠕动泵组",
+          "phaseId": "step_rinse2",
+          "phaseTitle": "第二次水洗"
+        },
+        {
+          "timestamp": "2026-05-22 11:29:49",
+          "message": "停止泵 9",
+          "device": "蠕动泵组",
+          "phaseId": "step_rinse2",
+          "phaseTitle": "第二次水洗"
+        },
+        {
+          "timestamp": "2026-05-22 11:29:50",
+          "message": "停止泵 10",
+          "device": "蠕动泵组",
+          "phaseId": "step_rinse2",
+          "phaseTitle": "第二次水洗"
+        },
+        {
+          "timestamp": "2026-05-22 11:29:51",
+          "message": "停止泵 11",
+          "device": "蠕动泵组",
+          "phaseId": "step_rinse2",
+          "phaseTitle": "第二次水洗"
+        },
+        {
+          "timestamp": "2026-05-22 11:29:52",
+          "message": "停止泵 12",
+          "device": "蠕动泵组",
+          "phaseId": "step_rinse2",
+          "phaseTitle": "第二次水洗"
+        },
+        {
+          "timestamp": "2026-05-22 11:29:53",
+          "message": "停止泵 13",
+          "device": "蠕动泵组",
+          "phaseId": "step_rinse2",
+          "phaseTitle": "第二次水洗"
+        },
+        {
+          "timestamp": "2026-05-22 11:29:54",
+          "message": "停止泵 14",
+          "device": "蠕动泵组",
+          "phaseId": "step_rinse2",
+          "phaseTitle": "第二次水洗"
+        },
+        {
+          "timestamp": "2026-05-22 11:29:55",
+          "message": "停止泵 15",
+          "device": "蠕动泵组",
+          "phaseId": "step_rinse2",
+          "phaseTitle": "第二次水洗"
+        },
+        {
+          "timestamp": "2026-05-22 11:29:56",
+          "message": "停止泵 16",
+          "device": "蠕动泵组",
+          "phaseId": "step_rinse2",
+          "phaseTitle": "第二次水洗"
+        },
+        {
+          "timestamp": "2026-05-22 11:29:57",
+          "message": "停止泵 17",
+          "device": "蠕动泵组",
+          "phaseId": "step_rinse2",
+          "phaseTitle": "第二次水洗"
+        },
+        {
+          "timestamp": "2026-05-22 11:29:58",
+          "message": "停止泵 18",
+          "device": "蠕动泵组",
+          "phaseId": "step_rinse2",
+          "phaseTitle": "第二次水洗"
+        },
+        {
+          "timestamp": "2026-05-22 11:29:59",
+          "message": "停止泵 19",
+          "device": "蠕动泵组",
+          "phaseId": "step_rinse2",
+          "phaseTitle": "第二次水洗"
+        },
+        {
+          "timestamp": "2026-05-22 11:30:00",
+          "message": "停止泵 20",
+          "device": "蠕动泵组",
+          "phaseId": "step_rinse2",
+          "phaseTitle": "第二次水洗"
+        },
+        {
+          "timestamp": "2026-05-22 11:30:01",
+          "message": "停止泵 21",
+          "device": "蠕动泵组",
+          "phaseId": "step_rinse2",
+          "phaseTitle": "第二次水洗"
+        },
+        {
+          "timestamp": "2026-05-22 11:30:02",
+          "message": "停止泵 22",
+          "device": "蠕动泵组",
+          "phaseId": "step_rinse2",
+          "phaseTitle": "第二次水洗"
+        },
+        {
+          "timestamp": "2026-05-22 11:30:03",
+          "message": "停止泵 23",
+          "device": "蠕动泵组",
+          "phaseId": "step_rinse2",
+          "phaseTitle": "第二次水洗"
+        },
+        {
+          "timestamp": "2026-05-22 11:30:04",
+          "message": "停止泵 24",
+          "device": "蠕动泵组",
+          "phaseId": "step_rinse2",
+          "phaseTitle": "第二次水洗"
+        },
+        {
+          "timestamp": "2026-05-22 11:30:05",
+          "message": "停止泵 25",
+          "device": "蠕动泵组",
+          "phaseId": "step_rinse2",
+          "phaseTitle": "第二次水洗"
+        },
+        {
+          "timestamp": "2026-05-22 11:30:06",
+          "message": "停止泵 26",
+          "device": "蠕动泵组",
+          "phaseId": "step_rinse2",
+          "phaseTitle": "第二次水洗"
+        },
+        {
+          "timestamp": "2026-05-22 11:30:07",
+          "message": "停止泵 27",
+          "device": "蠕动泵组",
+          "phaseId": "step_rinse2",
+          "phaseTitle": "第二次水洗"
+        },
+        {
+          "timestamp": "2026-05-22 11:30:08",
+          "message": "停止泵 28",
+          "device": "蠕动泵组",
+          "phaseId": "step_rinse2",
+          "phaseTitle": "第二次水洗"
+        },
+        {
+          "timestamp": "2026-05-22 11:30:09",
+          "message": "停止泵 29",
+          "device": "蠕动泵组",
+          "phaseId": "step_rinse2",
+          "phaseTitle": "第二次水洗"
+        },
+        {
+          "timestamp": "2026-05-22 11:30:10",
+          "message": "停止泵 30",
+          "device": "蠕动泵组",
+          "phaseId": "step_rinse2",
+          "phaseTitle": "第二次水洗"
+        },
+        {
+          "timestamp": "2026-05-22 11:30:11",
+          "message": "停止泵 31",
+          "device": "蠕动泵组",
+          "phaseId": "step_rinse2",
+          "phaseTitle": "第二次水洗"
+        },
+        {
+          "timestamp": "2026-05-22 11:30:12",
+          "message": "停止泵 32",
+          "device": "蠕动泵组",
+          "phaseId": "step_rinse2",
+          "phaseTitle": "第二次水洗"
+        },
+        {
+          "timestamp": "2026-05-22 11:30:13",
+          "message": "停止泵 33",
+          "device": "蠕动泵组",
+          "phaseId": "step_rinse2",
+          "phaseTitle": "第二次水洗"
+        },
+        {
+          "timestamp": "2026-05-22 11:30:14",
+          "message": "停止泵 34",
+          "device": "蠕动泵组",
+          "phaseId": "step_rinse2",
+          "phaseTitle": "第二次水洗"
+        },
+        {
+          "timestamp": "2026-05-22 11:30:15",
+          "message": "停止泵 35",
+          "device": "蠕动泵组",
+          "phaseId": "step_rinse2",
+          "phaseTitle": "第二次水洗"
+        },
+        {
+          "timestamp": "2026-05-22 11:30:16",
+          "message": "停止泵 36",
+          "device": "蠕动泵组",
+          "phaseId": "step_rinse2",
+          "phaseTitle": "第二次水洗"
+        },
+        {
+          "timestamp": "2026-05-22 11:30:17",
+          "message": "停止泵 37",
+          "device": "蠕动泵组",
+          "phaseId": "step_rinse2",
+          "phaseTitle": "第二次水洗"
+        },
+        {
+          "timestamp": "2026-05-22 11:30:18",
+          "message": "停止泵 38",
+          "device": "蠕动泵组",
+          "phaseId": "step_rinse2",
+          "phaseTitle": "第二次水洗"
+        },
+        {
+          "timestamp": "2026-05-22 11:30:19",
+          "message": "停止泵 39",
+          "device": "蠕动泵组",
+          "phaseId": "step_rinse2",
+          "phaseTitle": "第二次水洗"
+        },
+        {
+          "timestamp": "2026-05-22 11:30:20",
+          "message": "停止泵 40",
+          "device": "蠕动泵组",
+          "phaseId": "step_rinse2",
+          "phaseTitle": "第二次水洗"
+        },
+        {
+          "timestamp": "2026-05-22 11:30:21",
+          "message": "设置泵 10 的转动圈数为 23.472333333333335",
+          "device": "蠕动泵组",
+          "phaseId": "step_rinse2",
+          "phaseTitle": "第二次水洗"
+        },
+        {
+          "timestamp": "2026-05-22 11:30:22",
+          "message": "设置泵 20 的转动圈数为 20.0",
+          "device": "蠕动泵组",
+          "phaseId": "step_rinse2",
+          "phaseTitle": "第二次水洗"
+        },
+        {
+          "timestamp": "2026-05-22 11:30:23",
+          "message": "设置泵 30 的转动圈数为 23.333333333333332",
+          "device": "蠕动泵组",
+          "phaseId": "step_rinse2",
+          "phaseTitle": "第二次水洗"
+        },
+        {
+          "timestamp": "2026-05-22 11:30:24",
+          "message": "设置泵 40 的转动圈数为 23.333333333333332",
+          "device": "蠕动泵组",
+          "phaseId": "step_rinse2",
+          "phaseTitle": "第二次水洗"
+        },
+        {
+          "timestamp": "2026-05-22 11:30:25",
+          "message": "启动泵 10",
+          "device": "蠕动泵组",
+          "phaseId": "step_rinse2",
+          "phaseTitle": "第二次水洗"
+        },
+        {
+          "timestamp": "2026-05-22 11:30:27",
+          "message": "启动泵 20",
+          "device": "蠕动泵组",
+          "phaseId": "step_rinse2",
+          "phaseTitle": "第二次水洗"
+        },
+        {
+          "timestamp": "2026-05-22 11:30:28",
+          "message": "启动泵 30",
+          "device": "蠕动泵组",
+          "phaseId": "step_rinse2",
+          "phaseTitle": "第二次水洗"
+        },
+        {
+          "timestamp": "2026-05-22 11:30:30",
+          "message": "启动泵 40",
+          "device": "蠕动泵组",
+          "phaseId": "step_rinse2",
+          "phaseTitle": "第二次水洗"
+        },
+        {
+          "timestamp": "2026-05-22 11:30:45",
+          "message": "第二次加水已完成",
+          "device": "液路系统",
+          "phaseId": "step_rinse2",
+          "phaseTitle": "第二次水洗"
+        }
+      ]
+    },
+    {
+      "id": "step_clean",
+      "title": "沉积液清洗",
+      "description": "沉积液清洗完成",
+      "status": "done",
+      "commandType": "step_clean",
+      "events": [
+        {
+          "timestamp": "2026-05-22 11:30:45",
+          "message": "第二次加水已完成",
+          "device": "液路系统",
+          "phaseId": "step_clean",
+          "phaseTitle": "沉积液清洗"
+        },
+        {
+          "timestamp": "2026-05-22 11:30:56",
+          "message": "电动阀 1 打开",
+          "device": "电动阀",
+          "phaseId": "step_clean",
+          "phaseTitle": "沉积液清洗"
+        },
+        {
+          "timestamp": "2026-05-22 11:30:56",
+          "message": "电动阀 2 打开",
+          "device": "电动阀",
+          "phaseId": "step_clean",
+          "phaseTitle": "沉积液清洗"
+        },
+        {
+          "timestamp": "2026-05-22 11:30:57",
+          "message": "电动阀 3 打开",
+          "device": "电动阀",
+          "phaseId": "step_clean",
+          "phaseTitle": "沉积液清洗"
+        },
+        {
+          "timestamp": "2026-05-22 11:30:57",
+          "message": "电动阀 4 打开",
+          "device": "电动阀",
+          "phaseId": "step_clean",
+          "phaseTitle": "沉积液清洗"
+        },
+        {
+          "timestamp": "2026-05-22 11:30:59",
+          "message": "已打开所有电动阀",
+          "device": "电动阀",
+          "phaseId": "step_clean",
+          "phaseTitle": "沉积液清洗"
+        },
+        {
+          "timestamp": "2026-05-22 11:31:14",
+          "message": "电动阀 1 关闭",
+          "device": "电动阀",
+          "phaseId": "step_clean",
+          "phaseTitle": "沉积液清洗"
+        },
+        {
+          "timestamp": "2026-05-22 11:31:15",
+          "message": "电动阀 2 关闭",
+          "device": "电动阀",
+          "phaseId": "step_clean",
+          "phaseTitle": "沉积液清洗"
+        },
+        {
+          "timestamp": "2026-05-22 11:31:15",
+          "message": "电动阀 3 关闭",
+          "device": "电动阀",
+          "phaseId": "step_clean",
+          "phaseTitle": "沉积液清洗"
+        },
+        {
+          "timestamp": "2026-05-22 11:31:16",
+          "message": "电动阀 4 关闭",
+          "device": "电动阀",
+          "phaseId": "step_clean",
+          "phaseTitle": "沉积液清洗"
+        },
+        {
+          "timestamp": "2026-05-22 11:31:17",
+          "message": "已关闭所有电动阀",
+          "device": "电动阀",
+          "phaseId": "step_clean",
+          "phaseTitle": "沉积液清洗"
+        },
+        {
+          "timestamp": "2026-05-22 11:31:18",
+          "message": "沉积液清洗完成",
+          "device": "液路系统",
+          "phaseId": "step_clean",
+          "phaseTitle": "沉积液清洗"
+        }
+      ]
+    },
+    {
+      "id": "step_koh",
+      "title": "KOH 加液",
+      "description": "KOH已加液完成",
+      "status": "done",
+      "commandType": "step_koh",
+      "events": [
+        {
+          "timestamp": "2026-05-22 11:31:18",
+          "message": "沉积液清洗完成",
+          "device": "液路系统",
+          "phaseId": "step_koh",
+          "phaseTitle": "KOH 加液"
+        },
+        {
+          "timestamp": "2026-05-22 11:31:18",
+          "message": "电动阀 1 关闭",
+          "device": "电动阀",
+          "phaseId": "step_koh",
+          "phaseTitle": "KOH 加液"
+        },
+        {
+          "timestamp": "2026-05-22 11:31:18",
+          "message": "电动阀 2 关闭",
+          "device": "电动阀",
+          "phaseId": "step_koh",
+          "phaseTitle": "KOH 加液"
+        },
+        {
+          "timestamp": "2026-05-22 11:31:19",
+          "message": "电动阀 3 关闭",
+          "device": "电动阀",
+          "phaseId": "step_koh",
+          "phaseTitle": "KOH 加液"
+        },
+        {
+          "timestamp": "2026-05-22 11:31:19",
+          "message": "电动阀 4 关闭",
+          "device": "电动阀",
+          "phaseId": "step_koh",
+          "phaseTitle": "KOH 加液"
+        },
+        {
+          "timestamp": "2026-05-22 11:31:21",
+          "message": "已关闭所有电动阀",
+          "device": "电动阀",
+          "phaseId": "step_koh",
+          "phaseTitle": "KOH 加液"
+        },
+        {
+          "timestamp": "2026-05-22 11:31:22",
+          "message": "停止泵 1",
+          "device": "蠕动泵组",
+          "phaseId": "step_koh",
+          "phaseTitle": "KOH 加液"
+        },
+        {
+          "timestamp": "2026-05-22 11:31:23",
+          "message": "停止泵 2",
+          "device": "蠕动泵组",
+          "phaseId": "step_koh",
+          "phaseTitle": "KOH 加液"
+        },
+        {
+          "timestamp": "2026-05-22 11:31:24",
+          "message": "停止泵 3",
+          "device": "蠕动泵组",
+          "phaseId": "step_koh",
+          "phaseTitle": "KOH 加液"
+        },
+        {
+          "timestamp": "2026-05-22 11:31:25",
+          "message": "停止泵 4",
+          "device": "蠕动泵组",
+          "phaseId": "step_koh",
+          "phaseTitle": "KOH 加液"
+        },
+        {
+          "timestamp": "2026-05-22 11:31:26",
+          "message": "停止泵 5",
+          "device": "蠕动泵组",
+          "phaseId": "step_koh",
+          "phaseTitle": "KOH 加液"
+        },
+        {
+          "timestamp": "2026-05-22 11:31:27",
+          "message": "停止泵 6",
+          "device": "蠕动泵组",
+          "phaseId": "step_koh",
+          "phaseTitle": "KOH 加液"
+        },
+        {
+          "timestamp": "2026-05-22 11:31:28",
+          "message": "停止泵 7",
+          "device": "蠕动泵组",
+          "phaseId": "step_koh",
+          "phaseTitle": "KOH 加液"
+        },
+        {
+          "timestamp": "2026-05-22 11:31:29",
+          "message": "停止泵 8",
+          "device": "蠕动泵组",
+          "phaseId": "step_koh",
+          "phaseTitle": "KOH 加液"
+        },
+        {
+          "timestamp": "2026-05-22 11:31:30",
+          "message": "停止泵 9",
+          "device": "蠕动泵组",
+          "phaseId": "step_koh",
+          "phaseTitle": "KOH 加液"
+        },
+        {
+          "timestamp": "2026-05-22 11:31:31",
+          "message": "停止泵 10",
+          "device": "蠕动泵组",
+          "phaseId": "step_koh",
+          "phaseTitle": "KOH 加液"
+        },
+        {
+          "timestamp": "2026-05-22 11:31:32",
+          "message": "停止泵 11",
+          "device": "蠕动泵组",
+          "phaseId": "step_koh",
+          "phaseTitle": "KOH 加液"
+        },
+        {
+          "timestamp": "2026-05-22 11:31:33",
+          "message": "停止泵 12",
+          "device": "蠕动泵组",
+          "phaseId": "step_koh",
+          "phaseTitle": "KOH 加液"
+        },
+        {
+          "timestamp": "2026-05-22 11:31:34",
+          "message": "停止泵 13",
+          "device": "蠕动泵组",
+          "phaseId": "step_koh",
+          "phaseTitle": "KOH 加液"
+        },
+        {
+          "timestamp": "2026-05-22 11:31:35",
+          "message": "停止泵 14",
+          "device": "蠕动泵组",
+          "phaseId": "step_koh",
+          "phaseTitle": "KOH 加液"
+        },
+        {
+          "timestamp": "2026-05-22 11:31:36",
+          "message": "停止泵 15",
+          "device": "蠕动泵组",
+          "phaseId": "step_koh",
+          "phaseTitle": "KOH 加液"
+        },
+        {
+          "timestamp": "2026-05-22 11:31:37",
+          "message": "停止泵 16",
+          "device": "蠕动泵组",
+          "phaseId": "step_koh",
+          "phaseTitle": "KOH 加液"
+        },
+        {
+          "timestamp": "2026-05-22 11:31:38",
+          "message": "停止泵 17",
+          "device": "蠕动泵组",
+          "phaseId": "step_koh",
+          "phaseTitle": "KOH 加液"
+        },
+        {
+          "timestamp": "2026-05-22 11:31:39",
+          "message": "停止泵 18",
+          "device": "蠕动泵组",
+          "phaseId": "step_koh",
+          "phaseTitle": "KOH 加液"
+        },
+        {
+          "timestamp": "2026-05-22 11:31:40",
+          "message": "停止泵 19",
+          "device": "蠕动泵组",
+          "phaseId": "step_koh",
+          "phaseTitle": "KOH 加液"
+        },
+        {
+          "timestamp": "2026-05-22 11:31:41",
+          "message": "停止泵 20",
+          "device": "蠕动泵组",
+          "phaseId": "step_koh",
+          "phaseTitle": "KOH 加液"
+        },
+        {
+          "timestamp": "2026-05-22 11:31:42",
+          "message": "停止泵 21",
+          "device": "蠕动泵组",
+          "phaseId": "step_koh",
+          "phaseTitle": "KOH 加液"
+        },
+        {
+          "timestamp": "2026-05-22 11:31:43",
+          "message": "停止泵 22",
+          "device": "蠕动泵组",
+          "phaseId": "step_koh",
+          "phaseTitle": "KOH 加液"
+        },
+        {
+          "timestamp": "2026-05-22 11:31:44",
+          "message": "停止泵 23",
+          "device": "蠕动泵组",
+          "phaseId": "step_koh",
+          "phaseTitle": "KOH 加液"
+        },
+        {
+          "timestamp": "2026-05-22 11:31:45",
+          "message": "停止泵 24",
+          "device": "蠕动泵组",
+          "phaseId": "step_koh",
+          "phaseTitle": "KOH 加液"
+        },
+        {
+          "timestamp": "2026-05-22 11:31:46",
+          "message": "停止泵 25",
+          "device": "蠕动泵组",
+          "phaseId": "step_koh",
+          "phaseTitle": "KOH 加液"
+        },
+        {
+          "timestamp": "2026-05-22 11:31:47",
+          "message": "停止泵 26",
+          "device": "蠕动泵组",
+          "phaseId": "step_koh",
+          "phaseTitle": "KOH 加液"
+        },
+        {
+          "timestamp": "2026-05-22 11:31:48",
+          "message": "停止泵 27",
+          "device": "蠕动泵组",
+          "phaseId": "step_koh",
+          "phaseTitle": "KOH 加液"
+        },
+        {
+          "timestamp": "2026-05-22 11:31:49",
+          "message": "停止泵 28",
+          "device": "蠕动泵组",
+          "phaseId": "step_koh",
+          "phaseTitle": "KOH 加液"
+        },
+        {
+          "timestamp": "2026-05-22 11:31:50",
+          "message": "停止泵 29",
+          "device": "蠕动泵组",
+          "phaseId": "step_koh",
+          "phaseTitle": "KOH 加液"
+        },
+        {
+          "timestamp": "2026-05-22 11:31:51",
+          "message": "停止泵 30",
+          "device": "蠕动泵组",
+          "phaseId": "step_koh",
+          "phaseTitle": "KOH 加液"
+        },
+        {
+          "timestamp": "2026-05-22 11:31:52",
+          "message": "停止泵 31",
+          "device": "蠕动泵组",
+          "phaseId": "step_koh",
+          "phaseTitle": "KOH 加液"
+        },
+        {
+          "timestamp": "2026-05-22 11:31:53",
+          "message": "停止泵 32",
+          "device": "蠕动泵组",
+          "phaseId": "step_koh",
+          "phaseTitle": "KOH 加液"
+        },
+        {
+          "timestamp": "2026-05-22 11:31:54",
+          "message": "停止泵 33",
+          "device": "蠕动泵组",
+          "phaseId": "step_koh",
+          "phaseTitle": "KOH 加液"
+        },
+        {
+          "timestamp": "2026-05-22 11:31:55",
+          "message": "停止泵 34",
+          "device": "蠕动泵组",
+          "phaseId": "step_koh",
+          "phaseTitle": "KOH 加液"
+        },
+        {
+          "timestamp": "2026-05-22 11:31:56",
+          "message": "停止泵 35",
+          "device": "蠕动泵组",
+          "phaseId": "step_koh",
+          "phaseTitle": "KOH 加液"
+        },
+        {
+          "timestamp": "2026-05-22 11:31:57",
+          "message": "停止泵 36",
+          "device": "蠕动泵组",
+          "phaseId": "step_koh",
+          "phaseTitle": "KOH 加液"
+        },
+        {
+          "timestamp": "2026-05-22 11:31:58",
+          "message": "停止泵 37",
+          "device": "蠕动泵组",
+          "phaseId": "step_koh",
+          "phaseTitle": "KOH 加液"
+        },
+        {
+          "timestamp": "2026-05-22 11:31:59",
+          "message": "停止泵 38",
+          "device": "蠕动泵组",
+          "phaseId": "step_koh",
+          "phaseTitle": "KOH 加液"
+        },
+        {
+          "timestamp": "2026-05-22 11:32:00",
+          "message": "停止泵 39",
+          "device": "蠕动泵组",
+          "phaseId": "step_koh",
+          "phaseTitle": "KOH 加液"
+        },
+        {
+          "timestamp": "2026-05-22 11:32:01",
+          "message": "停止泵 40",
+          "device": "蠕动泵组",
+          "phaseId": "step_koh",
+          "phaseTitle": "KOH 加液"
+        },
+        {
+          "timestamp": "2026-05-22 11:32:01",
+          "message": "设置泵 9 的转动圈数为 65.0",
+          "device": "蠕动泵组",
+          "phaseId": "step_koh",
+          "phaseTitle": "KOH 加液"
+        },
+        {
+          "timestamp": "2026-05-22 11:32:02",
+          "message": "设置泵 19 的转动圈数为 70.0",
+          "device": "蠕动泵组",
+          "phaseId": "step_koh",
+          "phaseTitle": "KOH 加液"
+        },
+        {
+          "timestamp": "2026-05-22 11:32:03",
+          "message": "设置泵 29 的转动圈数为 75.0",
+          "device": "蠕动泵组",
+          "phaseId": "step_koh",
+          "phaseTitle": "KOH 加液"
+        },
+        {
+          "timestamp": "2026-05-22 11:32:04",
+          "message": "设置泵 39 的转动圈数为 60.0",
+          "device": "蠕动泵组",
+          "phaseId": "step_koh",
+          "phaseTitle": "KOH 加液"
+        },
+        {
+          "timestamp": "2026-05-22 11:32:06",
+          "message": "启动泵 9",
+          "device": "蠕动泵组",
+          "phaseId": "step_koh",
+          "phaseTitle": "KOH 加液"
+        },
+        {
+          "timestamp": "2026-05-22 11:32:07",
+          "message": "启动泵 19",
+          "device": "蠕动泵组",
+          "phaseId": "step_koh",
+          "phaseTitle": "KOH 加液"
+        },
+        {
+          "timestamp": "2026-05-22 11:32:09",
+          "message": "启动泵 29",
+          "device": "蠕动泵组",
+          "phaseId": "step_koh",
+          "phaseTitle": "KOH 加液"
+        },
+        {
+          "timestamp": "2026-05-22 11:32:10",
+          "message": "启动泵 39",
+          "device": "蠕动泵组",
+          "phaseId": "step_koh",
+          "phaseTitle": "KOH 加液"
+        },
+        {
+          "timestamp": "2026-05-22 11:32:54",
+          "message": "KOH已加液完成",
+          "device": "液路系统",
+          "phaseId": "step_koh",
+          "phaseTitle": "KOH 加液"
+        }
+      ]
+    },
+    {
+      "id": "step_lsv",
+      "title": "LSV 测试",
+      "description": "第 1 次lsv测试已完成",
+      "status": "done",
+      "commandType": "step_lsv",
+      "events": [
+        {
+          "timestamp": "2026-05-22 11:32:54",
+          "message": "KOH已加液完成",
+          "device": "液路系统",
+          "phaseId": "step_lsv",
+          "phaseTitle": "LSV 测试"
+        },
+        {
+          "timestamp": "2026-05-22 11:32:54",
+          "message": "开始lsv测试",
+          "device": "电化学工作站",
+          "phaseId": "step_lsv",
+          "phaseTitle": "LSV 测试"
+        },
+        {
+          "timestamp": "2026-05-22 11:32:54",
+          "message": "正在进行第 1 次LSV测试",
+          "device": "电化学工作站",
+          "phaseId": "step_lsv",
+          "phaseTitle": "LSV 测试"
+        },
+        {
+          "timestamp": "2026-05-22 11:35:17",
+          "message": "lsv已完成，测量数据保存完成",
+          "device": "电化学工作站",
+          "phaseId": "step_lsv",
+          "phaseTitle": "LSV 测试"
+        },
+        {
+          "timestamp": "2026-05-22 11:35:17",
+          "message": "第 1 次lsv测试已完成",
+          "device": "电化学工作站",
+          "phaseId": "step_lsv",
+          "phaseTitle": "LSV 测试"
+        }
+      ]
+    },
+    {
+      "id": "step_discard",
+      "title": "丢弃样品",
+      "description": "已经丢弃镍片",
+      "status": "done",
+      "commandType": "step_discard",
+      "events": [
+        {
+          "timestamp": "2026-05-22 11:35:17",
+          "message": "第 1 次lsv测试已完成",
+          "device": "电化学工作站",
+          "phaseId": "step_discard",
+          "phaseTitle": "丢弃样品"
+        },
+        {
+          "timestamp": "2026-05-22 11:35:18",
+          "message": "电动阀 1 打开",
+          "device": "电动阀",
+          "phaseId": "step_discard",
+          "phaseTitle": "丢弃样品"
+        },
+        {
+          "timestamp": "2026-05-22 11:35:18",
+          "message": "升降电机前往准备位",
+          "device": "升降电机",
+          "phaseId": "step_discard",
+          "phaseTitle": "丢弃样品"
+        },
+        {
+          "timestamp": "2026-05-22 11:35:18",
+          "message": "电动阀 2 打开",
+          "device": "电动阀",
+          "phaseId": "step_discard",
+          "phaseTitle": "丢弃样品"
+        },
+        {
+          "timestamp": "2026-05-22 11:35:19",
+          "message": "电动阀 3 打开",
+          "device": "电动阀",
+          "phaseId": "step_discard",
+          "phaseTitle": "丢弃样品"
+        },
+        {
+          "timestamp": "2026-05-22 11:35:19",
+          "message": "电动阀 4 打开",
+          "device": "电动阀",
+          "phaseId": "step_discard",
+          "phaseTitle": "丢弃样品"
+        },
+        {
+          "timestamp": "2026-05-22 11:35:21",
+          "message": "已打开所有电动阀",
+          "device": "电动阀",
+          "phaseId": "step_discard",
+          "phaseTitle": "丢弃样品"
+        },
+        {
+          "timestamp": "2026-05-22 11:35:21",
+          "message": "升降电机到达准备位",
+          "device": "升降电机",
+          "phaseId": "step_discard",
+          "phaseTitle": "丢弃样品"
+        },
+        {
+          "timestamp": "2026-05-22 11:35:22",
+          "message": "平移电机前往丢弃位",
+          "device": "平移电机",
+          "phaseId": "step_discard",
+          "phaseTitle": "丢弃样品"
+        },
+        {
+          "timestamp": "2026-05-22 11:35:27",
+          "message": "平移电机到达丢弃位",
+          "device": "平移电机",
+          "phaseId": "step_discard",
+          "phaseTitle": "丢弃样品"
+        },
+        {
+          "timestamp": "2026-05-22 11:35:28",
+          "message": "升降电机前往丢弃位",
+          "device": "升降电机",
+          "phaseId": "step_discard",
+          "phaseTitle": "丢弃样品"
+        },
+        {
+          "timestamp": "2026-05-22 11:35:32",
+          "message": "升降电机到达丢弃位",
+          "device": "升降电机",
+          "phaseId": "step_discard",
+          "phaseTitle": "丢弃样品"
+        },
+        {
+          "timestamp": "2026-05-22 11:35:33",
+          "message": "电爪 1 打开",
+          "device": "电爪",
+          "phaseId": "step_discard",
+          "phaseTitle": "丢弃样品"
+        },
+        {
+          "timestamp": "2026-05-22 11:35:33",
+          "message": "电爪 2 打开",
+          "device": "电爪",
+          "phaseId": "step_discard",
+          "phaseTitle": "丢弃样品"
+        },
+        {
+          "timestamp": "2026-05-22 11:35:34",
+          "message": "电爪 3 打开",
+          "device": "电爪",
+          "phaseId": "step_discard",
+          "phaseTitle": "丢弃样品"
+        },
+        {
+          "timestamp": "2026-05-22 11:35:34",
+          "message": "电爪 4 打开",
+          "device": "电爪",
+          "phaseId": "step_discard",
+          "phaseTitle": "丢弃样品"
+        },
+        {
+          "timestamp": "2026-05-22 11:35:36",
+          "message": "已打开所有电爪",
+          "device": "电爪",
+          "phaseId": "step_discard",
+          "phaseTitle": "丢弃样品"
+        },
+        {
+          "timestamp": "2026-05-22 11:35:36",
+          "message": "电动阀 1 关闭",
+          "device": "电动阀",
+          "phaseId": "step_discard",
+          "phaseTitle": "丢弃样品"
+        },
+        {
+          "timestamp": "2026-05-22 11:35:36",
+          "message": "已经丢弃镍片",
+          "device": "自动化平台",
+          "phaseId": "step_discard",
+          "phaseTitle": "丢弃样品"
+        }
+      ]
+    },
+    {
+      "id": "step_finalize",
+      "title": "批后清洗收尾",
+      "description": "清洗完成",
+      "status": "done",
+      "commandType": "step_finalize",
+      "events": [
+        {
+          "timestamp": "2026-05-22 11:35:36",
+          "message": "已经丢弃镍片",
+          "device": "自动化平台",
+          "phaseId": "step_finalize",
+          "phaseTitle": "批后清洗收尾"
+        },
+        {
+          "timestamp": "2026-05-22 11:35:37",
+          "message": "电动阀 2 关闭",
+          "device": "电动阀",
+          "phaseId": "step_finalize",
+          "phaseTitle": "批后清洗收尾"
+        },
+        {
+          "timestamp": "2026-05-22 11:35:37",
+          "message": "电动阀 3 关闭",
+          "device": "电动阀",
+          "phaseId": "step_finalize",
+          "phaseTitle": "批后清洗收尾"
+        },
+        {
+          "timestamp": "2026-05-22 11:35:38",
+          "message": "电动阀 4 关闭",
+          "device": "电动阀",
+          "phaseId": "step_finalize",
+          "phaseTitle": "批后清洗收尾"
+        },
+        {
+          "timestamp": "2026-05-22 11:35:39",
+          "message": "已关闭所有电动阀",
+          "device": "电动阀",
+          "phaseId": "step_finalize",
+          "phaseTitle": "批后清洗收尾"
+        },
+        {
+          "timestamp": "2026-05-22 11:35:40",
+          "message": "停止泵 1",
+          "device": "蠕动泵组",
+          "phaseId": "step_finalize",
+          "phaseTitle": "批后清洗收尾"
+        },
+        {
+          "timestamp": "2026-05-22 11:35:41",
+          "message": "停止泵 2",
+          "device": "蠕动泵组",
+          "phaseId": "step_finalize",
+          "phaseTitle": "批后清洗收尾"
+        },
+        {
+          "timestamp": "2026-05-22 11:35:42",
+          "message": "停止泵 3",
+          "device": "蠕动泵组",
+          "phaseId": "step_finalize",
+          "phaseTitle": "批后清洗收尾"
+        },
+        {
+          "timestamp": "2026-05-22 11:35:43",
+          "message": "停止泵 4",
+          "device": "蠕动泵组",
+          "phaseId": "step_finalize",
+          "phaseTitle": "批后清洗收尾"
+        },
+        {
+          "timestamp": "2026-05-22 11:35:44",
+          "message": "停止泵 5",
+          "device": "蠕动泵组",
+          "phaseId": "step_finalize",
+          "phaseTitle": "批后清洗收尾"
+        },
+        {
+          "timestamp": "2026-05-22 11:35:45",
+          "message": "停止泵 6",
+          "device": "蠕动泵组",
+          "phaseId": "step_finalize",
+          "phaseTitle": "批后清洗收尾"
+        },
+        {
+          "timestamp": "2026-05-22 11:35:46",
+          "message": "停止泵 7",
+          "device": "蠕动泵组",
+          "phaseId": "step_finalize",
+          "phaseTitle": "批后清洗收尾"
+        },
+        {
+          "timestamp": "2026-05-22 11:35:47",
+          "message": "停止泵 8",
+          "device": "蠕动泵组",
+          "phaseId": "step_finalize",
+          "phaseTitle": "批后清洗收尾"
+        },
+        {
+          "timestamp": "2026-05-22 11:35:48",
+          "message": "停止泵 9",
+          "device": "蠕动泵组",
+          "phaseId": "step_finalize",
+          "phaseTitle": "批后清洗收尾"
+        },
+        {
+          "timestamp": "2026-05-22 11:35:49",
+          "message": "停止泵 10",
+          "device": "蠕动泵组",
+          "phaseId": "step_finalize",
+          "phaseTitle": "批后清洗收尾"
+        },
+        {
+          "timestamp": "2026-05-22 11:35:50",
+          "message": "停止泵 11",
+          "device": "蠕动泵组",
+          "phaseId": "step_finalize",
+          "phaseTitle": "批后清洗收尾"
+        },
+        {
+          "timestamp": "2026-05-22 11:35:51",
+          "message": "停止泵 12",
+          "device": "蠕动泵组",
+          "phaseId": "step_finalize",
+          "phaseTitle": "批后清洗收尾"
+        },
+        {
+          "timestamp": "2026-05-22 11:35:53",
+          "message": "停止泵 13",
+          "device": "蠕动泵组",
+          "phaseId": "step_finalize",
+          "phaseTitle": "批后清洗收尾"
+        },
+        {
+          "timestamp": "2026-05-22 11:35:54",
+          "message": "停止泵 14",
+          "device": "蠕动泵组",
+          "phaseId": "step_finalize",
+          "phaseTitle": "批后清洗收尾"
+        },
+        {
+          "timestamp": "2026-05-22 11:35:55",
+          "message": "停止泵 15",
+          "device": "蠕动泵组",
+          "phaseId": "step_finalize",
+          "phaseTitle": "批后清洗收尾"
+        },
+        {
+          "timestamp": "2026-05-22 11:35:56",
+          "message": "停止泵 16",
+          "device": "蠕动泵组",
+          "phaseId": "step_finalize",
+          "phaseTitle": "批后清洗收尾"
+        },
+        {
+          "timestamp": "2026-05-22 11:35:57",
+          "message": "停止泵 17",
+          "device": "蠕动泵组",
+          "phaseId": "step_finalize",
+          "phaseTitle": "批后清洗收尾"
+        },
+        {
+          "timestamp": "2026-05-22 11:35:58",
+          "message": "停止泵 18",
+          "device": "蠕动泵组",
+          "phaseId": "step_finalize",
+          "phaseTitle": "批后清洗收尾"
+        },
+        {
+          "timestamp": "2026-05-22 11:35:59",
+          "message": "停止泵 19",
+          "device": "蠕动泵组",
+          "phaseId": "step_finalize",
+          "phaseTitle": "批后清洗收尾"
+        },
+        {
+          "timestamp": "2026-05-22 11:36:00",
+          "message": "停止泵 20",
+          "device": "蠕动泵组",
+          "phaseId": "step_finalize",
+          "phaseTitle": "批后清洗收尾"
+        },
+        {
+          "timestamp": "2026-05-22 11:36:01",
+          "message": "停止泵 21",
+          "device": "蠕动泵组",
+          "phaseId": "step_finalize",
+          "phaseTitle": "批后清洗收尾"
+        },
+        {
+          "timestamp": "2026-05-22 11:36:02",
+          "message": "停止泵 22",
+          "device": "蠕动泵组",
+          "phaseId": "step_finalize",
+          "phaseTitle": "批后清洗收尾"
+        },
+        {
+          "timestamp": "2026-05-22 11:36:03",
+          "message": "停止泵 23",
+          "device": "蠕动泵组",
+          "phaseId": "step_finalize",
+          "phaseTitle": "批后清洗收尾"
+        },
+        {
+          "timestamp": "2026-05-22 11:36:04",
+          "message": "停止泵 24",
+          "device": "蠕动泵组",
+          "phaseId": "step_finalize",
+          "phaseTitle": "批后清洗收尾"
+        },
+        {
+          "timestamp": "2026-05-22 11:36:05",
+          "message": "停止泵 25",
+          "device": "蠕动泵组",
+          "phaseId": "step_finalize",
+          "phaseTitle": "批后清洗收尾"
+        },
+        {
+          "timestamp": "2026-05-22 11:36:06",
+          "message": "停止泵 26",
+          "device": "蠕动泵组",
+          "phaseId": "step_finalize",
+          "phaseTitle": "批后清洗收尾"
+        },
+        {
+          "timestamp": "2026-05-22 11:36:07",
+          "message": "停止泵 27",
+          "device": "蠕动泵组",
+          "phaseId": "step_finalize",
+          "phaseTitle": "批后清洗收尾"
+        },
+        {
+          "timestamp": "2026-05-22 11:36:08",
+          "message": "停止泵 28",
+          "device": "蠕动泵组",
+          "phaseId": "step_finalize",
+          "phaseTitle": "批后清洗收尾"
+        },
+        {
+          "timestamp": "2026-05-22 11:36:09",
+          "message": "停止泵 29",
+          "device": "蠕动泵组",
+          "phaseId": "step_finalize",
+          "phaseTitle": "批后清洗收尾"
+        },
+        {
+          "timestamp": "2026-05-22 11:36:10",
+          "message": "停止泵 30",
+          "device": "蠕动泵组",
+          "phaseId": "step_finalize",
+          "phaseTitle": "批后清洗收尾"
+        },
+        {
+          "timestamp": "2026-05-22 11:36:11",
+          "message": "停止泵 31",
+          "device": "蠕动泵组",
+          "phaseId": "step_finalize",
+          "phaseTitle": "批后清洗收尾"
+        },
+        {
+          "timestamp": "2026-05-22 11:36:12",
+          "message": "停止泵 32",
+          "device": "蠕动泵组",
+          "phaseId": "step_finalize",
+          "phaseTitle": "批后清洗收尾"
+        },
+        {
+          "timestamp": "2026-05-22 11:36:13",
+          "message": "停止泵 33",
+          "device": "蠕动泵组",
+          "phaseId": "step_finalize",
+          "phaseTitle": "批后清洗收尾"
+        },
+        {
+          "timestamp": "2026-05-22 11:36:14",
+          "message": "停止泵 34",
+          "device": "蠕动泵组",
+          "phaseId": "step_finalize",
+          "phaseTitle": "批后清洗收尾"
+        },
+        {
+          "timestamp": "2026-05-22 11:36:15",
+          "message": "停止泵 35",
+          "device": "蠕动泵组",
+          "phaseId": "step_finalize",
+          "phaseTitle": "批后清洗收尾"
+        },
+        {
+          "timestamp": "2026-05-22 11:36:16",
+          "message": "停止泵 36",
+          "device": "蠕动泵组",
+          "phaseId": "step_finalize",
+          "phaseTitle": "批后清洗收尾"
+        },
+        {
+          "timestamp": "2026-05-22 11:36:17",
+          "message": "停止泵 37",
+          "device": "蠕动泵组",
+          "phaseId": "step_finalize",
+          "phaseTitle": "批后清洗收尾"
+        },
+        {
+          "timestamp": "2026-05-22 11:36:18",
+          "message": "停止泵 38",
+          "device": "蠕动泵组",
+          "phaseId": "step_finalize",
+          "phaseTitle": "批后清洗收尾"
+        },
+        {
+          "timestamp": "2026-05-22 11:36:19",
+          "message": "停止泵 39",
+          "device": "蠕动泵组",
+          "phaseId": "step_finalize",
+          "phaseTitle": "批后清洗收尾"
+        },
+        {
+          "timestamp": "2026-05-22 11:36:20",
+          "message": "停止泵 40",
+          "device": "蠕动泵组",
+          "phaseId": "step_finalize",
+          "phaseTitle": "批后清洗收尾"
+        },
+        {
+          "timestamp": "2026-05-22 11:36:20",
+          "message": "设置泵 10 的转动圈数为 70.417",
+          "device": "蠕动泵组",
+          "phaseId": "step_finalize",
+          "phaseTitle": "批后清洗收尾"
+        },
+        {
+          "timestamp": "2026-05-22 11:36:21",
+          "message": "设置泵 20 的转动圈数为 60.0",
+          "device": "蠕动泵组",
+          "phaseId": "step_finalize",
+          "phaseTitle": "批后清洗收尾"
+        },
+        {
+          "timestamp": "2026-05-22 11:36:22",
+          "message": "设置泵 30 的转动圈数为 70.0",
+          "device": "蠕动泵组",
+          "phaseId": "step_finalize",
+          "phaseTitle": "批后清洗收尾"
+        },
+        {
+          "timestamp": "2026-05-22 11:36:23",
+          "message": "设置泵 40 的转动圈数为 70.0",
+          "device": "蠕动泵组",
+          "phaseId": "step_finalize",
+          "phaseTitle": "批后清洗收尾"
+        },
+        {
+          "timestamp": "2026-05-22 11:36:25",
+          "message": "启动泵 10",
+          "device": "蠕动泵组",
+          "phaseId": "step_finalize",
+          "phaseTitle": "批后清洗收尾"
+        },
+        {
+          "timestamp": "2026-05-22 11:36:26",
+          "message": "启动泵 20",
+          "device": "蠕动泵组",
+          "phaseId": "step_finalize",
+          "phaseTitle": "批后清洗收尾"
+        },
+        {
+          "timestamp": "2026-05-22 11:36:28",
+          "message": "启动泵 30",
+          "device": "蠕动泵组",
+          "phaseId": "step_finalize",
+          "phaseTitle": "批后清洗收尾"
+        },
+        {
+          "timestamp": "2026-05-22 11:36:29",
+          "message": "启动泵 40",
+          "device": "蠕动泵组",
+          "phaseId": "step_finalize",
+          "phaseTitle": "批后清洗收尾"
+        },
+        {
+          "timestamp": "2026-05-22 11:37:12",
+          "message": "第一次加水已完成",
+          "device": "液路系统",
+          "phaseId": "step_finalize",
+          "phaseTitle": "批后清洗收尾"
+        },
+        {
+          "timestamp": "2026-05-22 11:37:23",
+          "message": "电动阀 1 打开",
+          "device": "电动阀",
+          "phaseId": "step_finalize",
+          "phaseTitle": "批后清洗收尾"
+        },
+        {
+          "timestamp": "2026-05-22 11:37:23",
+          "message": "电动阀 2 打开",
+          "device": "电动阀",
+          "phaseId": "step_finalize",
+          "phaseTitle": "批后清洗收尾"
+        },
+        {
+          "timestamp": "2026-05-22 11:37:24",
+          "message": "电动阀 3 打开",
+          "device": "电动阀",
+          "phaseId": "step_finalize",
+          "phaseTitle": "批后清洗收尾"
+        },
+        {
+          "timestamp": "2026-05-22 11:37:24",
+          "message": "电动阀 4 打开",
+          "device": "电动阀",
+          "phaseId": "step_finalize",
+          "phaseTitle": "批后清洗收尾"
+        },
+        {
+          "timestamp": "2026-05-22 11:37:26",
+          "message": "已打开所有电动阀",
+          "device": "电动阀",
+          "phaseId": "step_finalize",
+          "phaseTitle": "批后清洗收尾"
+        },
+        {
+          "timestamp": "2026-05-22 11:37:41",
+          "message": "电动阀 1 关闭",
+          "device": "电动阀",
+          "phaseId": "step_finalize",
+          "phaseTitle": "批后清洗收尾"
+        },
+        {
+          "timestamp": "2026-05-22 11:37:42",
+          "message": "电动阀 2 关闭",
+          "device": "电动阀",
+          "phaseId": "step_finalize",
+          "phaseTitle": "批后清洗收尾"
+        },
+        {
+          "timestamp": "2026-05-22 11:37:42",
+          "message": "电动阀 3 关闭",
+          "device": "电动阀",
+          "phaseId": "step_finalize",
+          "phaseTitle": "批后清洗收尾"
+        },
+        {
+          "timestamp": "2026-05-22 11:37:43",
+          "message": "电动阀 4 关闭",
+          "device": "电动阀",
+          "phaseId": "step_finalize",
+          "phaseTitle": "批后清洗收尾"
+        },
+        {
+          "timestamp": "2026-05-22 11:37:44",
+          "message": "已关闭所有电动阀",
+          "device": "电动阀",
+          "phaseId": "step_finalize",
+          "phaseTitle": "批后清洗收尾"
+        },
+        {
+          "timestamp": "2026-05-22 11:37:45",
+          "message": "停止泵 1",
+          "device": "蠕动泵组",
+          "phaseId": "step_finalize",
+          "phaseTitle": "批后清洗收尾"
+        },
+        {
+          "timestamp": "2026-05-22 11:37:46",
+          "message": "停止泵 2",
+          "device": "蠕动泵组",
+          "phaseId": "step_finalize",
+          "phaseTitle": "批后清洗收尾"
+        },
+        {
+          "timestamp": "2026-05-22 11:37:47",
+          "message": "停止泵 3",
+          "device": "蠕动泵组",
+          "phaseId": "step_finalize",
+          "phaseTitle": "批后清洗收尾"
+        },
+        {
+          "timestamp": "2026-05-22 11:37:48",
+          "message": "停止泵 4",
+          "device": "蠕动泵组",
+          "phaseId": "step_finalize",
+          "phaseTitle": "批后清洗收尾"
+        },
+        {
+          "timestamp": "2026-05-22 11:37:49",
+          "message": "停止泵 5",
+          "device": "蠕动泵组",
+          "phaseId": "step_finalize",
+          "phaseTitle": "批后清洗收尾"
+        },
+        {
+          "timestamp": "2026-05-22 11:37:50",
+          "message": "停止泵 6",
+          "device": "蠕动泵组",
+          "phaseId": "step_finalize",
+          "phaseTitle": "批后清洗收尾"
+        },
+        {
+          "timestamp": "2026-05-22 11:37:51",
+          "message": "停止泵 7",
+          "device": "蠕动泵组",
+          "phaseId": "step_finalize",
+          "phaseTitle": "批后清洗收尾"
+        },
+        {
+          "timestamp": "2026-05-22 11:37:52",
+          "message": "停止泵 8",
+          "device": "蠕动泵组",
+          "phaseId": "step_finalize",
+          "phaseTitle": "批后清洗收尾"
+        },
+        {
+          "timestamp": "2026-05-22 11:37:53",
+          "message": "停止泵 9",
+          "device": "蠕动泵组",
+          "phaseId": "step_finalize",
+          "phaseTitle": "批后清洗收尾"
+        },
+        {
+          "timestamp": "2026-05-22 11:37:54",
+          "message": "停止泵 10",
+          "device": "蠕动泵组",
+          "phaseId": "step_finalize",
+          "phaseTitle": "批后清洗收尾"
+        },
+        {
+          "timestamp": "2026-05-22 11:37:55",
+          "message": "停止泵 11",
+          "device": "蠕动泵组",
+          "phaseId": "step_finalize",
+          "phaseTitle": "批后清洗收尾"
+        },
+        {
+          "timestamp": "2026-05-22 11:37:56",
+          "message": "停止泵 12",
+          "device": "蠕动泵组",
+          "phaseId": "step_finalize",
+          "phaseTitle": "批后清洗收尾"
+        },
+        {
+          "timestamp": "2026-05-22 11:37:57",
+          "message": "停止泵 13",
+          "device": "蠕动泵组",
+          "phaseId": "step_finalize",
+          "phaseTitle": "批后清洗收尾"
+        },
+        {
+          "timestamp": "2026-05-22 11:37:58",
+          "message": "停止泵 14",
+          "device": "蠕动泵组",
+          "phaseId": "step_finalize",
+          "phaseTitle": "批后清洗收尾"
+        },
+        {
+          "timestamp": "2026-05-22 11:37:59",
+          "message": "停止泵 15",
+          "device": "蠕动泵组",
+          "phaseId": "step_finalize",
+          "phaseTitle": "批后清洗收尾"
+        },
+        {
+          "timestamp": "2026-05-22 11:38:00",
+          "message": "停止泵 16",
+          "device": "蠕动泵组",
+          "phaseId": "step_finalize",
+          "phaseTitle": "批后清洗收尾"
+        },
+        {
+          "timestamp": "2026-05-22 11:38:01",
+          "message": "停止泵 17",
+          "device": "蠕动泵组",
+          "phaseId": "step_finalize",
+          "phaseTitle": "批后清洗收尾"
+        },
+        {
+          "timestamp": "2026-05-22 11:38:02",
+          "message": "停止泵 18",
+          "device": "蠕动泵组",
+          "phaseId": "step_finalize",
+          "phaseTitle": "批后清洗收尾"
+        },
+        {
+          "timestamp": "2026-05-22 11:38:03",
+          "message": "停止泵 19",
+          "device": "蠕动泵组",
+          "phaseId": "step_finalize",
+          "phaseTitle": "批后清洗收尾"
+        },
+        {
+          "timestamp": "2026-05-22 11:38:04",
+          "message": "停止泵 20",
+          "device": "蠕动泵组",
+          "phaseId": "step_finalize",
+          "phaseTitle": "批后清洗收尾"
+        },
+        {
+          "timestamp": "2026-05-22 11:38:05",
+          "message": "停止泵 21",
+          "device": "蠕动泵组",
+          "phaseId": "step_finalize",
+          "phaseTitle": "批后清洗收尾"
+        },
+        {
+          "timestamp": "2026-05-22 11:38:07",
+          "message": "停止泵 22",
+          "device": "蠕动泵组",
+          "phaseId": "step_finalize",
+          "phaseTitle": "批后清洗收尾"
+        },
+        {
+          "timestamp": "2026-05-22 11:38:08",
+          "message": "停止泵 23",
+          "device": "蠕动泵组",
+          "phaseId": "step_finalize",
+          "phaseTitle": "批后清洗收尾"
+        },
+        {
+          "timestamp": "2026-05-22 11:38:09",
+          "message": "停止泵 24",
+          "device": "蠕动泵组",
+          "phaseId": "step_finalize",
+          "phaseTitle": "批后清洗收尾"
+        },
+        {
+          "timestamp": "2026-05-22 11:38:10",
+          "message": "停止泵 25",
+          "device": "蠕动泵组",
+          "phaseId": "step_finalize",
+          "phaseTitle": "批后清洗收尾"
+        },
+        {
+          "timestamp": "2026-05-22 11:38:11",
+          "message": "停止泵 26",
+          "device": "蠕动泵组",
+          "phaseId": "step_finalize",
+          "phaseTitle": "批后清洗收尾"
+        },
+        {
+          "timestamp": "2026-05-22 11:38:12",
+          "message": "停止泵 27",
+          "device": "蠕动泵组",
+          "phaseId": "step_finalize",
+          "phaseTitle": "批后清洗收尾"
+        },
+        {
+          "timestamp": "2026-05-22 11:38:13",
+          "message": "停止泵 28",
+          "device": "蠕动泵组",
+          "phaseId": "step_finalize",
+          "phaseTitle": "批后清洗收尾"
+        },
+        {
+          "timestamp": "2026-05-22 11:38:14",
+          "message": "停止泵 29",
+          "device": "蠕动泵组",
+          "phaseId": "step_finalize",
+          "phaseTitle": "批后清洗收尾"
+        },
+        {
+          "timestamp": "2026-05-22 11:38:15",
+          "message": "停止泵 30",
+          "device": "蠕动泵组",
+          "phaseId": "step_finalize",
+          "phaseTitle": "批后清洗收尾"
+        },
+        {
+          "timestamp": "2026-05-22 11:38:16",
+          "message": "停止泵 31",
+          "device": "蠕动泵组",
+          "phaseId": "step_finalize",
+          "phaseTitle": "批后清洗收尾"
+        },
+        {
+          "timestamp": "2026-05-22 11:38:17",
+          "message": "停止泵 32",
+          "device": "蠕动泵组",
+          "phaseId": "step_finalize",
+          "phaseTitle": "批后清洗收尾"
+        },
+        {
+          "timestamp": "2026-05-22 11:38:18",
+          "message": "停止泵 33",
+          "device": "蠕动泵组",
+          "phaseId": "step_finalize",
+          "phaseTitle": "批后清洗收尾"
+        },
+        {
+          "timestamp": "2026-05-22 11:38:19",
+          "message": "停止泵 34",
+          "device": "蠕动泵组",
+          "phaseId": "step_finalize",
+          "phaseTitle": "批后清洗收尾"
+        },
+        {
+          "timestamp": "2026-05-22 11:38:20",
+          "message": "停止泵 35",
+          "device": "蠕动泵组",
+          "phaseId": "step_finalize",
+          "phaseTitle": "批后清洗收尾"
+        },
+        {
+          "timestamp": "2026-05-22 11:38:21",
+          "message": "停止泵 36",
+          "device": "蠕动泵组",
+          "phaseId": "step_finalize",
+          "phaseTitle": "批后清洗收尾"
+        },
+        {
+          "timestamp": "2026-05-22 11:38:22",
+          "message": "停止泵 37",
+          "device": "蠕动泵组",
+          "phaseId": "step_finalize",
+          "phaseTitle": "批后清洗收尾"
+        },
+        {
+          "timestamp": "2026-05-22 11:38:23",
+          "message": "停止泵 38",
+          "device": "蠕动泵组",
+          "phaseId": "step_finalize",
+          "phaseTitle": "批后清洗收尾"
+        },
+        {
+          "timestamp": "2026-05-22 11:38:24",
+          "message": "停止泵 39",
+          "device": "蠕动泵组",
+          "phaseId": "step_finalize",
+          "phaseTitle": "批后清洗收尾"
+        },
+        {
+          "timestamp": "2026-05-22 11:38:25",
+          "message": "停止泵 40",
+          "device": "蠕动泵组",
+          "phaseId": "step_finalize",
+          "phaseTitle": "批后清洗收尾"
+        },
+        {
+          "timestamp": "2026-05-22 11:38:25",
+          "message": "设置泵 10 的转动圈数为 23.472333333333335",
+          "device": "蠕动泵组",
+          "phaseId": "step_finalize",
+          "phaseTitle": "批后清洗收尾"
+        },
+        {
+          "timestamp": "2026-05-22 11:38:26",
+          "message": "设置泵 20 的转动圈数为 20.0",
+          "device": "蠕动泵组",
+          "phaseId": "step_finalize",
+          "phaseTitle": "批后清洗收尾"
+        },
+        {
+          "timestamp": "2026-05-22 11:38:27",
+          "message": "设置泵 30 的转动圈数为 23.333333333333332",
+          "device": "蠕动泵组",
+          "phaseId": "step_finalize",
+          "phaseTitle": "批后清洗收尾"
+        },
+        {
+          "timestamp": "2026-05-22 11:38:28",
+          "message": "设置泵 40 的转动圈数为 23.333333333333332",
+          "device": "蠕动泵组",
+          "phaseId": "step_finalize",
+          "phaseTitle": "批后清洗收尾"
+        },
+        {
+          "timestamp": "2026-05-22 11:38:30",
+          "message": "启动泵 10",
+          "device": "蠕动泵组",
+          "phaseId": "step_finalize",
+          "phaseTitle": "批后清洗收尾"
+        },
+        {
+          "timestamp": "2026-05-22 11:38:31",
+          "message": "启动泵 20",
+          "device": "蠕动泵组",
+          "phaseId": "step_finalize",
+          "phaseTitle": "批后清洗收尾"
+        },
+        {
+          "timestamp": "2026-05-22 11:38:33",
+          "message": "启动泵 30",
+          "device": "蠕动泵组",
+          "phaseId": "step_finalize",
+          "phaseTitle": "批后清洗收尾"
+        },
+        {
+          "timestamp": "2026-05-22 11:38:34",
+          "message": "启动泵 40",
+          "device": "蠕动泵组",
+          "phaseId": "step_finalize",
+          "phaseTitle": "批后清洗收尾"
+        },
+        {
+          "timestamp": "2026-05-22 11:38:48",
+          "message": "第二次加水已完成",
+          "device": "液路系统",
+          "phaseId": "step_finalize",
+          "phaseTitle": "批后清洗收尾"
+        },
+        {
+          "timestamp": "2026-05-22 11:38:59",
+          "message": "电动阀 1 打开",
+          "device": "电动阀",
+          "phaseId": "step_finalize",
+          "phaseTitle": "批后清洗收尾"
+        },
+        {
+          "timestamp": "2026-05-22 11:38:59",
+          "message": "电动阀 2 打开",
+          "device": "电动阀",
+          "phaseId": "step_finalize",
+          "phaseTitle": "批后清洗收尾"
+        },
+        {
+          "timestamp": "2026-05-22 11:39:00",
+          "message": "电动阀 3 打开",
+          "device": "电动阀",
+          "phaseId": "step_finalize",
+          "phaseTitle": "批后清洗收尾"
+        },
+        {
+          "timestamp": "2026-05-22 11:39:00",
+          "message": "电动阀 4 打开",
+          "device": "电动阀",
+          "phaseId": "step_finalize",
+          "phaseTitle": "批后清洗收尾"
+        },
+        {
+          "timestamp": "2026-05-22 11:39:02",
+          "message": "已打开所有电动阀",
+          "device": "电动阀",
+          "phaseId": "step_finalize",
+          "phaseTitle": "批后清洗收尾"
+        },
+        {
+          "timestamp": "2026-05-22 11:39:17",
+          "message": "电动阀 1 关闭",
+          "device": "电动阀",
+          "phaseId": "step_finalize",
+          "phaseTitle": "批后清洗收尾"
+        },
+        {
+          "timestamp": "2026-05-22 11:39:18",
+          "message": "电动阀 2 关闭",
+          "device": "电动阀",
+          "phaseId": "step_finalize",
+          "phaseTitle": "批后清洗收尾"
+        },
+        {
+          "timestamp": "2026-05-22 11:39:18",
+          "message": "电动阀 3 关闭",
+          "device": "电动阀",
+          "phaseId": "step_finalize",
+          "phaseTitle": "批后清洗收尾"
+        },
+        {
+          "timestamp": "2026-05-22 11:39:19",
+          "message": "电动阀 4 关闭",
+          "device": "电动阀",
+          "phaseId": "step_finalize",
+          "phaseTitle": "批后清洗收尾"
+        },
+        {
+          "timestamp": "2026-05-22 11:39:20",
+          "message": "已关闭所有电动阀",
+          "device": "电动阀",
+          "phaseId": "step_finalize",
+          "phaseTitle": "批后清洗收尾"
+        },
+        {
+          "timestamp": "2026-05-22 11:39:21",
+          "message": "清洗完成",
+          "device": "液路系统",
+          "phaseId": "step_finalize",
+          "phaseTitle": "批后清洗收尾"
+        }
+      ]
+    },
+    {
+      "id": "step_done",
+      "title": "任务完成",
+      "description": "任务 ['Co_1.0', 'Fe_1.0', 'Ni_1.0', 'Ni_1.0'] 执行完毕，结果保存在 ['./api_output/Co_1.0_20260522_112319_0', './api_output/Fe_1.0_20260522_112320_1', './api_output/Ni_1.0_20260522_112320_2', './api_output/Ni_1.0_20260522_112320_3']",
+      "status": "done",
+      "commandType": "step_done",
+      "events": [
+        {
+          "timestamp": "2026-05-22 11:39:21",
+          "message": "清洗完成",
+          "device": "液路系统",
+          "phaseId": "step_done",
+          "phaseTitle": "任务完成"
+        },
+        {
+          "timestamp": "2026-05-22 11:39:21",
+          "message": "任务 ['Co_1.0', 'Fe_1.0', 'Ni_1.0', 'Ni_1.0'] 执行完毕，结果保存在 ['./api_output/Co_1.0_20260522_112319_0', './api_output/Fe_1.0_20260522_112320_1', './api_output/Ni_1.0_20260522_112320_2', './api_output/Ni_1.0_20260522_112320_3']",
+          "device": "自动化平台",
+          "phaseId": "step_done",
+          "phaseTitle": "任务完成"
+        }
+      ]
+    }
+  ],
+  "fullLog": [
+    {
+      "timestamp": "2026-05-22 11:23:19",
+      "message": ">>> 任务已加入实验队列: ['Co_1.0', 'Fe_1.0', 'Ni_1.0']",
+      "device": "自动化平台",
+      "phaseId": "step_queue",
+      "phaseTitle": "任务入队"
+    },
+    {
+      "timestamp": "2026-05-22 11:23:19",
+      "message": ">>> 任务已加入实验队列: ['Co_1.0', 'Fe_1.0', 'Ni_1.0']",
+      "device": "自动化平台",
+      "phaseId": "step_feed",
+      "phaseTitle": "取料与下料"
+    },
+    {
+      "timestamp": "2026-05-22 11:23:20",
+      "message": "电动阀 1 关闭",
+      "device": "电动阀",
+      "phaseId": "step_feed",
+      "phaseTitle": "取料与下料"
+    },
+    {
+      "timestamp": "2026-05-22 11:23:20",
+      "message": "下料电机前往取料位",
+      "device": "下料电机",
+      "phaseId": "step_feed",
+      "phaseTitle": "取料与下料"
+    },
+    {
+      "timestamp": "2026-05-22 11:23:20",
+      "message": "电动阀 2 关闭",
+      "device": "电动阀",
+      "phaseId": "step_feed",
+      "phaseTitle": "取料与下料"
+    },
+    {
+      "timestamp": "2026-05-22 11:23:20",
+      "message": "推料电机前往接料位",
+      "device": "推料电机",
+      "phaseId": "step_feed",
+      "phaseTitle": "取料与下料"
+    },
+    {
+      "timestamp": "2026-05-22 11:23:21",
+      "message": "电动阀 3 关闭",
+      "device": "电动阀",
+      "phaseId": "step_feed",
+      "phaseTitle": "取料与下料"
+    },
+    {
+      "timestamp": "2026-05-22 11:23:21",
+      "message": "电动阀 4 关闭",
+      "device": "电动阀",
+      "phaseId": "step_feed",
+      "phaseTitle": "取料与下料"
+    },
+    {
+      "timestamp": "2026-05-22 11:23:23",
+      "message": "已关闭所有电动阀",
+      "device": "电动阀",
+      "phaseId": "step_feed",
+      "phaseTitle": "取料与下料"
+    },
+    {
+      "timestamp": "2026-05-22 11:23:24",
+      "message": "停止泵 1",
+      "device": "蠕动泵组",
+      "phaseId": "step_feed",
+      "phaseTitle": "取料与下料"
+    },
+    {
+      "timestamp": "2026-05-22 11:23:25",
+      "message": "停止泵 2",
+      "device": "蠕动泵组",
+      "phaseId": "step_feed",
+      "phaseTitle": "取料与下料"
+    },
+    {
+      "timestamp": "2026-05-22 11:23:26",
+      "message": "停止泵 3",
+      "device": "蠕动泵组",
+      "phaseId": "step_feed",
+      "phaseTitle": "取料与下料"
+    },
+    {
+      "timestamp": "2026-05-22 11:23:27",
+      "message": "停止泵 4",
+      "device": "蠕动泵组",
+      "phaseId": "step_feed",
+      "phaseTitle": "取料与下料"
+    },
+    {
+      "timestamp": "2026-05-22 11:23:28",
+      "message": "停止泵 5",
+      "device": "蠕动泵组",
+      "phaseId": "step_feed",
+      "phaseTitle": "取料与下料"
+    },
+    {
+      "timestamp": "2026-05-22 11:23:29",
+      "message": "下料电机到达取料位",
+      "device": "下料电机",
+      "phaseId": "step_feed",
+      "phaseTitle": "取料与下料"
+    },
+    {
+      "timestamp": "2026-05-22 11:23:29",
+      "message": "停止泵 6",
+      "device": "蠕动泵组",
+      "phaseId": "step_feed",
+      "phaseTitle": "取料与下料"
+    },
+    {
+      "timestamp": "2026-05-22 11:23:29",
+      "message": "推料电机到达接料位",
+      "device": "推料电机",
+      "phaseId": "step_feed",
+      "phaseTitle": "取料与下料"
+    },
+    {
+      "timestamp": "2026-05-22 11:23:30",
+      "message": "振动电机打开",
+      "device": "振动电机",
+      "phaseId": "step_feed",
+      "phaseTitle": "取料与下料"
+    },
+    {
+      "timestamp": "2026-05-22 11:23:30",
+      "message": "停止泵 7",
+      "device": "蠕动泵组",
+      "phaseId": "step_feed",
+      "phaseTitle": "取料与下料"
+    },
+    {
+      "timestamp": "2026-05-22 11:23:31",
+      "message": "停止泵 8",
+      "device": "蠕动泵组",
+      "phaseId": "step_feed",
+      "phaseTitle": "取料与下料"
+    },
+    {
+      "timestamp": "2026-05-22 11:23:31",
+      "message": "下料电机前往下料位",
+      "device": "下料电机",
+      "phaseId": "step_feed",
+      "phaseTitle": "取料与下料"
+    },
+    {
+      "timestamp": "2026-05-22 11:23:32",
+      "message": "停止泵 9",
+      "device": "蠕动泵组",
+      "phaseId": "step_feed",
+      "phaseTitle": "取料与下料"
+    },
+    {
+      "timestamp": "2026-05-22 11:23:33",
+      "message": "停止泵 10",
+      "device": "蠕动泵组",
+      "phaseId": "step_feed",
+      "phaseTitle": "取料与下料"
+    },
+    {
+      "timestamp": "2026-05-22 11:23:34",
+      "message": "停止泵 11",
+      "device": "蠕动泵组",
+      "phaseId": "step_feed",
+      "phaseTitle": "取料与下料"
+    },
+    {
+      "timestamp": "2026-05-22 11:23:35",
+      "message": "停止泵 12",
+      "device": "蠕动泵组",
+      "phaseId": "step_feed",
+      "phaseTitle": "取料与下料"
+    },
+    {
+      "timestamp": "2026-05-22 11:23:36",
+      "message": "停止泵 13",
+      "device": "蠕动泵组",
+      "phaseId": "step_feed",
+      "phaseTitle": "取料与下料"
+    },
+    {
+      "timestamp": "2026-05-22 11:23:37",
+      "message": "停止泵 14",
+      "device": "蠕动泵组",
+      "phaseId": "step_feed",
+      "phaseTitle": "取料与下料"
+    },
+    {
+      "timestamp": "2026-05-22 11:23:38",
+      "message": "停止泵 15",
+      "device": "蠕动泵组",
+      "phaseId": "step_feed",
+      "phaseTitle": "取料与下料"
+    },
+    {
+      "timestamp": "2026-05-22 11:23:39",
+      "message": "停止泵 16",
+      "device": "蠕动泵组",
+      "phaseId": "step_feed",
+      "phaseTitle": "取料与下料"
+    },
+    {
+      "timestamp": "2026-05-22 11:23:40",
+      "message": "停止泵 17",
+      "device": "蠕动泵组",
+      "phaseId": "step_feed",
+      "phaseTitle": "取料与下料"
+    },
+    {
+      "timestamp": "2026-05-22 11:23:41",
+      "message": "振动电机关闭",
+      "device": "振动电机",
+      "phaseId": "step_feed",
+      "phaseTitle": "取料与下料"
+    },
+    {
+      "timestamp": "2026-05-22 11:23:41",
+      "message": "停止泵 18",
+      "device": "蠕动泵组",
+      "phaseId": "step_feed",
+      "phaseTitle": "取料与下料"
+    },
+    {
+      "timestamp": "2026-05-22 11:23:41",
+      "message": "下料电机到达下料位",
+      "device": "下料电机",
+      "phaseId": "step_feed",
+      "phaseTitle": "取料与下料"
+    },
+    {
+      "timestamp": "2026-05-22 11:23:42",
+      "message": "推料电机前往推料位",
+      "device": "推料电机",
+      "phaseId": "step_feed",
+      "phaseTitle": "取料与下料"
+    },
+    {
+      "timestamp": "2026-05-22 11:23:42",
+      "message": "停止泵 19",
+      "device": "蠕动泵组",
+      "phaseId": "step_feed",
+      "phaseTitle": "取料与下料"
+    },
+    {
+      "timestamp": "2026-05-22 11:23:43",
+      "message": "停止泵 20",
+      "device": "蠕动泵组",
+      "phaseId": "step_feed",
+      "phaseTitle": "取料与下料"
+    },
+    {
+      "timestamp": "2026-05-22 11:23:44",
+      "message": "停止泵 21",
+      "device": "蠕动泵组",
+      "phaseId": "step_feed",
+      "phaseTitle": "取料与下料"
+    },
+    {
+      "timestamp": "2026-05-22 11:23:45",
+      "message": "停止泵 22",
+      "device": "蠕动泵组",
+      "phaseId": "step_feed",
+      "phaseTitle": "取料与下料"
+    },
+    {
+      "timestamp": "2026-05-22 11:23:46",
+      "message": "停止泵 23",
+      "device": "蠕动泵组",
+      "phaseId": "step_feed",
+      "phaseTitle": "取料与下料"
+    },
+    {
+      "timestamp": "2026-05-22 11:23:47",
+      "message": "停止泵 24",
+      "device": "蠕动泵组",
+      "phaseId": "step_feed",
+      "phaseTitle": "取料与下料"
+    },
+    {
+      "timestamp": "2026-05-22 11:23:48",
+      "message": "停止泵 25",
+      "device": "蠕动泵组",
+      "phaseId": "step_feed",
+      "phaseTitle": "取料与下料"
+    },
+    {
+      "timestamp": "2026-05-22 11:23:49",
+      "message": "停止泵 26",
+      "device": "蠕动泵组",
+      "phaseId": "step_feed",
+      "phaseTitle": "取料与下料"
+    },
+    {
+      "timestamp": "2026-05-22 11:23:50",
+      "message": "停止泵 27",
+      "device": "蠕动泵组",
+      "phaseId": "step_feed",
+      "phaseTitle": "取料与下料"
+    },
+    {
+      "timestamp": "2026-05-22 11:23:50",
+      "message": "推料电机到达推料位",
+      "device": "推料电机",
+      "phaseId": "step_feed",
+      "phaseTitle": "取料与下料"
+    },
+    {
+      "timestamp": "2026-05-22 11:23:51",
+      "message": "已经推出镍片",
+      "device": "自动化平台",
+      "phaseId": "step_feed",
+      "phaseTitle": "取料与下料"
+    },
+    {
+      "timestamp": "2026-05-22 11:23:51",
+      "message": "已经推出镍片",
+      "device": "自动化平台",
+      "phaseId": "step_pick",
+      "phaseTitle": "夹取样品"
+    },
+    {
+      "timestamp": "2026-05-22 11:23:51",
+      "message": "电爪 1 打开",
+      "device": "电爪",
+      "phaseId": "step_pick",
+      "phaseTitle": "夹取样品"
+    },
+    {
+      "timestamp": "2026-05-22 11:23:51",
+      "message": "停止泵 28",
+      "device": "蠕动泵组",
+      "phaseId": "step_pick",
+      "phaseTitle": "夹取样品"
+    },
+    {
+      "timestamp": "2026-05-22 11:23:51",
+      "message": "电爪 2 打开",
+      "device": "电爪",
+      "phaseId": "step_pick",
+      "phaseTitle": "夹取样品"
+    },
+    {
+      "timestamp": "2026-05-22 11:23:52",
+      "message": "电爪 3 打开",
+      "device": "电爪",
+      "phaseId": "step_pick",
+      "phaseTitle": "夹取样品"
+    },
+    {
+      "timestamp": "2026-05-22 11:23:52",
+      "message": "停止泵 29",
+      "device": "蠕动泵组",
+      "phaseId": "step_pick",
+      "phaseTitle": "夹取样品"
+    },
+    {
+      "timestamp": "2026-05-22 11:23:52",
+      "message": "电爪 4 打开",
+      "device": "电爪",
+      "phaseId": "step_pick",
+      "phaseTitle": "夹取样品"
+    },
+    {
+      "timestamp": "2026-05-22 11:23:53",
+      "message": "停止泵 30",
+      "device": "蠕动泵组",
+      "phaseId": "step_pick",
+      "phaseTitle": "夹取样品"
+    },
+    {
+      "timestamp": "2026-05-22 11:23:54",
+      "message": "已打开所有电爪",
+      "device": "电爪",
+      "phaseId": "step_pick",
+      "phaseTitle": "夹取样品"
+    },
+    {
+      "timestamp": "2026-05-22 11:23:54",
+      "message": "停止泵 31",
+      "device": "蠕动泵组",
+      "phaseId": "step_pick",
+      "phaseTitle": "夹取样品"
+    },
+    {
+      "timestamp": "2026-05-22 11:23:54",
+      "message": "升降电机前往准备位",
+      "device": "升降电机",
+      "phaseId": "step_pick",
+      "phaseTitle": "夹取样品"
+    },
+    {
+      "timestamp": "2026-05-22 11:23:55",
+      "message": "停止泵 32",
+      "device": "蠕动泵组",
+      "phaseId": "step_pick",
+      "phaseTitle": "夹取样品"
+    },
+    {
+      "timestamp": "2026-05-22 11:23:56",
+      "message": "停止泵 33",
+      "device": "蠕动泵组",
+      "phaseId": "step_pick",
+      "phaseTitle": "夹取样品"
+    },
+    {
+      "timestamp": "2026-05-22 11:23:57",
+      "message": "停止泵 34",
+      "device": "蠕动泵组",
+      "phaseId": "step_pick",
+      "phaseTitle": "夹取样品"
+    },
+    {
+      "timestamp": "2026-05-22 11:23:58",
+      "message": "停止泵 35",
+      "device": "蠕动泵组",
+      "phaseId": "step_pick",
+      "phaseTitle": "夹取样品"
+    },
+    {
+      "timestamp": "2026-05-22 11:23:59",
+      "message": "升降电机到达准备位",
+      "device": "升降电机",
+      "phaseId": "step_pick",
+      "phaseTitle": "夹取样品"
+    },
+    {
+      "timestamp": "2026-05-22 11:23:59",
+      "message": "停止泵 36",
+      "device": "蠕动泵组",
+      "phaseId": "step_pick",
+      "phaseTitle": "夹取样品"
+    },
+    {
+      "timestamp": "2026-05-22 11:23:59",
+      "message": "平移电机前往取料位",
+      "device": "平移电机",
+      "phaseId": "step_pick",
+      "phaseTitle": "夹取样品"
+    },
+    {
+      "timestamp": "2026-05-22 11:24:00",
+      "message": "停止泵 37",
+      "device": "蠕动泵组",
+      "phaseId": "step_pick",
+      "phaseTitle": "夹取样品"
+    },
+    {
+      "timestamp": "2026-05-22 11:24:01",
+      "message": "停止泵 38",
+      "device": "蠕动泵组",
+      "phaseId": "step_pick",
+      "phaseTitle": "夹取样品"
+    },
+    {
+      "timestamp": "2026-05-22 11:24:02",
+      "message": "平移电机到达取料位",
+      "device": "平移电机",
+      "phaseId": "step_pick",
+      "phaseTitle": "夹取样品"
+    },
+    {
+      "timestamp": "2026-05-22 11:24:02",
+      "message": "停止泵 39",
+      "device": "蠕动泵组",
+      "phaseId": "step_pick",
+      "phaseTitle": "夹取样品"
+    },
+    {
+      "timestamp": "2026-05-22 11:24:02",
+      "message": "升降电机前往取料位",
+      "device": "升降电机",
+      "phaseId": "step_pick",
+      "phaseTitle": "夹取样品"
+    },
+    {
+      "timestamp": "2026-05-22 11:24:03",
+      "message": "停止泵 40",
+      "device": "蠕动泵组",
+      "phaseId": "step_pick",
+      "phaseTitle": "夹取样品"
+    },
+    {
+      "timestamp": "2026-05-22 11:24:03",
+      "message": "设置泵 3 的转动圈数为 70.417",
+      "device": "蠕动泵组",
+      "phaseId": "step_pick",
+      "phaseTitle": "夹取样品"
+    },
+    {
+      "timestamp": "2026-05-22 11:24:04",
+      "message": "设置泵 12 的转动圈数为 70.0",
+      "device": "蠕动泵组",
+      "phaseId": "step_pick",
+      "phaseTitle": "夹取样品"
+    },
+    {
+      "timestamp": "2026-05-22 11:24:05",
+      "message": "设置泵 28 的转动圈数为 75.0",
+      "device": "蠕动泵组",
+      "phaseId": "step_pick",
+      "phaseTitle": "夹取样品"
+    },
+    {
+      "timestamp": "2026-05-22 11:24:06",
+      "message": "设置泵 38 的转动圈数为 70.0",
+      "device": "蠕动泵组",
+      "phaseId": "step_pick",
+      "phaseTitle": "夹取样品"
+    },
+    {
+      "timestamp": "2026-05-22 11:24:07",
+      "message": "升降电机到达取料位",
+      "device": "升降电机",
+      "phaseId": "step_pick",
+      "phaseTitle": "夹取样品"
+    },
+    {
+      "timestamp": "2026-05-22 11:24:07",
+      "message": "电爪 1 关闭",
+      "device": "电爪",
+      "phaseId": "step_pick",
+      "phaseTitle": "夹取样品"
+    },
+    {
+      "timestamp": "2026-05-22 11:24:08",
+      "message": "电爪 2 关闭",
+      "device": "电爪",
+      "phaseId": "step_pick",
+      "phaseTitle": "夹取样品"
+    },
+    {
+      "timestamp": "2026-05-22 11:24:08",
+      "message": "启动泵 3",
+      "device": "蠕动泵组",
+      "phaseId": "step_pick",
+      "phaseTitle": "夹取样品"
+    },
+    {
+      "timestamp": "2026-05-22 11:24:08",
+      "message": "电爪 3 关闭",
+      "device": "电爪",
+      "phaseId": "step_pick",
+      "phaseTitle": "夹取样品"
+    },
+    {
+      "timestamp": "2026-05-22 11:24:09",
+      "message": "电爪 4 关闭",
+      "device": "电爪",
+      "phaseId": "step_pick",
+      "phaseTitle": "夹取样品"
+    },
+    {
+      "timestamp": "2026-05-22 11:24:09",
+      "message": "启动泵 12",
+      "device": "蠕动泵组",
+      "phaseId": "step_pick",
+      "phaseTitle": "夹取样品"
+    },
+    {
+      "timestamp": "2026-05-22 11:24:10",
+      "message": "已夹取镍片",
+      "device": "自动化平台",
+      "phaseId": "step_pick",
+      "phaseTitle": "夹取样品"
+    },
+    {
+      "timestamp": "2026-05-22 11:24:11",
+      "message": "已经夹取镍片",
+      "device": "自动化平台",
+      "phaseId": "step_pick",
+      "phaseTitle": "夹取样品"
+    },
+    {
+      "timestamp": "2026-05-22 11:24:11",
+      "message": "已经夹取镍片",
+      "device": "自动化平台",
+      "phaseId": "step_transfer",
+      "phaseTitle": "测试位就位"
+    },
+    {
+      "timestamp": "2026-05-22 11:24:11",
+      "message": "升降电机前往准备位",
+      "device": "升降电机",
+      "phaseId": "step_transfer",
+      "phaseTitle": "测试位就位"
+    },
+    {
+      "timestamp": "2026-05-22 11:24:11",
+      "message": "启动泵 28",
+      "device": "蠕动泵组",
+      "phaseId": "step_transfer",
+      "phaseTitle": "测试位就位"
+    },
+    {
+      "timestamp": "2026-05-22 11:24:12",
+      "message": "启动泵 38",
+      "device": "蠕动泵组",
+      "phaseId": "step_transfer",
+      "phaseTitle": "测试位就位"
+    },
+    {
+      "timestamp": "2026-05-22 11:24:15",
+      "message": "升降电机到达准备位",
+      "device": "升降电机",
+      "phaseId": "step_transfer",
+      "phaseTitle": "测试位就位"
+    },
+    {
+      "timestamp": "2026-05-22 11:24:16",
+      "message": "平移电机前往测试位",
+      "device": "平移电机",
+      "phaseId": "step_transfer",
+      "phaseTitle": "测试位就位"
+    },
+    {
+      "timestamp": "2026-05-22 11:24:23",
+      "message": "平移电机到达测试位",
+      "device": "平移电机",
+      "phaseId": "step_transfer",
+      "phaseTitle": "测试位就位"
+    },
+    {
+      "timestamp": "2026-05-22 11:24:24",
+      "message": "升降电机前往测试位",
+      "device": "升降电机",
+      "phaseId": "step_transfer",
+      "phaseTitle": "测试位就位"
+    },
+    {
+      "timestamp": "2026-05-22 11:24:27",
+      "message": "升降电机到达测试位",
+      "device": "升降电机",
+      "phaseId": "step_transfer",
+      "phaseTitle": "测试位就位"
+    },
+    {
+      "timestamp": "2026-05-22 11:24:28",
+      "message": "已经到达测试位",
+      "device": "自动化平台",
+      "phaseId": "step_transfer",
+      "phaseTitle": "测试位就位"
+    },
+    {
+      "timestamp": "2026-05-22 11:24:28",
+      "message": "已经到达测试位",
+      "device": "自动化平台",
+      "phaseId": "step_fill",
+      "phaseTitle": "电解液加液"
+    },
+    {
+      "timestamp": "2026-05-22 11:24:56",
+      "message": "所有泵已加液完成",
+      "device": "蠕动泵组",
+      "phaseId": "step_fill",
+      "phaseTitle": "电解液加液"
+    },
+    {
+      "timestamp": "2026-05-22 11:24:56",
+      "message": "所有泵已加液完成",
+      "device": "蠕动泵组",
+      "phaseId": "step_deposit",
+      "phaseTitle": "恒电流沉积"
+    },
+    {
+      "timestamp": "2026-05-22 11:24:56",
+      "message": "开始恒电流沉积",
+      "device": "电化学工作站",
+      "phaseId": "step_deposit",
+      "phaseTitle": "恒电流沉积"
+    },
+    {
+      "timestamp": "2026-05-22 11:27:12",
+      "message": "恒电流已完成，测量数据保存完成",
+      "device": "电化学工作站",
+      "phaseId": "step_deposit",
+      "phaseTitle": "恒电流沉积"
+    },
+    {
+      "timestamp": "2026-05-22 11:27:12",
+      "message": "恒电流沉积已完成",
+      "device": "电化学工作站",
+      "phaseId": "step_deposit",
+      "phaseTitle": "恒电流沉积"
+    },
+    {
+      "timestamp": "2026-05-22 11:27:12",
+      "message": "恒电流沉积已完成",
+      "device": "电化学工作站",
+      "phaseId": "step_rinse1",
+      "phaseTitle": "第一次水洗"
+    },
+    {
+      "timestamp": "2026-05-22 11:27:13",
+      "message": "恒电流沉积已完成",
+      "device": "电化学工作站",
+      "phaseId": "step_rinse1",
+      "phaseTitle": "第一次水洗"
+    },
+    {
+      "timestamp": "2026-05-22 11:27:13",
+      "message": "电动阀 1 打开",
+      "device": "电动阀",
+      "phaseId": "step_rinse1",
+      "phaseTitle": "第一次水洗"
+    },
+    {
+      "timestamp": "2026-05-22 11:27:13",
+      "message": "电动阀 2 打开",
+      "device": "电动阀",
+      "phaseId": "step_rinse1",
+      "phaseTitle": "第一次水洗"
+    },
+    {
+      "timestamp": "2026-05-22 11:27:14",
+      "message": "电动阀 3 打开",
+      "device": "电动阀",
+      "phaseId": "step_rinse1",
+      "phaseTitle": "第一次水洗"
+    },
+    {
+      "timestamp": "2026-05-22 11:27:14",
+      "message": "电动阀 4 打开",
+      "device": "电动阀",
+      "phaseId": "step_rinse1",
+      "phaseTitle": "第一次水洗"
+    },
+    {
+      "timestamp": "2026-05-22 11:27:16",
+      "message": "已打开所有电动阀",
+      "device": "电动阀",
+      "phaseId": "step_rinse1",
+      "phaseTitle": "第一次水洗"
+    },
+    {
+      "timestamp": "2026-05-22 11:27:31",
+      "message": "电动阀 1 关闭",
+      "device": "电动阀",
+      "phaseId": "step_rinse1",
+      "phaseTitle": "第一次水洗"
+    },
+    {
+      "timestamp": "2026-05-22 11:27:32",
+      "message": "电动阀 2 关闭",
+      "device": "电动阀",
+      "phaseId": "step_rinse1",
+      "phaseTitle": "第一次水洗"
+    },
+    {
+      "timestamp": "2026-05-22 11:27:32",
+      "message": "电动阀 3 关闭",
+      "device": "电动阀",
+      "phaseId": "step_rinse1",
+      "phaseTitle": "第一次水洗"
+    },
+    {
+      "timestamp": "2026-05-22 11:27:33",
+      "message": "电动阀 4 关闭",
+      "device": "电动阀",
+      "phaseId": "step_rinse1",
+      "phaseTitle": "第一次水洗"
+    },
+    {
+      "timestamp": "2026-05-22 11:27:34",
+      "message": "已关闭所有电动阀",
+      "device": "电动阀",
+      "phaseId": "step_rinse1",
+      "phaseTitle": "第一次水洗"
+    },
+    {
+      "timestamp": "2026-05-22 11:27:35",
+      "message": "停止泵 1",
+      "device": "蠕动泵组",
+      "phaseId": "step_rinse1",
+      "phaseTitle": "第一次水洗"
+    },
+    {
+      "timestamp": "2026-05-22 11:27:36",
+      "message": "停止泵 2",
+      "device": "蠕动泵组",
+      "phaseId": "step_rinse1",
+      "phaseTitle": "第一次水洗"
+    },
+    {
+      "timestamp": "2026-05-22 11:27:37",
+      "message": "停止泵 3",
+      "device": "蠕动泵组",
+      "phaseId": "step_rinse1",
+      "phaseTitle": "第一次水洗"
+    },
+    {
+      "timestamp": "2026-05-22 11:27:38",
+      "message": "停止泵 4",
+      "device": "蠕动泵组",
+      "phaseId": "step_rinse1",
+      "phaseTitle": "第一次水洗"
+    },
+    {
+      "timestamp": "2026-05-22 11:27:39",
+      "message": "停止泵 5",
+      "device": "蠕动泵组",
+      "phaseId": "step_rinse1",
+      "phaseTitle": "第一次水洗"
+    },
+    {
+      "timestamp": "2026-05-22 11:27:41",
+      "message": "停止泵 6",
+      "device": "蠕动泵组",
+      "phaseId": "step_rinse1",
+      "phaseTitle": "第一次水洗"
+    },
+    {
+      "timestamp": "2026-05-22 11:27:42",
+      "message": "停止泵 7",
+      "device": "蠕动泵组",
+      "phaseId": "step_rinse1",
+      "phaseTitle": "第一次水洗"
+    },
+    {
+      "timestamp": "2026-05-22 11:27:43",
+      "message": "停止泵 8",
+      "device": "蠕动泵组",
+      "phaseId": "step_rinse1",
+      "phaseTitle": "第一次水洗"
+    },
+    {
+      "timestamp": "2026-05-22 11:27:44",
+      "message": "停止泵 9",
+      "device": "蠕动泵组",
+      "phaseId": "step_rinse1",
+      "phaseTitle": "第一次水洗"
+    },
+    {
+      "timestamp": "2026-05-22 11:27:45",
+      "message": "停止泵 10",
+      "device": "蠕动泵组",
+      "phaseId": "step_rinse1",
+      "phaseTitle": "第一次水洗"
+    },
+    {
+      "timestamp": "2026-05-22 11:27:46",
+      "message": "停止泵 11",
+      "device": "蠕动泵组",
+      "phaseId": "step_rinse1",
+      "phaseTitle": "第一次水洗"
+    },
+    {
+      "timestamp": "2026-05-22 11:27:47",
+      "message": "停止泵 12",
+      "device": "蠕动泵组",
+      "phaseId": "step_rinse1",
+      "phaseTitle": "第一次水洗"
+    },
+    {
+      "timestamp": "2026-05-22 11:27:48",
+      "message": "停止泵 13",
+      "device": "蠕动泵组",
+      "phaseId": "step_rinse1",
+      "phaseTitle": "第一次水洗"
+    },
+    {
+      "timestamp": "2026-05-22 11:27:49",
+      "message": "停止泵 14",
+      "device": "蠕动泵组",
+      "phaseId": "step_rinse1",
+      "phaseTitle": "第一次水洗"
+    },
+    {
+      "timestamp": "2026-05-22 11:27:50",
+      "message": "停止泵 15",
+      "device": "蠕动泵组",
+      "phaseId": "step_rinse1",
+      "phaseTitle": "第一次水洗"
+    },
+    {
+      "timestamp": "2026-05-22 11:27:51",
+      "message": "停止泵 16",
+      "device": "蠕动泵组",
+      "phaseId": "step_rinse1",
+      "phaseTitle": "第一次水洗"
+    },
+    {
+      "timestamp": "2026-05-22 11:27:52",
+      "message": "停止泵 17",
+      "device": "蠕动泵组",
+      "phaseId": "step_rinse1",
+      "phaseTitle": "第一次水洗"
+    },
+    {
+      "timestamp": "2026-05-22 11:27:53",
+      "message": "停止泵 18",
+      "device": "蠕动泵组",
+      "phaseId": "step_rinse1",
+      "phaseTitle": "第一次水洗"
+    },
+    {
+      "timestamp": "2026-05-22 11:27:54",
+      "message": "停止泵 19",
+      "device": "蠕动泵组",
+      "phaseId": "step_rinse1",
+      "phaseTitle": "第一次水洗"
+    },
+    {
+      "timestamp": "2026-05-22 11:27:55",
+      "message": "停止泵 20",
+      "device": "蠕动泵组",
+      "phaseId": "step_rinse1",
+      "phaseTitle": "第一次水洗"
+    },
+    {
+      "timestamp": "2026-05-22 11:27:56",
+      "message": "停止泵 21",
+      "device": "蠕动泵组",
+      "phaseId": "step_rinse1",
+      "phaseTitle": "第一次水洗"
+    },
+    {
+      "timestamp": "2026-05-22 11:27:57",
+      "message": "停止泵 22",
+      "device": "蠕动泵组",
+      "phaseId": "step_rinse1",
+      "phaseTitle": "第一次水洗"
+    },
+    {
+      "timestamp": "2026-05-22 11:27:58",
+      "message": "停止泵 23",
+      "device": "蠕动泵组",
+      "phaseId": "step_rinse1",
+      "phaseTitle": "第一次水洗"
+    },
+    {
+      "timestamp": "2026-05-22 11:27:59",
+      "message": "停止泵 24",
+      "device": "蠕动泵组",
+      "phaseId": "step_rinse1",
+      "phaseTitle": "第一次水洗"
+    },
+    {
+      "timestamp": "2026-05-22 11:28:00",
+      "message": "停止泵 25",
+      "device": "蠕动泵组",
+      "phaseId": "step_rinse1",
+      "phaseTitle": "第一次水洗"
+    },
+    {
+      "timestamp": "2026-05-22 11:28:01",
+      "message": "停止泵 26",
+      "device": "蠕动泵组",
+      "phaseId": "step_rinse1",
+      "phaseTitle": "第一次水洗"
+    },
+    {
+      "timestamp": "2026-05-22 11:28:02",
+      "message": "停止泵 27",
+      "device": "蠕动泵组",
+      "phaseId": "step_rinse1",
+      "phaseTitle": "第一次水洗"
+    },
+    {
+      "timestamp": "2026-05-22 11:28:03",
+      "message": "停止泵 28",
+      "device": "蠕动泵组",
+      "phaseId": "step_rinse1",
+      "phaseTitle": "第一次水洗"
+    },
+    {
+      "timestamp": "2026-05-22 11:28:04",
+      "message": "停止泵 29",
+      "device": "蠕动泵组",
+      "phaseId": "step_rinse1",
+      "phaseTitle": "第一次水洗"
+    },
+    {
+      "timestamp": "2026-05-22 11:28:05",
+      "message": "停止泵 30",
+      "device": "蠕动泵组",
+      "phaseId": "step_rinse1",
+      "phaseTitle": "第一次水洗"
+    },
+    {
+      "timestamp": "2026-05-22 11:28:06",
+      "message": "停止泵 31",
+      "device": "蠕动泵组",
+      "phaseId": "step_rinse1",
+      "phaseTitle": "第一次水洗"
+    },
+    {
+      "timestamp": "2026-05-22 11:28:07",
+      "message": "停止泵 32",
+      "device": "蠕动泵组",
+      "phaseId": "step_rinse1",
+      "phaseTitle": "第一次水洗"
+    },
+    {
+      "timestamp": "2026-05-22 11:28:08",
+      "message": "停止泵 33",
+      "device": "蠕动泵组",
+      "phaseId": "step_rinse1",
+      "phaseTitle": "第一次水洗"
+    },
+    {
+      "timestamp": "2026-05-22 11:28:09",
+      "message": "停止泵 34",
+      "device": "蠕动泵组",
+      "phaseId": "step_rinse1",
+      "phaseTitle": "第一次水洗"
+    },
+    {
+      "timestamp": "2026-05-22 11:28:10",
+      "message": "停止泵 35",
+      "device": "蠕动泵组",
+      "phaseId": "step_rinse1",
+      "phaseTitle": "第一次水洗"
+    },
+    {
+      "timestamp": "2026-05-22 11:28:11",
+      "message": "停止泵 36",
+      "device": "蠕动泵组",
+      "phaseId": "step_rinse1",
+      "phaseTitle": "第一次水洗"
+    },
+    {
+      "timestamp": "2026-05-22 11:28:12",
+      "message": "停止泵 37",
+      "device": "蠕动泵组",
+      "phaseId": "step_rinse1",
+      "phaseTitle": "第一次水洗"
+    },
+    {
+      "timestamp": "2026-05-22 11:28:13",
+      "message": "停止泵 38",
+      "device": "蠕动泵组",
+      "phaseId": "step_rinse1",
+      "phaseTitle": "第一次水洗"
+    },
+    {
+      "timestamp": "2026-05-22 11:28:14",
+      "message": "停止泵 39",
+      "device": "蠕动泵组",
+      "phaseId": "step_rinse1",
+      "phaseTitle": "第一次水洗"
+    },
+    {
+      "timestamp": "2026-05-22 11:28:15",
+      "message": "停止泵 40",
+      "device": "蠕动泵组",
+      "phaseId": "step_rinse1",
+      "phaseTitle": "第一次水洗"
+    },
+    {
+      "timestamp": "2026-05-22 11:28:16",
+      "message": "设置泵 10 的转动圈数为 70.417",
+      "device": "蠕动泵组",
+      "phaseId": "step_rinse1",
+      "phaseTitle": "第一次水洗"
+    },
+    {
+      "timestamp": "2026-05-22 11:28:17",
+      "message": "设置泵 20 的转动圈数为 60.0",
+      "device": "蠕动泵组",
+      "phaseId": "step_rinse1",
+      "phaseTitle": "第一次水洗"
+    },
+    {
+      "timestamp": "2026-05-22 11:28:18",
+      "message": "设置泵 30 的转动圈数为 70.0",
+      "device": "蠕动泵组",
+      "phaseId": "step_rinse1",
+      "phaseTitle": "第一次水洗"
+    },
+    {
+      "timestamp": "2026-05-22 11:28:19",
+      "message": "设置泵 40 的转动圈数为 70.0",
+      "device": "蠕动泵组",
+      "phaseId": "step_rinse1",
+      "phaseTitle": "第一次水洗"
+    },
+    {
+      "timestamp": "2026-05-22 11:28:20",
+      "message": "启动泵 10",
+      "device": "蠕动泵组",
+      "phaseId": "step_rinse1",
+      "phaseTitle": "第一次水洗"
+    },
+    {
+      "timestamp": "2026-05-22 11:28:22",
+      "message": "启动泵 20",
+      "device": "蠕动泵组",
+      "phaseId": "step_rinse1",
+      "phaseTitle": "第一次水洗"
+    },
+    {
+      "timestamp": "2026-05-22 11:28:23",
+      "message": "启动泵 30",
+      "device": "蠕动泵组",
+      "phaseId": "step_rinse1",
+      "phaseTitle": "第一次水洗"
+    },
+    {
+      "timestamp": "2026-05-22 11:28:25",
+      "message": "启动泵 40",
+      "device": "蠕动泵组",
+      "phaseId": "step_rinse1",
+      "phaseTitle": "第一次水洗"
+    },
+    {
+      "timestamp": "2026-05-22 11:29:08",
+      "message": "第一次加水已完成",
+      "device": "液路系统",
+      "phaseId": "step_rinse1",
+      "phaseTitle": "第一次水洗"
+    },
+    {
+      "timestamp": "2026-05-22 11:29:08",
+      "message": "第一次加水已完成",
+      "device": "液路系统",
+      "phaseId": "step_rinse2",
+      "phaseTitle": "第二次水洗"
+    },
+    {
+      "timestamp": "2026-05-22 11:29:18",
+      "message": "电动阀 1 打开",
+      "device": "电动阀",
+      "phaseId": "step_rinse2",
+      "phaseTitle": "第二次水洗"
+    },
+    {
+      "timestamp": "2026-05-22 11:29:19",
+      "message": "电动阀 2 打开",
+      "device": "电动阀",
+      "phaseId": "step_rinse2",
+      "phaseTitle": "第二次水洗"
+    },
+    {
+      "timestamp": "2026-05-22 11:29:19",
+      "message": "电动阀 3 打开",
+      "device": "电动阀",
+      "phaseId": "step_rinse2",
+      "phaseTitle": "第二次水洗"
+    },
+    {
+      "timestamp": "2026-05-22 11:29:20",
+      "message": "电动阀 4 打开",
+      "device": "电动阀",
+      "phaseId": "step_rinse2",
+      "phaseTitle": "第二次水洗"
+    },
+    {
+      "timestamp": "2026-05-22 11:29:21",
+      "message": "已打开所有电动阀",
+      "device": "电动阀",
+      "phaseId": "step_rinse2",
+      "phaseTitle": "第二次水洗"
+    },
+    {
+      "timestamp": "2026-05-22 11:29:37",
+      "message": "电动阀 1 关闭",
+      "device": "电动阀",
+      "phaseId": "step_rinse2",
+      "phaseTitle": "第二次水洗"
+    },
+    {
+      "timestamp": "2026-05-22 11:29:37",
+      "message": "电动阀 2 关闭",
+      "device": "电动阀",
+      "phaseId": "step_rinse2",
+      "phaseTitle": "第二次水洗"
+    },
+    {
+      "timestamp": "2026-05-22 11:29:38",
+      "message": "电动阀 3 关闭",
+      "device": "电动阀",
+      "phaseId": "step_rinse2",
+      "phaseTitle": "第二次水洗"
+    },
+    {
+      "timestamp": "2026-05-22 11:29:38",
+      "message": "电动阀 4 关闭",
+      "device": "电动阀",
+      "phaseId": "step_rinse2",
+      "phaseTitle": "第二次水洗"
+    },
+    {
+      "timestamp": "2026-05-22 11:29:40",
+      "message": "已关闭所有电动阀",
+      "device": "电动阀",
+      "phaseId": "step_rinse2",
+      "phaseTitle": "第二次水洗"
+    },
+    {
+      "timestamp": "2026-05-22 11:29:41",
+      "message": "停止泵 1",
+      "device": "蠕动泵组",
+      "phaseId": "step_rinse2",
+      "phaseTitle": "第二次水洗"
+    },
+    {
+      "timestamp": "2026-05-22 11:29:42",
+      "message": "停止泵 2",
+      "device": "蠕动泵组",
+      "phaseId": "step_rinse2",
+      "phaseTitle": "第二次水洗"
+    },
+    {
+      "timestamp": "2026-05-22 11:29:43",
+      "message": "停止泵 3",
+      "device": "蠕动泵组",
+      "phaseId": "step_rinse2",
+      "phaseTitle": "第二次水洗"
+    },
+    {
+      "timestamp": "2026-05-22 11:29:44",
+      "message": "停止泵 4",
+      "device": "蠕动泵组",
+      "phaseId": "step_rinse2",
+      "phaseTitle": "第二次水洗"
+    },
+    {
+      "timestamp": "2026-05-22 11:29:45",
+      "message": "停止泵 5",
+      "device": "蠕动泵组",
+      "phaseId": "step_rinse2",
+      "phaseTitle": "第二次水洗"
+    },
+    {
+      "timestamp": "2026-05-22 11:29:46",
+      "message": "停止泵 6",
+      "device": "蠕动泵组",
+      "phaseId": "step_rinse2",
+      "phaseTitle": "第二次水洗"
+    },
+    {
+      "timestamp": "2026-05-22 11:29:47",
+      "message": "停止泵 7",
+      "device": "蠕动泵组",
+      "phaseId": "step_rinse2",
+      "phaseTitle": "第二次水洗"
+    },
+    {
+      "timestamp": "2026-05-22 11:29:48",
+      "message": "停止泵 8",
+      "device": "蠕动泵组",
+      "phaseId": "step_rinse2",
+      "phaseTitle": "第二次水洗"
+    },
+    {
+      "timestamp": "2026-05-22 11:29:49",
+      "message": "停止泵 9",
+      "device": "蠕动泵组",
+      "phaseId": "step_rinse2",
+      "phaseTitle": "第二次水洗"
+    },
+    {
+      "timestamp": "2026-05-22 11:29:50",
+      "message": "停止泵 10",
+      "device": "蠕动泵组",
+      "phaseId": "step_rinse2",
+      "phaseTitle": "第二次水洗"
+    },
+    {
+      "timestamp": "2026-05-22 11:29:51",
+      "message": "停止泵 11",
+      "device": "蠕动泵组",
+      "phaseId": "step_rinse2",
+      "phaseTitle": "第二次水洗"
+    },
+    {
+      "timestamp": "2026-05-22 11:29:52",
+      "message": "停止泵 12",
+      "device": "蠕动泵组",
+      "phaseId": "step_rinse2",
+      "phaseTitle": "第二次水洗"
+    },
+    {
+      "timestamp": "2026-05-22 11:29:53",
+      "message": "停止泵 13",
+      "device": "蠕动泵组",
+      "phaseId": "step_rinse2",
+      "phaseTitle": "第二次水洗"
+    },
+    {
+      "timestamp": "2026-05-22 11:29:54",
+      "message": "停止泵 14",
+      "device": "蠕动泵组",
+      "phaseId": "step_rinse2",
+      "phaseTitle": "第二次水洗"
+    },
+    {
+      "timestamp": "2026-05-22 11:29:55",
+      "message": "停止泵 15",
+      "device": "蠕动泵组",
+      "phaseId": "step_rinse2",
+      "phaseTitle": "第二次水洗"
+    },
+    {
+      "timestamp": "2026-05-22 11:29:56",
+      "message": "停止泵 16",
+      "device": "蠕动泵组",
+      "phaseId": "step_rinse2",
+      "phaseTitle": "第二次水洗"
+    },
+    {
+      "timestamp": "2026-05-22 11:29:57",
+      "message": "停止泵 17",
+      "device": "蠕动泵组",
+      "phaseId": "step_rinse2",
+      "phaseTitle": "第二次水洗"
+    },
+    {
+      "timestamp": "2026-05-22 11:29:58",
+      "message": "停止泵 18",
+      "device": "蠕动泵组",
+      "phaseId": "step_rinse2",
+      "phaseTitle": "第二次水洗"
+    },
+    {
+      "timestamp": "2026-05-22 11:29:59",
+      "message": "停止泵 19",
+      "device": "蠕动泵组",
+      "phaseId": "step_rinse2",
+      "phaseTitle": "第二次水洗"
+    },
+    {
+      "timestamp": "2026-05-22 11:30:00",
+      "message": "停止泵 20",
+      "device": "蠕动泵组",
+      "phaseId": "step_rinse2",
+      "phaseTitle": "第二次水洗"
+    },
+    {
+      "timestamp": "2026-05-22 11:30:01",
+      "message": "停止泵 21",
+      "device": "蠕动泵组",
+      "phaseId": "step_rinse2",
+      "phaseTitle": "第二次水洗"
+    },
+    {
+      "timestamp": "2026-05-22 11:30:02",
+      "message": "停止泵 22",
+      "device": "蠕动泵组",
+      "phaseId": "step_rinse2",
+      "phaseTitle": "第二次水洗"
+    },
+    {
+      "timestamp": "2026-05-22 11:30:03",
+      "message": "停止泵 23",
+      "device": "蠕动泵组",
+      "phaseId": "step_rinse2",
+      "phaseTitle": "第二次水洗"
+    },
+    {
+      "timestamp": "2026-05-22 11:30:04",
+      "message": "停止泵 24",
+      "device": "蠕动泵组",
+      "phaseId": "step_rinse2",
+      "phaseTitle": "第二次水洗"
+    },
+    {
+      "timestamp": "2026-05-22 11:30:05",
+      "message": "停止泵 25",
+      "device": "蠕动泵组",
+      "phaseId": "step_rinse2",
+      "phaseTitle": "第二次水洗"
+    },
+    {
+      "timestamp": "2026-05-22 11:30:06",
+      "message": "停止泵 26",
+      "device": "蠕动泵组",
+      "phaseId": "step_rinse2",
+      "phaseTitle": "第二次水洗"
+    },
+    {
+      "timestamp": "2026-05-22 11:30:07",
+      "message": "停止泵 27",
+      "device": "蠕动泵组",
+      "phaseId": "step_rinse2",
+      "phaseTitle": "第二次水洗"
+    },
+    {
+      "timestamp": "2026-05-22 11:30:08",
+      "message": "停止泵 28",
+      "device": "蠕动泵组",
+      "phaseId": "step_rinse2",
+      "phaseTitle": "第二次水洗"
+    },
+    {
+      "timestamp": "2026-05-22 11:30:09",
+      "message": "停止泵 29",
+      "device": "蠕动泵组",
+      "phaseId": "step_rinse2",
+      "phaseTitle": "第二次水洗"
+    },
+    {
+      "timestamp": "2026-05-22 11:30:10",
+      "message": "停止泵 30",
+      "device": "蠕动泵组",
+      "phaseId": "step_rinse2",
+      "phaseTitle": "第二次水洗"
+    },
+    {
+      "timestamp": "2026-05-22 11:30:11",
+      "message": "停止泵 31",
+      "device": "蠕动泵组",
+      "phaseId": "step_rinse2",
+      "phaseTitle": "第二次水洗"
+    },
+    {
+      "timestamp": "2026-05-22 11:30:12",
+      "message": "停止泵 32",
+      "device": "蠕动泵组",
+      "phaseId": "step_rinse2",
+      "phaseTitle": "第二次水洗"
+    },
+    {
+      "timestamp": "2026-05-22 11:30:13",
+      "message": "停止泵 33",
+      "device": "蠕动泵组",
+      "phaseId": "step_rinse2",
+      "phaseTitle": "第二次水洗"
+    },
+    {
+      "timestamp": "2026-05-22 11:30:14",
+      "message": "停止泵 34",
+      "device": "蠕动泵组",
+      "phaseId": "step_rinse2",
+      "phaseTitle": "第二次水洗"
+    },
+    {
+      "timestamp": "2026-05-22 11:30:15",
+      "message": "停止泵 35",
+      "device": "蠕动泵组",
+      "phaseId": "step_rinse2",
+      "phaseTitle": "第二次水洗"
+    },
+    {
+      "timestamp": "2026-05-22 11:30:16",
+      "message": "停止泵 36",
+      "device": "蠕动泵组",
+      "phaseId": "step_rinse2",
+      "phaseTitle": "第二次水洗"
+    },
+    {
+      "timestamp": "2026-05-22 11:30:17",
+      "message": "停止泵 37",
+      "device": "蠕动泵组",
+      "phaseId": "step_rinse2",
+      "phaseTitle": "第二次水洗"
+    },
+    {
+      "timestamp": "2026-05-22 11:30:18",
+      "message": "停止泵 38",
+      "device": "蠕动泵组",
+      "phaseId": "step_rinse2",
+      "phaseTitle": "第二次水洗"
+    },
+    {
+      "timestamp": "2026-05-22 11:30:19",
+      "message": "停止泵 39",
+      "device": "蠕动泵组",
+      "phaseId": "step_rinse2",
+      "phaseTitle": "第二次水洗"
+    },
+    {
+      "timestamp": "2026-05-22 11:30:20",
+      "message": "停止泵 40",
+      "device": "蠕动泵组",
+      "phaseId": "step_rinse2",
+      "phaseTitle": "第二次水洗"
+    },
+    {
+      "timestamp": "2026-05-22 11:30:21",
+      "message": "设置泵 10 的转动圈数为 23.472333333333335",
+      "device": "蠕动泵组",
+      "phaseId": "step_rinse2",
+      "phaseTitle": "第二次水洗"
+    },
+    {
+      "timestamp": "2026-05-22 11:30:22",
+      "message": "设置泵 20 的转动圈数为 20.0",
+      "device": "蠕动泵组",
+      "phaseId": "step_rinse2",
+      "phaseTitle": "第二次水洗"
+    },
+    {
+      "timestamp": "2026-05-22 11:30:23",
+      "message": "设置泵 30 的转动圈数为 23.333333333333332",
+      "device": "蠕动泵组",
+      "phaseId": "step_rinse2",
+      "phaseTitle": "第二次水洗"
+    },
+    {
+      "timestamp": "2026-05-22 11:30:24",
+      "message": "设置泵 40 的转动圈数为 23.333333333333332",
+      "device": "蠕动泵组",
+      "phaseId": "step_rinse2",
+      "phaseTitle": "第二次水洗"
+    },
+    {
+      "timestamp": "2026-05-22 11:30:25",
+      "message": "启动泵 10",
+      "device": "蠕动泵组",
+      "phaseId": "step_rinse2",
+      "phaseTitle": "第二次水洗"
+    },
+    {
+      "timestamp": "2026-05-22 11:30:27",
+      "message": "启动泵 20",
+      "device": "蠕动泵组",
+      "phaseId": "step_rinse2",
+      "phaseTitle": "第二次水洗"
+    },
+    {
+      "timestamp": "2026-05-22 11:30:28",
+      "message": "启动泵 30",
+      "device": "蠕动泵组",
+      "phaseId": "step_rinse2",
+      "phaseTitle": "第二次水洗"
+    },
+    {
+      "timestamp": "2026-05-22 11:30:30",
+      "message": "启动泵 40",
+      "device": "蠕动泵组",
+      "phaseId": "step_rinse2",
+      "phaseTitle": "第二次水洗"
+    },
+    {
+      "timestamp": "2026-05-22 11:30:45",
+      "message": "第二次加水已完成",
+      "device": "液路系统",
+      "phaseId": "step_rinse2",
+      "phaseTitle": "第二次水洗"
+    },
+    {
+      "timestamp": "2026-05-22 11:30:45",
+      "message": "第二次加水已完成",
+      "device": "液路系统",
+      "phaseId": "step_clean",
+      "phaseTitle": "沉积液清洗"
+    },
+    {
+      "timestamp": "2026-05-22 11:30:56",
+      "message": "电动阀 1 打开",
+      "device": "电动阀",
+      "phaseId": "step_clean",
+      "phaseTitle": "沉积液清洗"
+    },
+    {
+      "timestamp": "2026-05-22 11:30:56",
+      "message": "电动阀 2 打开",
+      "device": "电动阀",
+      "phaseId": "step_clean",
+      "phaseTitle": "沉积液清洗"
+    },
+    {
+      "timestamp": "2026-05-22 11:30:57",
+      "message": "电动阀 3 打开",
+      "device": "电动阀",
+      "phaseId": "step_clean",
+      "phaseTitle": "沉积液清洗"
+    },
+    {
+      "timestamp": "2026-05-22 11:30:57",
+      "message": "电动阀 4 打开",
+      "device": "电动阀",
+      "phaseId": "step_clean",
+      "phaseTitle": "沉积液清洗"
+    },
+    {
+      "timestamp": "2026-05-22 11:30:59",
+      "message": "已打开所有电动阀",
+      "device": "电动阀",
+      "phaseId": "step_clean",
+      "phaseTitle": "沉积液清洗"
+    },
+    {
+      "timestamp": "2026-05-22 11:31:14",
+      "message": "电动阀 1 关闭",
+      "device": "电动阀",
+      "phaseId": "step_clean",
+      "phaseTitle": "沉积液清洗"
+    },
+    {
+      "timestamp": "2026-05-22 11:31:15",
+      "message": "电动阀 2 关闭",
+      "device": "电动阀",
+      "phaseId": "step_clean",
+      "phaseTitle": "沉积液清洗"
+    },
+    {
+      "timestamp": "2026-05-22 11:31:15",
+      "message": "电动阀 3 关闭",
+      "device": "电动阀",
+      "phaseId": "step_clean",
+      "phaseTitle": "沉积液清洗"
+    },
+    {
+      "timestamp": "2026-05-22 11:31:16",
+      "message": "电动阀 4 关闭",
+      "device": "电动阀",
+      "phaseId": "step_clean",
+      "phaseTitle": "沉积液清洗"
+    },
+    {
+      "timestamp": "2026-05-22 11:31:17",
+      "message": "已关闭所有电动阀",
+      "device": "电动阀",
+      "phaseId": "step_clean",
+      "phaseTitle": "沉积液清洗"
+    },
+    {
+      "timestamp": "2026-05-22 11:31:18",
+      "message": "沉积液清洗完成",
+      "device": "液路系统",
+      "phaseId": "step_clean",
+      "phaseTitle": "沉积液清洗"
+    },
+    {
+      "timestamp": "2026-05-22 11:31:18",
+      "message": "沉积液清洗完成",
+      "device": "液路系统",
+      "phaseId": "step_koh",
+      "phaseTitle": "KOH 加液"
+    },
+    {
+      "timestamp": "2026-05-22 11:31:18",
+      "message": "电动阀 1 关闭",
+      "device": "电动阀",
+      "phaseId": "step_koh",
+      "phaseTitle": "KOH 加液"
+    },
+    {
+      "timestamp": "2026-05-22 11:31:18",
+      "message": "电动阀 2 关闭",
+      "device": "电动阀",
+      "phaseId": "step_koh",
+      "phaseTitle": "KOH 加液"
+    },
+    {
+      "timestamp": "2026-05-22 11:31:19",
+      "message": "电动阀 3 关闭",
+      "device": "电动阀",
+      "phaseId": "step_koh",
+      "phaseTitle": "KOH 加液"
+    },
+    {
+      "timestamp": "2026-05-22 11:31:19",
+      "message": "电动阀 4 关闭",
+      "device": "电动阀",
+      "phaseId": "step_koh",
+      "phaseTitle": "KOH 加液"
+    },
+    {
+      "timestamp": "2026-05-22 11:31:21",
+      "message": "已关闭所有电动阀",
+      "device": "电动阀",
+      "phaseId": "step_koh",
+      "phaseTitle": "KOH 加液"
+    },
+    {
+      "timestamp": "2026-05-22 11:31:22",
+      "message": "停止泵 1",
+      "device": "蠕动泵组",
+      "phaseId": "step_koh",
+      "phaseTitle": "KOH 加液"
+    },
+    {
+      "timestamp": "2026-05-22 11:31:23",
+      "message": "停止泵 2",
+      "device": "蠕动泵组",
+      "phaseId": "step_koh",
+      "phaseTitle": "KOH 加液"
+    },
+    {
+      "timestamp": "2026-05-22 11:31:24",
+      "message": "停止泵 3",
+      "device": "蠕动泵组",
+      "phaseId": "step_koh",
+      "phaseTitle": "KOH 加液"
+    },
+    {
+      "timestamp": "2026-05-22 11:31:25",
+      "message": "停止泵 4",
+      "device": "蠕动泵组",
+      "phaseId": "step_koh",
+      "phaseTitle": "KOH 加液"
+    },
+    {
+      "timestamp": "2026-05-22 11:31:26",
+      "message": "停止泵 5",
+      "device": "蠕动泵组",
+      "phaseId": "step_koh",
+      "phaseTitle": "KOH 加液"
+    },
+    {
+      "timestamp": "2026-05-22 11:31:27",
+      "message": "停止泵 6",
+      "device": "蠕动泵组",
+      "phaseId": "step_koh",
+      "phaseTitle": "KOH 加液"
+    },
+    {
+      "timestamp": "2026-05-22 11:31:28",
+      "message": "停止泵 7",
+      "device": "蠕动泵组",
+      "phaseId": "step_koh",
+      "phaseTitle": "KOH 加液"
+    },
+    {
+      "timestamp": "2026-05-22 11:31:29",
+      "message": "停止泵 8",
+      "device": "蠕动泵组",
+      "phaseId": "step_koh",
+      "phaseTitle": "KOH 加液"
+    },
+    {
+      "timestamp": "2026-05-22 11:31:30",
+      "message": "停止泵 9",
+      "device": "蠕动泵组",
+      "phaseId": "step_koh",
+      "phaseTitle": "KOH 加液"
+    },
+    {
+      "timestamp": "2026-05-22 11:31:31",
+      "message": "停止泵 10",
+      "device": "蠕动泵组",
+      "phaseId": "step_koh",
+      "phaseTitle": "KOH 加液"
+    },
+    {
+      "timestamp": "2026-05-22 11:31:32",
+      "message": "停止泵 11",
+      "device": "蠕动泵组",
+      "phaseId": "step_koh",
+      "phaseTitle": "KOH 加液"
+    },
+    {
+      "timestamp": "2026-05-22 11:31:33",
+      "message": "停止泵 12",
+      "device": "蠕动泵组",
+      "phaseId": "step_koh",
+      "phaseTitle": "KOH 加液"
+    },
+    {
+      "timestamp": "2026-05-22 11:31:34",
+      "message": "停止泵 13",
+      "device": "蠕动泵组",
+      "phaseId": "step_koh",
+      "phaseTitle": "KOH 加液"
+    },
+    {
+      "timestamp": "2026-05-22 11:31:35",
+      "message": "停止泵 14",
+      "device": "蠕动泵组",
+      "phaseId": "step_koh",
+      "phaseTitle": "KOH 加液"
+    },
+    {
+      "timestamp": "2026-05-22 11:31:36",
+      "message": "停止泵 15",
+      "device": "蠕动泵组",
+      "phaseId": "step_koh",
+      "phaseTitle": "KOH 加液"
+    },
+    {
+      "timestamp": "2026-05-22 11:31:37",
+      "message": "停止泵 16",
+      "device": "蠕动泵组",
+      "phaseId": "step_koh",
+      "phaseTitle": "KOH 加液"
+    },
+    {
+      "timestamp": "2026-05-22 11:31:38",
+      "message": "停止泵 17",
+      "device": "蠕动泵组",
+      "phaseId": "step_koh",
+      "phaseTitle": "KOH 加液"
+    },
+    {
+      "timestamp": "2026-05-22 11:31:39",
+      "message": "停止泵 18",
+      "device": "蠕动泵组",
+      "phaseId": "step_koh",
+      "phaseTitle": "KOH 加液"
+    },
+    {
+      "timestamp": "2026-05-22 11:31:40",
+      "message": "停止泵 19",
+      "device": "蠕动泵组",
+      "phaseId": "step_koh",
+      "phaseTitle": "KOH 加液"
+    },
+    {
+      "timestamp": "2026-05-22 11:31:41",
+      "message": "停止泵 20",
+      "device": "蠕动泵组",
+      "phaseId": "step_koh",
+      "phaseTitle": "KOH 加液"
+    },
+    {
+      "timestamp": "2026-05-22 11:31:42",
+      "message": "停止泵 21",
+      "device": "蠕动泵组",
+      "phaseId": "step_koh",
+      "phaseTitle": "KOH 加液"
+    },
+    {
+      "timestamp": "2026-05-22 11:31:43",
+      "message": "停止泵 22",
+      "device": "蠕动泵组",
+      "phaseId": "step_koh",
+      "phaseTitle": "KOH 加液"
+    },
+    {
+      "timestamp": "2026-05-22 11:31:44",
+      "message": "停止泵 23",
+      "device": "蠕动泵组",
+      "phaseId": "step_koh",
+      "phaseTitle": "KOH 加液"
+    },
+    {
+      "timestamp": "2026-05-22 11:31:45",
+      "message": "停止泵 24",
+      "device": "蠕动泵组",
+      "phaseId": "step_koh",
+      "phaseTitle": "KOH 加液"
+    },
+    {
+      "timestamp": "2026-05-22 11:31:46",
+      "message": "停止泵 25",
+      "device": "蠕动泵组",
+      "phaseId": "step_koh",
+      "phaseTitle": "KOH 加液"
+    },
+    {
+      "timestamp": "2026-05-22 11:31:47",
+      "message": "停止泵 26",
+      "device": "蠕动泵组",
+      "phaseId": "step_koh",
+      "phaseTitle": "KOH 加液"
+    },
+    {
+      "timestamp": "2026-05-22 11:31:48",
+      "message": "停止泵 27",
+      "device": "蠕动泵组",
+      "phaseId": "step_koh",
+      "phaseTitle": "KOH 加液"
+    },
+    {
+      "timestamp": "2026-05-22 11:31:49",
+      "message": "停止泵 28",
+      "device": "蠕动泵组",
+      "phaseId": "step_koh",
+      "phaseTitle": "KOH 加液"
+    },
+    {
+      "timestamp": "2026-05-22 11:31:50",
+      "message": "停止泵 29",
+      "device": "蠕动泵组",
+      "phaseId": "step_koh",
+      "phaseTitle": "KOH 加液"
+    },
+    {
+      "timestamp": "2026-05-22 11:31:51",
+      "message": "停止泵 30",
+      "device": "蠕动泵组",
+      "phaseId": "step_koh",
+      "phaseTitle": "KOH 加液"
+    },
+    {
+      "timestamp": "2026-05-22 11:31:52",
+      "message": "停止泵 31",
+      "device": "蠕动泵组",
+      "phaseId": "step_koh",
+      "phaseTitle": "KOH 加液"
+    },
+    {
+      "timestamp": "2026-05-22 11:31:53",
+      "message": "停止泵 32",
+      "device": "蠕动泵组",
+      "phaseId": "step_koh",
+      "phaseTitle": "KOH 加液"
+    },
+    {
+      "timestamp": "2026-05-22 11:31:54",
+      "message": "停止泵 33",
+      "device": "蠕动泵组",
+      "phaseId": "step_koh",
+      "phaseTitle": "KOH 加液"
+    },
+    {
+      "timestamp": "2026-05-22 11:31:55",
+      "message": "停止泵 34",
+      "device": "蠕动泵组",
+      "phaseId": "step_koh",
+      "phaseTitle": "KOH 加液"
+    },
+    {
+      "timestamp": "2026-05-22 11:31:56",
+      "message": "停止泵 35",
+      "device": "蠕动泵组",
+      "phaseId": "step_koh",
+      "phaseTitle": "KOH 加液"
+    },
+    {
+      "timestamp": "2026-05-22 11:31:57",
+      "message": "停止泵 36",
+      "device": "蠕动泵组",
+      "phaseId": "step_koh",
+      "phaseTitle": "KOH 加液"
+    },
+    {
+      "timestamp": "2026-05-22 11:31:58",
+      "message": "停止泵 37",
+      "device": "蠕动泵组",
+      "phaseId": "step_koh",
+      "phaseTitle": "KOH 加液"
+    },
+    {
+      "timestamp": "2026-05-22 11:31:59",
+      "message": "停止泵 38",
+      "device": "蠕动泵组",
+      "phaseId": "step_koh",
+      "phaseTitle": "KOH 加液"
+    },
+    {
+      "timestamp": "2026-05-22 11:32:00",
+      "message": "停止泵 39",
+      "device": "蠕动泵组",
+      "phaseId": "step_koh",
+      "phaseTitle": "KOH 加液"
+    },
+    {
+      "timestamp": "2026-05-22 11:32:01",
+      "message": "停止泵 40",
+      "device": "蠕动泵组",
+      "phaseId": "step_koh",
+      "phaseTitle": "KOH 加液"
+    },
+    {
+      "timestamp": "2026-05-22 11:32:01",
+      "message": "设置泵 9 的转动圈数为 65.0",
+      "device": "蠕动泵组",
+      "phaseId": "step_koh",
+      "phaseTitle": "KOH 加液"
+    },
+    {
+      "timestamp": "2026-05-22 11:32:02",
+      "message": "设置泵 19 的转动圈数为 70.0",
+      "device": "蠕动泵组",
+      "phaseId": "step_koh",
+      "phaseTitle": "KOH 加液"
+    },
+    {
+      "timestamp": "2026-05-22 11:32:03",
+      "message": "设置泵 29 的转动圈数为 75.0",
+      "device": "蠕动泵组",
+      "phaseId": "step_koh",
+      "phaseTitle": "KOH 加液"
+    },
+    {
+      "timestamp": "2026-05-22 11:32:04",
+      "message": "设置泵 39 的转动圈数为 60.0",
+      "device": "蠕动泵组",
+      "phaseId": "step_koh",
+      "phaseTitle": "KOH 加液"
+    },
+    {
+      "timestamp": "2026-05-22 11:32:06",
+      "message": "启动泵 9",
+      "device": "蠕动泵组",
+      "phaseId": "step_koh",
+      "phaseTitle": "KOH 加液"
+    },
+    {
+      "timestamp": "2026-05-22 11:32:07",
+      "message": "启动泵 19",
+      "device": "蠕动泵组",
+      "phaseId": "step_koh",
+      "phaseTitle": "KOH 加液"
+    },
+    {
+      "timestamp": "2026-05-22 11:32:09",
+      "message": "启动泵 29",
+      "device": "蠕动泵组",
+      "phaseId": "step_koh",
+      "phaseTitle": "KOH 加液"
+    },
+    {
+      "timestamp": "2026-05-22 11:32:10",
+      "message": "启动泵 39",
+      "device": "蠕动泵组",
+      "phaseId": "step_koh",
+      "phaseTitle": "KOH 加液"
+    },
+    {
+      "timestamp": "2026-05-22 11:32:54",
+      "message": "KOH已加液完成",
+      "device": "液路系统",
+      "phaseId": "step_koh",
+      "phaseTitle": "KOH 加液"
+    },
+    {
+      "timestamp": "2026-05-22 11:32:54",
+      "message": "KOH已加液完成",
+      "device": "液路系统",
+      "phaseId": "step_lsv",
+      "phaseTitle": "LSV 测试"
+    },
+    {
+      "timestamp": "2026-05-22 11:32:54",
+      "message": "开始lsv测试",
+      "device": "电化学工作站",
+      "phaseId": "step_lsv",
+      "phaseTitle": "LSV 测试"
+    },
+    {
+      "timestamp": "2026-05-22 11:32:54",
+      "message": "正在进行第 1 次LSV测试",
+      "device": "电化学工作站",
+      "phaseId": "step_lsv",
+      "phaseTitle": "LSV 测试"
+    },
+    {
+      "timestamp": "2026-05-22 11:35:17",
+      "message": "lsv已完成，测量数据保存完成",
+      "device": "电化学工作站",
+      "phaseId": "step_lsv",
+      "phaseTitle": "LSV 测试"
+    },
+    {
+      "timestamp": "2026-05-22 11:35:17",
+      "message": "第 1 次lsv测试已完成",
+      "device": "电化学工作站",
+      "phaseId": "step_lsv",
+      "phaseTitle": "LSV 测试"
+    },
+    {
+      "timestamp": "2026-05-22 11:35:17",
+      "message": "第 1 次lsv测试已完成",
+      "device": "电化学工作站",
+      "phaseId": "step_discard",
+      "phaseTitle": "丢弃样品"
+    },
+    {
+      "timestamp": "2026-05-22 11:35:18",
+      "message": "电动阀 1 打开",
+      "device": "电动阀",
+      "phaseId": "step_discard",
+      "phaseTitle": "丢弃样品"
+    },
+    {
+      "timestamp": "2026-05-22 11:35:18",
+      "message": "升降电机前往准备位",
+      "device": "升降电机",
+      "phaseId": "step_discard",
+      "phaseTitle": "丢弃样品"
+    },
+    {
+      "timestamp": "2026-05-22 11:35:18",
+      "message": "电动阀 2 打开",
+      "device": "电动阀",
+      "phaseId": "step_discard",
+      "phaseTitle": "丢弃样品"
+    },
+    {
+      "timestamp": "2026-05-22 11:35:19",
+      "message": "电动阀 3 打开",
+      "device": "电动阀",
+      "phaseId": "step_discard",
+      "phaseTitle": "丢弃样品"
+    },
+    {
+      "timestamp": "2026-05-22 11:35:19",
+      "message": "电动阀 4 打开",
+      "device": "电动阀",
+      "phaseId": "step_discard",
+      "phaseTitle": "丢弃样品"
+    },
+    {
+      "timestamp": "2026-05-22 11:35:21",
+      "message": "已打开所有电动阀",
+      "device": "电动阀",
+      "phaseId": "step_discard",
+      "phaseTitle": "丢弃样品"
+    },
+    {
+      "timestamp": "2026-05-22 11:35:21",
+      "message": "升降电机到达准备位",
+      "device": "升降电机",
+      "phaseId": "step_discard",
+      "phaseTitle": "丢弃样品"
+    },
+    {
+      "timestamp": "2026-05-22 11:35:22",
+      "message": "平移电机前往丢弃位",
+      "device": "平移电机",
+      "phaseId": "step_discard",
+      "phaseTitle": "丢弃样品"
+    },
+    {
+      "timestamp": "2026-05-22 11:35:27",
+      "message": "平移电机到达丢弃位",
+      "device": "平移电机",
+      "phaseId": "step_discard",
+      "phaseTitle": "丢弃样品"
+    },
+    {
+      "timestamp": "2026-05-22 11:35:28",
+      "message": "升降电机前往丢弃位",
+      "device": "升降电机",
+      "phaseId": "step_discard",
+      "phaseTitle": "丢弃样品"
+    },
+    {
+      "timestamp": "2026-05-22 11:35:32",
+      "message": "升降电机到达丢弃位",
+      "device": "升降电机",
+      "phaseId": "step_discard",
+      "phaseTitle": "丢弃样品"
+    },
+    {
+      "timestamp": "2026-05-22 11:35:33",
+      "message": "电爪 1 打开",
+      "device": "电爪",
+      "phaseId": "step_discard",
+      "phaseTitle": "丢弃样品"
+    },
+    {
+      "timestamp": "2026-05-22 11:35:33",
+      "message": "电爪 2 打开",
+      "device": "电爪",
+      "phaseId": "step_discard",
+      "phaseTitle": "丢弃样品"
+    },
+    {
+      "timestamp": "2026-05-22 11:35:34",
+      "message": "电爪 3 打开",
+      "device": "电爪",
+      "phaseId": "step_discard",
+      "phaseTitle": "丢弃样品"
+    },
+    {
+      "timestamp": "2026-05-22 11:35:34",
+      "message": "电爪 4 打开",
+      "device": "电爪",
+      "phaseId": "step_discard",
+      "phaseTitle": "丢弃样品"
+    },
+    {
+      "timestamp": "2026-05-22 11:35:36",
+      "message": "已打开所有电爪",
+      "device": "电爪",
+      "phaseId": "step_discard",
+      "phaseTitle": "丢弃样品"
+    },
+    {
+      "timestamp": "2026-05-22 11:35:36",
+      "message": "电动阀 1 关闭",
+      "device": "电动阀",
+      "phaseId": "step_discard",
+      "phaseTitle": "丢弃样品"
+    },
+    {
+      "timestamp": "2026-05-22 11:35:36",
+      "message": "已经丢弃镍片",
+      "device": "自动化平台",
+      "phaseId": "step_discard",
+      "phaseTitle": "丢弃样品"
+    },
+    {
+      "timestamp": "2026-05-22 11:35:36",
+      "message": "已经丢弃镍片",
+      "device": "自动化平台",
+      "phaseId": "step_finalize",
+      "phaseTitle": "批后清洗收尾"
+    },
+    {
+      "timestamp": "2026-05-22 11:35:37",
+      "message": "电动阀 2 关闭",
+      "device": "电动阀",
+      "phaseId": "step_finalize",
+      "phaseTitle": "批后清洗收尾"
+    },
+    {
+      "timestamp": "2026-05-22 11:35:37",
+      "message": "电动阀 3 关闭",
+      "device": "电动阀",
+      "phaseId": "step_finalize",
+      "phaseTitle": "批后清洗收尾"
+    },
+    {
+      "timestamp": "2026-05-22 11:35:38",
+      "message": "电动阀 4 关闭",
+      "device": "电动阀",
+      "phaseId": "step_finalize",
+      "phaseTitle": "批后清洗收尾"
+    },
+    {
+      "timestamp": "2026-05-22 11:35:39",
+      "message": "已关闭所有电动阀",
+      "device": "电动阀",
+      "phaseId": "step_finalize",
+      "phaseTitle": "批后清洗收尾"
+    },
+    {
+      "timestamp": "2026-05-22 11:35:40",
+      "message": "停止泵 1",
+      "device": "蠕动泵组",
+      "phaseId": "step_finalize",
+      "phaseTitle": "批后清洗收尾"
+    },
+    {
+      "timestamp": "2026-05-22 11:35:41",
+      "message": "停止泵 2",
+      "device": "蠕动泵组",
+      "phaseId": "step_finalize",
+      "phaseTitle": "批后清洗收尾"
+    },
+    {
+      "timestamp": "2026-05-22 11:35:42",
+      "message": "停止泵 3",
+      "device": "蠕动泵组",
+      "phaseId": "step_finalize",
+      "phaseTitle": "批后清洗收尾"
+    },
+    {
+      "timestamp": "2026-05-22 11:35:43",
+      "message": "停止泵 4",
+      "device": "蠕动泵组",
+      "phaseId": "step_finalize",
+      "phaseTitle": "批后清洗收尾"
+    },
+    {
+      "timestamp": "2026-05-22 11:35:44",
+      "message": "停止泵 5",
+      "device": "蠕动泵组",
+      "phaseId": "step_finalize",
+      "phaseTitle": "批后清洗收尾"
+    },
+    {
+      "timestamp": "2026-05-22 11:35:45",
+      "message": "停止泵 6",
+      "device": "蠕动泵组",
+      "phaseId": "step_finalize",
+      "phaseTitle": "批后清洗收尾"
+    },
+    {
+      "timestamp": "2026-05-22 11:35:46",
+      "message": "停止泵 7",
+      "device": "蠕动泵组",
+      "phaseId": "step_finalize",
+      "phaseTitle": "批后清洗收尾"
+    },
+    {
+      "timestamp": "2026-05-22 11:35:47",
+      "message": "停止泵 8",
+      "device": "蠕动泵组",
+      "phaseId": "step_finalize",
+      "phaseTitle": "批后清洗收尾"
+    },
+    {
+      "timestamp": "2026-05-22 11:35:48",
+      "message": "停止泵 9",
+      "device": "蠕动泵组",
+      "phaseId": "step_finalize",
+      "phaseTitle": "批后清洗收尾"
+    },
+    {
+      "timestamp": "2026-05-22 11:35:49",
+      "message": "停止泵 10",
+      "device": "蠕动泵组",
+      "phaseId": "step_finalize",
+      "phaseTitle": "批后清洗收尾"
+    },
+    {
+      "timestamp": "2026-05-22 11:35:50",
+      "message": "停止泵 11",
+      "device": "蠕动泵组",
+      "phaseId": "step_finalize",
+      "phaseTitle": "批后清洗收尾"
+    },
+    {
+      "timestamp": "2026-05-22 11:35:51",
+      "message": "停止泵 12",
+      "device": "蠕动泵组",
+      "phaseId": "step_finalize",
+      "phaseTitle": "批后清洗收尾"
+    },
+    {
+      "timestamp": "2026-05-22 11:35:53",
+      "message": "停止泵 13",
+      "device": "蠕动泵组",
+      "phaseId": "step_finalize",
+      "phaseTitle": "批后清洗收尾"
+    },
+    {
+      "timestamp": "2026-05-22 11:35:54",
+      "message": "停止泵 14",
+      "device": "蠕动泵组",
+      "phaseId": "step_finalize",
+      "phaseTitle": "批后清洗收尾"
+    },
+    {
+      "timestamp": "2026-05-22 11:35:55",
+      "message": "停止泵 15",
+      "device": "蠕动泵组",
+      "phaseId": "step_finalize",
+      "phaseTitle": "批后清洗收尾"
+    },
+    {
+      "timestamp": "2026-05-22 11:35:56",
+      "message": "停止泵 16",
+      "device": "蠕动泵组",
+      "phaseId": "step_finalize",
+      "phaseTitle": "批后清洗收尾"
+    },
+    {
+      "timestamp": "2026-05-22 11:35:57",
+      "message": "停止泵 17",
+      "device": "蠕动泵组",
+      "phaseId": "step_finalize",
+      "phaseTitle": "批后清洗收尾"
+    },
+    {
+      "timestamp": "2026-05-22 11:35:58",
+      "message": "停止泵 18",
+      "device": "蠕动泵组",
+      "phaseId": "step_finalize",
+      "phaseTitle": "批后清洗收尾"
+    },
+    {
+      "timestamp": "2026-05-22 11:35:59",
+      "message": "停止泵 19",
+      "device": "蠕动泵组",
+      "phaseId": "step_finalize",
+      "phaseTitle": "批后清洗收尾"
+    },
+    {
+      "timestamp": "2026-05-22 11:36:00",
+      "message": "停止泵 20",
+      "device": "蠕动泵组",
+      "phaseId": "step_finalize",
+      "phaseTitle": "批后清洗收尾"
+    },
+    {
+      "timestamp": "2026-05-22 11:36:01",
+      "message": "停止泵 21",
+      "device": "蠕动泵组",
+      "phaseId": "step_finalize",
+      "phaseTitle": "批后清洗收尾"
+    },
+    {
+      "timestamp": "2026-05-22 11:36:02",
+      "message": "停止泵 22",
+      "device": "蠕动泵组",
+      "phaseId": "step_finalize",
+      "phaseTitle": "批后清洗收尾"
+    },
+    {
+      "timestamp": "2026-05-22 11:36:03",
+      "message": "停止泵 23",
+      "device": "蠕动泵组",
+      "phaseId": "step_finalize",
+      "phaseTitle": "批后清洗收尾"
+    },
+    {
+      "timestamp": "2026-05-22 11:36:04",
+      "message": "停止泵 24",
+      "device": "蠕动泵组",
+      "phaseId": "step_finalize",
+      "phaseTitle": "批后清洗收尾"
+    },
+    {
+      "timestamp": "2026-05-22 11:36:05",
+      "message": "停止泵 25",
+      "device": "蠕动泵组",
+      "phaseId": "step_finalize",
+      "phaseTitle": "批后清洗收尾"
+    },
+    {
+      "timestamp": "2026-05-22 11:36:06",
+      "message": "停止泵 26",
+      "device": "蠕动泵组",
+      "phaseId": "step_finalize",
+      "phaseTitle": "批后清洗收尾"
+    },
+    {
+      "timestamp": "2026-05-22 11:36:07",
+      "message": "停止泵 27",
+      "device": "蠕动泵组",
+      "phaseId": "step_finalize",
+      "phaseTitle": "批后清洗收尾"
+    },
+    {
+      "timestamp": "2026-05-22 11:36:08",
+      "message": "停止泵 28",
+      "device": "蠕动泵组",
+      "phaseId": "step_finalize",
+      "phaseTitle": "批后清洗收尾"
+    },
+    {
+      "timestamp": "2026-05-22 11:36:09",
+      "message": "停止泵 29",
+      "device": "蠕动泵组",
+      "phaseId": "step_finalize",
+      "phaseTitle": "批后清洗收尾"
+    },
+    {
+      "timestamp": "2026-05-22 11:36:10",
+      "message": "停止泵 30",
+      "device": "蠕动泵组",
+      "phaseId": "step_finalize",
+      "phaseTitle": "批后清洗收尾"
+    },
+    {
+      "timestamp": "2026-05-22 11:36:11",
+      "message": "停止泵 31",
+      "device": "蠕动泵组",
+      "phaseId": "step_finalize",
+      "phaseTitle": "批后清洗收尾"
+    },
+    {
+      "timestamp": "2026-05-22 11:36:12",
+      "message": "停止泵 32",
+      "device": "蠕动泵组",
+      "phaseId": "step_finalize",
+      "phaseTitle": "批后清洗收尾"
+    },
+    {
+      "timestamp": "2026-05-22 11:36:13",
+      "message": "停止泵 33",
+      "device": "蠕动泵组",
+      "phaseId": "step_finalize",
+      "phaseTitle": "批后清洗收尾"
+    },
+    {
+      "timestamp": "2026-05-22 11:36:14",
+      "message": "停止泵 34",
+      "device": "蠕动泵组",
+      "phaseId": "step_finalize",
+      "phaseTitle": "批后清洗收尾"
+    },
+    {
+      "timestamp": "2026-05-22 11:36:15",
+      "message": "停止泵 35",
+      "device": "蠕动泵组",
+      "phaseId": "step_finalize",
+      "phaseTitle": "批后清洗收尾"
+    },
+    {
+      "timestamp": "2026-05-22 11:36:16",
+      "message": "停止泵 36",
+      "device": "蠕动泵组",
+      "phaseId": "step_finalize",
+      "phaseTitle": "批后清洗收尾"
+    },
+    {
+      "timestamp": "2026-05-22 11:36:17",
+      "message": "停止泵 37",
+      "device": "蠕动泵组",
+      "phaseId": "step_finalize",
+      "phaseTitle": "批后清洗收尾"
+    },
+    {
+      "timestamp": "2026-05-22 11:36:18",
+      "message": "停止泵 38",
+      "device": "蠕动泵组",
+      "phaseId": "step_finalize",
+      "phaseTitle": "批后清洗收尾"
+    },
+    {
+      "timestamp": "2026-05-22 11:36:19",
+      "message": "停止泵 39",
+      "device": "蠕动泵组",
+      "phaseId": "step_finalize",
+      "phaseTitle": "批后清洗收尾"
+    },
+    {
+      "timestamp": "2026-05-22 11:36:20",
+      "message": "停止泵 40",
+      "device": "蠕动泵组",
+      "phaseId": "step_finalize",
+      "phaseTitle": "批后清洗收尾"
+    },
+    {
+      "timestamp": "2026-05-22 11:36:20",
+      "message": "设置泵 10 的转动圈数为 70.417",
+      "device": "蠕动泵组",
+      "phaseId": "step_finalize",
+      "phaseTitle": "批后清洗收尾"
+    },
+    {
+      "timestamp": "2026-05-22 11:36:21",
+      "message": "设置泵 20 的转动圈数为 60.0",
+      "device": "蠕动泵组",
+      "phaseId": "step_finalize",
+      "phaseTitle": "批后清洗收尾"
+    },
+    {
+      "timestamp": "2026-05-22 11:36:22",
+      "message": "设置泵 30 的转动圈数为 70.0",
+      "device": "蠕动泵组",
+      "phaseId": "step_finalize",
+      "phaseTitle": "批后清洗收尾"
+    },
+    {
+      "timestamp": "2026-05-22 11:36:23",
+      "message": "设置泵 40 的转动圈数为 70.0",
+      "device": "蠕动泵组",
+      "phaseId": "step_finalize",
+      "phaseTitle": "批后清洗收尾"
+    },
+    {
+      "timestamp": "2026-05-22 11:36:25",
+      "message": "启动泵 10",
+      "device": "蠕动泵组",
+      "phaseId": "step_finalize",
+      "phaseTitle": "批后清洗收尾"
+    },
+    {
+      "timestamp": "2026-05-22 11:36:26",
+      "message": "启动泵 20",
+      "device": "蠕动泵组",
+      "phaseId": "step_finalize",
+      "phaseTitle": "批后清洗收尾"
+    },
+    {
+      "timestamp": "2026-05-22 11:36:28",
+      "message": "启动泵 30",
+      "device": "蠕动泵组",
+      "phaseId": "step_finalize",
+      "phaseTitle": "批后清洗收尾"
+    },
+    {
+      "timestamp": "2026-05-22 11:36:29",
+      "message": "启动泵 40",
+      "device": "蠕动泵组",
+      "phaseId": "step_finalize",
+      "phaseTitle": "批后清洗收尾"
+    },
+    {
+      "timestamp": "2026-05-22 11:37:12",
+      "message": "第一次加水已完成",
+      "device": "液路系统",
+      "phaseId": "step_finalize",
+      "phaseTitle": "批后清洗收尾"
+    },
+    {
+      "timestamp": "2026-05-22 11:37:23",
+      "message": "电动阀 1 打开",
+      "device": "电动阀",
+      "phaseId": "step_finalize",
+      "phaseTitle": "批后清洗收尾"
+    },
+    {
+      "timestamp": "2026-05-22 11:37:23",
+      "message": "电动阀 2 打开",
+      "device": "电动阀",
+      "phaseId": "step_finalize",
+      "phaseTitle": "批后清洗收尾"
+    },
+    {
+      "timestamp": "2026-05-22 11:37:24",
+      "message": "电动阀 3 打开",
+      "device": "电动阀",
+      "phaseId": "step_finalize",
+      "phaseTitle": "批后清洗收尾"
+    },
+    {
+      "timestamp": "2026-05-22 11:37:24",
+      "message": "电动阀 4 打开",
+      "device": "电动阀",
+      "phaseId": "step_finalize",
+      "phaseTitle": "批后清洗收尾"
+    },
+    {
+      "timestamp": "2026-05-22 11:37:26",
+      "message": "已打开所有电动阀",
+      "device": "电动阀",
+      "phaseId": "step_finalize",
+      "phaseTitle": "批后清洗收尾"
+    },
+    {
+      "timestamp": "2026-05-22 11:37:41",
+      "message": "电动阀 1 关闭",
+      "device": "电动阀",
+      "phaseId": "step_finalize",
+      "phaseTitle": "批后清洗收尾"
+    },
+    {
+      "timestamp": "2026-05-22 11:37:42",
+      "message": "电动阀 2 关闭",
+      "device": "电动阀",
+      "phaseId": "step_finalize",
+      "phaseTitle": "批后清洗收尾"
+    },
+    {
+      "timestamp": "2026-05-22 11:37:42",
+      "message": "电动阀 3 关闭",
+      "device": "电动阀",
+      "phaseId": "step_finalize",
+      "phaseTitle": "批后清洗收尾"
+    },
+    {
+      "timestamp": "2026-05-22 11:37:43",
+      "message": "电动阀 4 关闭",
+      "device": "电动阀",
+      "phaseId": "step_finalize",
+      "phaseTitle": "批后清洗收尾"
+    },
+    {
+      "timestamp": "2026-05-22 11:37:44",
+      "message": "已关闭所有电动阀",
+      "device": "电动阀",
+      "phaseId": "step_finalize",
+      "phaseTitle": "批后清洗收尾"
+    },
+    {
+      "timestamp": "2026-05-22 11:37:45",
+      "message": "停止泵 1",
+      "device": "蠕动泵组",
+      "phaseId": "step_finalize",
+      "phaseTitle": "批后清洗收尾"
+    },
+    {
+      "timestamp": "2026-05-22 11:37:46",
+      "message": "停止泵 2",
+      "device": "蠕动泵组",
+      "phaseId": "step_finalize",
+      "phaseTitle": "批后清洗收尾"
+    },
+    {
+      "timestamp": "2026-05-22 11:37:47",
+      "message": "停止泵 3",
+      "device": "蠕动泵组",
+      "phaseId": "step_finalize",
+      "phaseTitle": "批后清洗收尾"
+    },
+    {
+      "timestamp": "2026-05-22 11:37:48",
+      "message": "停止泵 4",
+      "device": "蠕动泵组",
+      "phaseId": "step_finalize",
+      "phaseTitle": "批后清洗收尾"
+    },
+    {
+      "timestamp": "2026-05-22 11:37:49",
+      "message": "停止泵 5",
+      "device": "蠕动泵组",
+      "phaseId": "step_finalize",
+      "phaseTitle": "批后清洗收尾"
+    },
+    {
+      "timestamp": "2026-05-22 11:37:50",
+      "message": "停止泵 6",
+      "device": "蠕动泵组",
+      "phaseId": "step_finalize",
+      "phaseTitle": "批后清洗收尾"
+    },
+    {
+      "timestamp": "2026-05-22 11:37:51",
+      "message": "停止泵 7",
+      "device": "蠕动泵组",
+      "phaseId": "step_finalize",
+      "phaseTitle": "批后清洗收尾"
+    },
+    {
+      "timestamp": "2026-05-22 11:37:52",
+      "message": "停止泵 8",
+      "device": "蠕动泵组",
+      "phaseId": "step_finalize",
+      "phaseTitle": "批后清洗收尾"
+    },
+    {
+      "timestamp": "2026-05-22 11:37:53",
+      "message": "停止泵 9",
+      "device": "蠕动泵组",
+      "phaseId": "step_finalize",
+      "phaseTitle": "批后清洗收尾"
+    },
+    {
+      "timestamp": "2026-05-22 11:37:54",
+      "message": "停止泵 10",
+      "device": "蠕动泵组",
+      "phaseId": "step_finalize",
+      "phaseTitle": "批后清洗收尾"
+    },
+    {
+      "timestamp": "2026-05-22 11:37:55",
+      "message": "停止泵 11",
+      "device": "蠕动泵组",
+      "phaseId": "step_finalize",
+      "phaseTitle": "批后清洗收尾"
+    },
+    {
+      "timestamp": "2026-05-22 11:37:56",
+      "message": "停止泵 12",
+      "device": "蠕动泵组",
+      "phaseId": "step_finalize",
+      "phaseTitle": "批后清洗收尾"
+    },
+    {
+      "timestamp": "2026-05-22 11:37:57",
+      "message": "停止泵 13",
+      "device": "蠕动泵组",
+      "phaseId": "step_finalize",
+      "phaseTitle": "批后清洗收尾"
+    },
+    {
+      "timestamp": "2026-05-22 11:37:58",
+      "message": "停止泵 14",
+      "device": "蠕动泵组",
+      "phaseId": "step_finalize",
+      "phaseTitle": "批后清洗收尾"
+    },
+    {
+      "timestamp": "2026-05-22 11:37:59",
+      "message": "停止泵 15",
+      "device": "蠕动泵组",
+      "phaseId": "step_finalize",
+      "phaseTitle": "批后清洗收尾"
+    },
+    {
+      "timestamp": "2026-05-22 11:38:00",
+      "message": "停止泵 16",
+      "device": "蠕动泵组",
+      "phaseId": "step_finalize",
+      "phaseTitle": "批后清洗收尾"
+    },
+    {
+      "timestamp": "2026-05-22 11:38:01",
+      "message": "停止泵 17",
+      "device": "蠕动泵组",
+      "phaseId": "step_finalize",
+      "phaseTitle": "批后清洗收尾"
+    },
+    {
+      "timestamp": "2026-05-22 11:38:02",
+      "message": "停止泵 18",
+      "device": "蠕动泵组",
+      "phaseId": "step_finalize",
+      "phaseTitle": "批后清洗收尾"
+    },
+    {
+      "timestamp": "2026-05-22 11:38:03",
+      "message": "停止泵 19",
+      "device": "蠕动泵组",
+      "phaseId": "step_finalize",
+      "phaseTitle": "批后清洗收尾"
+    },
+    {
+      "timestamp": "2026-05-22 11:38:04",
+      "message": "停止泵 20",
+      "device": "蠕动泵组",
+      "phaseId": "step_finalize",
+      "phaseTitle": "批后清洗收尾"
+    },
+    {
+      "timestamp": "2026-05-22 11:38:05",
+      "message": "停止泵 21",
+      "device": "蠕动泵组",
+      "phaseId": "step_finalize",
+      "phaseTitle": "批后清洗收尾"
+    },
+    {
+      "timestamp": "2026-05-22 11:38:07",
+      "message": "停止泵 22",
+      "device": "蠕动泵组",
+      "phaseId": "step_finalize",
+      "phaseTitle": "批后清洗收尾"
+    },
+    {
+      "timestamp": "2026-05-22 11:38:08",
+      "message": "停止泵 23",
+      "device": "蠕动泵组",
+      "phaseId": "step_finalize",
+      "phaseTitle": "批后清洗收尾"
+    },
+    {
+      "timestamp": "2026-05-22 11:38:09",
+      "message": "停止泵 24",
+      "device": "蠕动泵组",
+      "phaseId": "step_finalize",
+      "phaseTitle": "批后清洗收尾"
+    },
+    {
+      "timestamp": "2026-05-22 11:38:10",
+      "message": "停止泵 25",
+      "device": "蠕动泵组",
+      "phaseId": "step_finalize",
+      "phaseTitle": "批后清洗收尾"
+    },
+    {
+      "timestamp": "2026-05-22 11:38:11",
+      "message": "停止泵 26",
+      "device": "蠕动泵组",
+      "phaseId": "step_finalize",
+      "phaseTitle": "批后清洗收尾"
+    },
+    {
+      "timestamp": "2026-05-22 11:38:12",
+      "message": "停止泵 27",
+      "device": "蠕动泵组",
+      "phaseId": "step_finalize",
+      "phaseTitle": "批后清洗收尾"
+    },
+    {
+      "timestamp": "2026-05-22 11:38:13",
+      "message": "停止泵 28",
+      "device": "蠕动泵组",
+      "phaseId": "step_finalize",
+      "phaseTitle": "批后清洗收尾"
+    },
+    {
+      "timestamp": "2026-05-22 11:38:14",
+      "message": "停止泵 29",
+      "device": "蠕动泵组",
+      "phaseId": "step_finalize",
+      "phaseTitle": "批后清洗收尾"
+    },
+    {
+      "timestamp": "2026-05-22 11:38:15",
+      "message": "停止泵 30",
+      "device": "蠕动泵组",
+      "phaseId": "step_finalize",
+      "phaseTitle": "批后清洗收尾"
+    },
+    {
+      "timestamp": "2026-05-22 11:38:16",
+      "message": "停止泵 31",
+      "device": "蠕动泵组",
+      "phaseId": "step_finalize",
+      "phaseTitle": "批后清洗收尾"
+    },
+    {
+      "timestamp": "2026-05-22 11:38:17",
+      "message": "停止泵 32",
+      "device": "蠕动泵组",
+      "phaseId": "step_finalize",
+      "phaseTitle": "批后清洗收尾"
+    },
+    {
+      "timestamp": "2026-05-22 11:38:18",
+      "message": "停止泵 33",
+      "device": "蠕动泵组",
+      "phaseId": "step_finalize",
+      "phaseTitle": "批后清洗收尾"
+    },
+    {
+      "timestamp": "2026-05-22 11:38:19",
+      "message": "停止泵 34",
+      "device": "蠕动泵组",
+      "phaseId": "step_finalize",
+      "phaseTitle": "批后清洗收尾"
+    },
+    {
+      "timestamp": "2026-05-22 11:38:20",
+      "message": "停止泵 35",
+      "device": "蠕动泵组",
+      "phaseId": "step_finalize",
+      "phaseTitle": "批后清洗收尾"
+    },
+    {
+      "timestamp": "2026-05-22 11:38:21",
+      "message": "停止泵 36",
+      "device": "蠕动泵组",
+      "phaseId": "step_finalize",
+      "phaseTitle": "批后清洗收尾"
+    },
+    {
+      "timestamp": "2026-05-22 11:38:22",
+      "message": "停止泵 37",
+      "device": "蠕动泵组",
+      "phaseId": "step_finalize",
+      "phaseTitle": "批后清洗收尾"
+    },
+    {
+      "timestamp": "2026-05-22 11:38:23",
+      "message": "停止泵 38",
+      "device": "蠕动泵组",
+      "phaseId": "step_finalize",
+      "phaseTitle": "批后清洗收尾"
+    },
+    {
+      "timestamp": "2026-05-22 11:38:24",
+      "message": "停止泵 39",
+      "device": "蠕动泵组",
+      "phaseId": "step_finalize",
+      "phaseTitle": "批后清洗收尾"
+    },
+    {
+      "timestamp": "2026-05-22 11:38:25",
+      "message": "停止泵 40",
+      "device": "蠕动泵组",
+      "phaseId": "step_finalize",
+      "phaseTitle": "批后清洗收尾"
+    },
+    {
+      "timestamp": "2026-05-22 11:38:25",
+      "message": "设置泵 10 的转动圈数为 23.472333333333335",
+      "device": "蠕动泵组",
+      "phaseId": "step_finalize",
+      "phaseTitle": "批后清洗收尾"
+    },
+    {
+      "timestamp": "2026-05-22 11:38:26",
+      "message": "设置泵 20 的转动圈数为 20.0",
+      "device": "蠕动泵组",
+      "phaseId": "step_finalize",
+      "phaseTitle": "批后清洗收尾"
+    },
+    {
+      "timestamp": "2026-05-22 11:38:27",
+      "message": "设置泵 30 的转动圈数为 23.333333333333332",
+      "device": "蠕动泵组",
+      "phaseId": "step_finalize",
+      "phaseTitle": "批后清洗收尾"
+    },
+    {
+      "timestamp": "2026-05-22 11:38:28",
+      "message": "设置泵 40 的转动圈数为 23.333333333333332",
+      "device": "蠕动泵组",
+      "phaseId": "step_finalize",
+      "phaseTitle": "批后清洗收尾"
+    },
+    {
+      "timestamp": "2026-05-22 11:38:30",
+      "message": "启动泵 10",
+      "device": "蠕动泵组",
+      "phaseId": "step_finalize",
+      "phaseTitle": "批后清洗收尾"
+    },
+    {
+      "timestamp": "2026-05-22 11:38:31",
+      "message": "启动泵 20",
+      "device": "蠕动泵组",
+      "phaseId": "step_finalize",
+      "phaseTitle": "批后清洗收尾"
+    },
+    {
+      "timestamp": "2026-05-22 11:38:33",
+      "message": "启动泵 30",
+      "device": "蠕动泵组",
+      "phaseId": "step_finalize",
+      "phaseTitle": "批后清洗收尾"
+    },
+    {
+      "timestamp": "2026-05-22 11:38:34",
+      "message": "启动泵 40",
+      "device": "蠕动泵组",
+      "phaseId": "step_finalize",
+      "phaseTitle": "批后清洗收尾"
+    },
+    {
+      "timestamp": "2026-05-22 11:38:48",
+      "message": "第二次加水已完成",
+      "device": "液路系统",
+      "phaseId": "step_finalize",
+      "phaseTitle": "批后清洗收尾"
+    },
+    {
+      "timestamp": "2026-05-22 11:38:59",
+      "message": "电动阀 1 打开",
+      "device": "电动阀",
+      "phaseId": "step_finalize",
+      "phaseTitle": "批后清洗收尾"
+    },
+    {
+      "timestamp": "2026-05-22 11:38:59",
+      "message": "电动阀 2 打开",
+      "device": "电动阀",
+      "phaseId": "step_finalize",
+      "phaseTitle": "批后清洗收尾"
+    },
+    {
+      "timestamp": "2026-05-22 11:39:00",
+      "message": "电动阀 3 打开",
+      "device": "电动阀",
+      "phaseId": "step_finalize",
+      "phaseTitle": "批后清洗收尾"
+    },
+    {
+      "timestamp": "2026-05-22 11:39:00",
+      "message": "电动阀 4 打开",
+      "device": "电动阀",
+      "phaseId": "step_finalize",
+      "phaseTitle": "批后清洗收尾"
+    },
+    {
+      "timestamp": "2026-05-22 11:39:02",
+      "message": "已打开所有电动阀",
+      "device": "电动阀",
+      "phaseId": "step_finalize",
+      "phaseTitle": "批后清洗收尾"
+    },
+    {
+      "timestamp": "2026-05-22 11:39:17",
+      "message": "电动阀 1 关闭",
+      "device": "电动阀",
+      "phaseId": "step_finalize",
+      "phaseTitle": "批后清洗收尾"
+    },
+    {
+      "timestamp": "2026-05-22 11:39:18",
+      "message": "电动阀 2 关闭",
+      "device": "电动阀",
+      "phaseId": "step_finalize",
+      "phaseTitle": "批后清洗收尾"
+    },
+    {
+      "timestamp": "2026-05-22 11:39:18",
+      "message": "电动阀 3 关闭",
+      "device": "电动阀",
+      "phaseId": "step_finalize",
+      "phaseTitle": "批后清洗收尾"
+    },
+    {
+      "timestamp": "2026-05-22 11:39:19",
+      "message": "电动阀 4 关闭",
+      "device": "电动阀",
+      "phaseId": "step_finalize",
+      "phaseTitle": "批后清洗收尾"
+    },
+    {
+      "timestamp": "2026-05-22 11:39:20",
+      "message": "已关闭所有电动阀",
+      "device": "电动阀",
+      "phaseId": "step_finalize",
+      "phaseTitle": "批后清洗收尾"
+    },
+    {
+      "timestamp": "2026-05-22 11:39:21",
+      "message": "清洗完成",
+      "device": "液路系统",
+      "phaseId": "step_finalize",
+      "phaseTitle": "批后清洗收尾"
+    },
+    {
+      "timestamp": "2026-05-22 11:39:21",
+      "message": "清洗完成",
+      "device": "液路系统",
+      "phaseId": "step_done",
+      "phaseTitle": "任务完成"
+    },
+    {
+      "timestamp": "2026-05-22 11:39:21",
+      "message": "任务 ['Co_1.0', 'Fe_1.0', 'Ni_1.0', 'Ni_1.0'] 执行完毕，结果保存在 ['./api_output/Co_1.0_20260522_112319_0', './api_output/Fe_1.0_20260522_112320_1', './api_output/Ni_1.0_20260522_112320_2', './api_output/Ni_1.0_20260522_112320_3']",
+      "device": "自动化平台",
+      "phaseId": "step_done",
+      "phaseTitle": "任务完成"
+    }
+  ],
+  "rawLines": [
+    "2026-05-22 11:23:19,994 - INFO - >>> 任务已加入实验队列: ['Co_1.0', 'Fe_1.0', 'Ni_1.0']",
+    "127.0.0.1 - - [22/May/2026 11:23:20] \"POST /query HTTP/1.1\" 200 -",
+    "2026-05-22 11:23:20,008 - INFO - 电动阀 1 关闭",
+    "2026-05-22 11:23:20,009 - INFO - 下料电机前往取料位",
+    "2026-05-22 11:23:20,511 - INFO - 电动阀 2 关闭",
+    "2026-05-22 11:23:20,512 - INFO - 推料电机前往接料位",
+    "2026-05-22 11:23:21,013 - INFO - 电动阀 3 关闭",
+    "2026-05-22 11:23:21,516 - INFO - 电动阀 4 关闭",
+    "2026-05-22 11:23:23,018 - INFO - 已关闭所有电动阀",
+    "2026-05-22 11:23:24,025 - INFO - 停止泵 1",
+    "2026-05-22 11:23:25,031 - INFO - 停止泵 2",
+    "2026-05-22 11:23:26,041 - INFO - 停止泵 3",
+    "2026-05-22 11:23:27,051 - INFO - 停止泵 4",
+    "2026-05-22 11:23:28,058 - INFO - 停止泵 5",
+    "2026-05-22 11:23:29,041 - INFO - 下料电机到达取料位",
+    "2026-05-22 11:23:29,065 - INFO - 停止泵 6",
+    "2026-05-22 11:23:29,546 - INFO - 推料电机到达接料位",
+    "2026-05-22 11:23:30,050 - INFO - 振动电机打开",
+    "2026-05-22 11:23:30,073 - INFO - 停止泵 7",
+    "2026-05-22 11:23:31,080 - INFO - 停止泵 8",
+    "2026-05-22 11:23:31,553 - INFO - 下料电机前往下料位",
+    "2026-05-22 11:23:32,086 - INFO - 停止泵 9",
+    "2026-05-22 11:23:33,092 - INFO - 停止泵 10",
+    "2026-05-22 11:23:34,104 - INFO - 停止泵 11",
+    "2026-05-22 11:23:35,111 - INFO - 停止泵 12",
+    "2026-05-22 11:23:36,117 - INFO - 停止泵 13",
+    "2026-05-22 11:23:37,124 - INFO - 停止泵 14",
+    "2026-05-22 11:23:38,130 - INFO - 停止泵 15",
+    "2026-05-22 11:23:39,135 - INFO - 停止泵 16",
+    "2026-05-22 11:23:40,141 - INFO - 停止泵 17",
+    "2026-05-22 11:23:41,071 - INFO - 振动电机关闭",
+    "2026-05-22 11:23:41,146 - INFO - 停止泵 18",
+    "2026-05-22 11:23:41,574 - INFO - 下料电机到达下料位",
+    "2026-05-22 11:23:42,077 - INFO - 推料电机前往推料位",
+    "2026-05-22 11:23:42,151 - INFO - 停止泵 19",
+    "2026-05-22 11:23:43,160 - INFO - 停止泵 20",
+    "2026-05-22 11:23:44,164 - INFO - 停止泵 21",
+    "2026-05-22 11:23:45,171 - INFO - 停止泵 22",
+    "2026-05-22 11:23:46,175 - INFO - 停止泵 23",
+    "2026-05-22 11:23:47,182 - INFO - 停止泵 24",
+    "2026-05-22 11:23:48,188 - INFO - 停止泵 25",
+    "2026-05-22 11:23:49,193 - INFO - 停止泵 26",
+    "2026-05-22 11:23:50,200 - INFO - 停止泵 27",
+    "2026-05-22 11:23:50,599 - INFO - 推料电机到达推料位",
+    "2026-05-22 11:23:51,100 - INFO - 已经推出镍片",
+    "2026-05-22 11:23:51,102 - INFO - 电爪 1 打开",
+    "2026-05-22 11:23:51,208 - INFO - 停止泵 28",
+    "2026-05-22 11:23:51,606 - INFO - 电爪 2 打开",
+    "2026-05-22 11:23:52,108 - INFO - 电爪 3 打开",
+    "2026-05-22 11:23:52,222 - INFO - 停止泵 29",
+    "2026-05-22 11:23:52,611 - INFO - 电爪 4 打开",
+    "2026-05-22 11:23:53,226 - INFO - 停止泵 30",
+    "2026-05-22 11:23:54,113 - INFO - 已打开所有电爪",
+    "2026-05-22 11:23:54,234 - INFO - 停止泵 31",
+    "2026-05-22 11:23:54,625 - INFO - 升降电机前往准备位",
+    "2026-05-22 11:23:55,240 - INFO - 停止泵 32",
+    "2026-05-22 11:23:56,246 - INFO - 停止泵 33",
+    "2026-05-22 11:23:57,252 - INFO - 停止泵 34",
+    "2026-05-22 11:23:58,256 - INFO - 停止泵 35",
+    "2026-05-22 11:23:59,135 - INFO - 升降电机到达准备位",
+    "2026-05-22 11:23:59,272 - INFO - 停止泵 36",
+    "2026-05-22 11:23:59,639 - INFO - 平移电机前往取料位",
+    "2026-05-22 11:24:00,276 - INFO - 停止泵 37",
+    "2026-05-22 11:24:01,284 - INFO - 停止泵 38",
+    "2026-05-22 11:24:02,150 - INFO - 平移电机到达取料位",
+    "2026-05-22 11:24:02,299 - INFO - 停止泵 39",
+    "2026-05-22 11:24:02,652 - INFO - 升降电机前往取料位",
+    "2026-05-22 11:24:03,309 - INFO - 停止泵 40",
+    "2026-05-22 11:24:03,813 - INFO - 设置泵 3 的转动圈数为 70.417",
+    "2026-05-22 11:24:04,819 - INFO - 设置泵 12 的转动圈数为 70.0",
+    "2026-05-22 11:24:05,821 - INFO - 设置泵 28 的转动圈数为 75.0",
+    "2026-05-22 11:24:06,824 - INFO - 设置泵 38 的转动圈数为 70.0",
+    "2026-05-22 11:24:07,160 - INFO - 升降电机到达取料位",
+    "2026-05-22 11:24:07,664 - INFO - 电爪 1 关闭",
+    "2026-05-22 11:24:08,167 - INFO - 电爪 2 关闭",
+    "2026-05-22 11:24:08,331 - INFO - 启动泵 3",
+    "2026-05-22 11:24:08,671 - INFO - 电爪 3 关闭",
+    "2026-05-22 11:24:09,174 - INFO - 电爪 4 关闭",
+    "2026-05-22 11:24:09,844 - INFO - 启动泵 12",
+    "2026-05-22 11:24:10,676 - INFO - 已夹取镍片",
+    "2026-05-22 11:24:11,180 - INFO - 已经夹取镍片",
+    "2026-05-22 11:24:11,189 - INFO - 升降电机前往准备位",
+    "2026-05-22 11:24:11,351 - INFO - 启动泵 28",
+    "2026-05-22 11:24:12,860 - INFO - 启动泵 38",
+    "2026-05-22 11:24:15,698 - INFO - 升降电机到达准备位",
+    "2026-05-22 11:24:16,200 - INFO - 平移电机前往测试位",
+    "2026-05-22 11:24:20,748 - INFO - 收到查询: ['Co0.5', 'Fe0.23i0.9', 'Ni03Fe0.33', 'Ni0.1']",
+    "127.0.0.1 - - [22/May/2026 11:24:20] \"POST /query HTTP/1.1\" 200 -",
+    "2026-05-22 11:24:23,713 - INFO - 平移电机到达测试位",
+    "2026-05-22 11:24:24,215 - INFO - 升降电机前往测试位",
+    "2026-05-22 11:24:27,723 - INFO - 升降电机到达测试位",
+    "2026-05-22 11:24:28,225 - INFO - 已经到达测试位",
+    "2026-05-22 11:24:56,941 - INFO - 所有泵已加液完成",
+    "2026-05-22 11:24:56,942 - INFO - 开始恒电流沉积",
+    "2026-05-22 11:25:21,622 - INFO - 收到查询: ['Co0.5', 'Fe0.23i0.9', 'Ni03Fe0.33', 'Ni0.1']",
+    "127.0.0.1 - - [22/May/2026 11:25:21] \"POST /query HTTP/1.1\" 200 -",
+    "2026-05-22 11:26:22,383 - INFO - 收到查询: ['Co0.5', 'Fe0.23i0.9', 'Ni03Fe0.33', 'Ni0.1']",
+    "127.0.0.1 - - [22/May/2026 11:26:22] \"POST /query HTTP/1.1\" 200 -",
+    "2026-05-22 11:27:12,901 - INFO - 恒电流已完成，测量数据保存完成",
+    "2026-05-22 11:27:12,901 - INFO - 恒电流沉积已完成",
+    "2026-05-22 11:27:13,403 - INFO - 恒电流沉积已完成",
+    "2026-05-22 11:27:13,414 - INFO - 电动阀 1 打开",
+    "2026-05-22 11:27:13,916 - INFO - 电动阀 2 打开",
+    "2026-05-22 11:27:14,417 - INFO - 电动阀 3 打开",
+    "2026-05-22 11:27:14,920 - INFO - 电动阀 4 打开",
+    "2026-05-22 11:27:16,421 - INFO - 已打开所有电动阀",
+    "2026-05-22 11:27:31,927 - INFO - 电动阀 1 关闭",
+    "2026-05-22 11:27:32,430 - INFO - 电动阀 2 关闭",
+    "2026-05-22 11:27:32,932 - INFO - 电动阀 3 关闭",
+    "2026-05-22 11:27:33,434 - INFO - 电动阀 4 关闭",
+    "2026-05-22 11:27:34,935 - INFO - 已关闭所有电动阀",
+    "2026-05-22 11:27:35,945 - INFO - 停止泵 1",
+    "2026-05-22 11:27:36,954 - INFO - 停止泵 2",
+    "2026-05-22 11:27:37,962 - INFO - 停止泵 3",
+    "2026-05-22 11:27:38,966 - INFO - 停止泵 4",
+    "2026-05-22 11:27:39,985 - INFO - 停止泵 5",
+    "2026-05-22 11:27:41,176 - INFO - 停止泵 6",
+    "2026-05-22 11:27:42,179 - INFO - 停止泵 7",
+    "2026-05-22 11:27:43,189 - INFO - 停止泵 8",
+    "2026-05-22 11:27:44,195 - INFO - 停止泵 9",
+    "2026-05-22 11:27:45,212 - INFO - 停止泵 10",
+    "2026-05-22 11:27:46,216 - INFO - 停止泵 11",
+    "2026-05-22 11:27:47,220 - INFO - 停止泵 12",
+    "2026-05-22 11:27:48,226 - INFO - 停止泵 13",
+    "2026-05-22 11:27:49,230 - INFO - 停止泵 14",
+    "2026-05-22 11:27:50,244 - INFO - 停止泵 15",
+    "2026-05-22 11:27:51,249 - INFO - 停止泵 16",
+    "2026-05-22 11:27:52,258 - INFO - 停止泵 17",
+    "2026-05-22 11:27:53,262 - INFO - 停止泵 18",
+    "2026-05-22 11:27:54,268 - INFO - 停止泵 19",
+    "2026-05-22 11:27:55,321 - INFO - 停止泵 20",
+    "2026-05-22 11:27:56,439 - INFO - 停止泵 21",
+    "2026-05-22 11:27:57,453 - INFO - 停止泵 22",
+    "2026-05-22 11:27:58,460 - INFO - 停止泵 23",
+    "2026-05-22 11:27:59,471 - INFO - 停止泵 24",
+    "2026-05-22 11:28:00,476 - INFO - 停止泵 25",
+    "2026-05-22 11:28:01,482 - INFO - 停止泵 26",
+    "2026-05-22 11:28:02,486 - INFO - 停止泵 27",
+    "2026-05-22 11:28:03,497 - INFO - 停止泵 28",
+    "2026-05-22 11:28:04,511 - INFO - 停止泵 29",
+    "2026-05-22 11:28:05,520 - INFO - 停止泵 30",
+    "2026-05-22 11:28:06,523 - INFO - 停止泵 31",
+    "2026-05-22 11:28:07,530 - INFO - 停止泵 32",
+    "2026-05-22 11:28:08,538 - INFO - 停止泵 33",
+    "2026-05-22 11:28:09,543 - INFO - 停止泵 34",
+    "2026-05-22 11:28:10,570 - INFO - 停止泵 35",
+    "2026-05-22 11:28:11,609 - INFO - 停止泵 36",
+    "2026-05-22 11:28:12,617 - INFO - 停止泵 37",
+    "2026-05-22 11:28:13,621 - INFO - 停止泵 38",
+    "2026-05-22 11:28:14,624 - INFO - 停止泵 39",
+    "2026-05-22 11:28:15,631 - INFO - 停止泵 40",
+    "2026-05-22 11:28:16,140 - INFO - 设置泵 10 的转动圈数为 70.417",
+    "2026-05-22 11:28:17,143 - INFO - 设置泵 20 的转动圈数为 60.0",
+    "2026-05-22 11:28:18,148 - INFO - 设置泵 30 的转动圈数为 70.0",
+    "2026-05-22 11:28:19,151 - INFO - 设置泵 40 的转动圈数为 70.0",
+    "2026-05-22 11:28:20,658 - INFO - 启动泵 10",
+    "2026-05-22 11:28:22,164 - INFO - 启动泵 20",
+    "2026-05-22 11:28:23,669 - INFO - 启动泵 30",
+    "2026-05-22 11:28:25,190 - INFO - 启动泵 40",
+    "2026-05-22 11:29:08,285 - INFO - 第一次加水已完成",
+    "2026-05-22 11:29:18,788 - INFO - 电动阀 1 打开",
+    "2026-05-22 11:29:19,291 - INFO - 电动阀 2 打开",
+    "2026-05-22 11:29:19,794 - INFO - 电动阀 3 打开",
+    "2026-05-22 11:29:20,303 - INFO - 电动阀 4 打开",
+    "2026-05-22 11:29:21,805 - INFO - 已打开所有电动阀",
+    "2026-05-22 11:29:37,312 - INFO - 电动阀 1 关闭",
+    "2026-05-22 11:29:37,812 - INFO - 电动阀 2 关闭",
+    "2026-05-22 11:29:38,314 - INFO - 电动阀 3 关闭",
+    "2026-05-22 11:29:38,816 - INFO - 电动阀 4 关闭",
+    "2026-05-22 11:29:40,336 - INFO - 已关闭所有电动阀",
+    "2026-05-22 11:29:41,353 - INFO - 停止泵 1",
+    "2026-05-22 11:29:42,361 - INFO - 停止泵 2",
+    "2026-05-22 11:29:43,368 - INFO - 停止泵 3",
+    "2026-05-22 11:29:44,374 - INFO - 停止泵 4",
+    "2026-05-22 11:29:45,380 - INFO - 停止泵 5",
+    "2026-05-22 11:29:46,386 - INFO - 停止泵 6",
+    "2026-05-22 11:29:47,393 - INFO - 停止泵 7",
+    "2026-05-22 11:29:48,402 - INFO - 停止泵 8",
+    "2026-05-22 11:29:49,411 - INFO - 停止泵 9",
+    "2026-05-22 11:29:50,416 - INFO - 停止泵 10",
+    "2026-05-22 11:29:51,425 - INFO - 停止泵 11",
+    "2026-05-22 11:29:52,431 - INFO - 停止泵 12",
+    "2026-05-22 11:29:53,436 - INFO - 停止泵 13",
+    "2026-05-22 11:29:54,443 - INFO - 停止泵 14",
+    "2026-05-22 11:29:55,579 - INFO - 停止泵 15",
+    "2026-05-22 11:29:56,614 - INFO - 停止泵 16",
+    "2026-05-22 11:29:57,620 - INFO - 停止泵 17",
+    "2026-05-22 11:29:58,628 - INFO - 停止泵 18",
+    "2026-05-22 11:29:59,633 - INFO - 停止泵 19",
+    "2026-05-22 11:30:00,640 - INFO - 停止泵 20",
+    "2026-05-22 11:30:01,646 - INFO - 停止泵 21",
+    "2026-05-22 11:30:02,654 - INFO - 停止泵 22",
+    "2026-05-22 11:30:03,661 - INFO - 停止泵 23",
+    "2026-05-22 11:30:04,668 - INFO - 停止泵 24",
+    "2026-05-22 11:30:05,676 - INFO - 停止泵 25",
+    "2026-05-22 11:30:06,682 - INFO - 停止泵 26",
+    "2026-05-22 11:30:07,691 - INFO - 停止泵 27",
+    "2026-05-22 11:30:08,698 - INFO - 停止泵 28",
+    "2026-05-22 11:30:09,761 - INFO - 停止泵 29",
+    "2026-05-22 11:30:10,821 - INFO - 停止泵 30",
+    "2026-05-22 11:30:11,848 - INFO - 停止泵 31",
+    "2026-05-22 11:30:12,854 - INFO - 停止泵 32",
+    "2026-05-22 11:30:13,860 - INFO - 停止泵 33",
+    "2026-05-22 11:30:14,868 - INFO - 停止泵 34",
+    "2026-05-22 11:30:15,874 - INFO - 停止泵 35",
+    "2026-05-22 11:30:16,881 - INFO - 停止泵 36",
+    "2026-05-22 11:30:17,887 - INFO - 停止泵 37",
+    "2026-05-22 11:30:18,892 - INFO - 停止泵 38",
+    "2026-05-22 11:30:19,898 - INFO - 停止泵 39",
+    "2026-05-22 11:30:20,903 - INFO - 停止泵 40",
+    "2026-05-22 11:30:21,413 - INFO - 设置泵 10 的转动圈数为 23.472333333333335",
+    "2026-05-22 11:30:22,419 - INFO - 设置泵 20 的转动圈数为 20.0",
+    "2026-05-22 11:30:23,423 - INFO - 设置泵 30 的转动圈数为 23.333333333333332",
+    "2026-05-22 11:30:24,430 - INFO - 设置泵 40 的转动圈数为 23.333333333333332",
+    "2026-05-22 11:30:25,940 - INFO - 启动泵 10",
+    "2026-05-22 11:30:27,458 - INFO - 启动泵 20",
+    "2026-05-22 11:30:28,965 - INFO - 启动泵 30",
+    "2026-05-22 11:30:30,472 - INFO - 启动泵 40",
+    "2026-05-22 11:30:45,496 - INFO - 第二次加水已完成",
+    "2026-05-22 11:30:56,002 - INFO - 电动阀 1 打开",
+    "2026-05-22 11:30:56,507 - INFO - 电动阀 2 打开",
+    "2026-05-22 11:30:57,008 - INFO - 电动阀 3 打开",
+    "2026-05-22 11:30:57,509 - INFO - 电动阀 4 打开",
+    "2026-05-22 11:30:59,013 - INFO - 已打开所有电动阀",
+    "2026-05-22 11:31:14,514 - INFO - 电动阀 1 关闭",
+    "2026-05-22 11:31:15,019 - INFO - 电动阀 2 关闭",
+    "2026-05-22 11:31:15,520 - INFO - 电动阀 3 关闭",
+    "2026-05-22 11:31:16,023 - INFO - 电动阀 4 关闭",
+    "2026-05-22 11:31:17,524 - INFO - 已关闭所有电动阀",
+    "2026-05-22 11:31:18,026 - INFO - 沉积液清洗完成",
+    "2026-05-22 11:31:18,029 - INFO - 电动阀 1 关闭",
+    "2026-05-22 11:31:18,531 - INFO - 电动阀 2 关闭",
+    "2026-05-22 11:31:19,032 - INFO - 电动阀 3 关闭",
+    "2026-05-22 11:31:19,537 - INFO - 电动阀 4 关闭",
+    "2026-05-22 11:31:21,040 - INFO - 已关闭所有电动阀",
+    "2026-05-22 11:31:22,042 - INFO - 停止泵 1",
+    "2026-05-22 11:31:23,046 - INFO - 停止泵 2",
+    "2026-05-22 11:31:24,050 - INFO - 停止泵 3",
+    "2026-05-22 11:31:25,055 - INFO - 停止泵 4",
+    "2026-05-22 11:31:26,059 - INFO - 停止泵 5",
+    "2026-05-22 11:31:27,064 - INFO - 停止泵 6",
+    "2026-05-22 11:31:28,067 - INFO - 停止泵 7",
+    "2026-05-22 11:31:29,072 - INFO - 停止泵 8",
+    "2026-05-22 11:31:30,085 - INFO - 停止泵 9",
+    "2026-05-22 11:31:31,094 - INFO - 停止泵 10",
+    "2026-05-22 11:31:32,100 - INFO - 停止泵 11",
+    "2026-05-22 11:31:33,105 - INFO - 停止泵 12",
+    "2026-05-22 11:31:34,112 - INFO - 停止泵 13",
+    "2026-05-22 11:31:35,116 - INFO - 停止泵 14",
+    "2026-05-22 11:31:36,120 - INFO - 停止泵 15",
+    "2026-05-22 11:31:37,133 - INFO - 停止泵 16",
+    "2026-05-22 11:31:38,136 - INFO - 停止泵 17",
+    "2026-05-22 11:31:39,141 - INFO - 停止泵 18",
+    "2026-05-22 11:31:40,146 - INFO - 停止泵 19",
+    "2026-05-22 11:31:41,151 - INFO - 停止泵 20",
+    "2026-05-22 11:31:42,157 - INFO - 停止泵 21",
+    "2026-05-22 11:31:43,159 - INFO - 停止泵 22",
+    "2026-05-22 11:31:44,168 - INFO - 停止泵 23",
+    "2026-05-22 11:31:45,172 - INFO - 停止泵 24",
+    "2026-05-22 11:31:46,183 - INFO - 停止泵 25",
+    "2026-05-22 11:31:47,188 - INFO - 停止泵 26",
+    "2026-05-22 11:31:48,194 - INFO - 停止泵 27",
+    "2026-05-22 11:31:49,199 - INFO - 停止泵 28",
+    "2026-05-22 11:31:50,204 - INFO - 停止泵 29",
+    "2026-05-22 11:31:51,218 - INFO - 停止泵 30",
+    "2026-05-22 11:31:52,224 - INFO - 停止泵 31",
+    "2026-05-22 11:31:53,230 - INFO - 停止泵 32",
+    "2026-05-22 11:31:54,236 - INFO - 停止泵 33",
+    "2026-05-22 11:31:55,240 - INFO - 停止泵 34",
+    "2026-05-22 11:31:56,254 - INFO - 停止泵 35",
+    "2026-05-22 11:31:57,259 - INFO - 停止泵 36",
+    "2026-05-22 11:31:58,266 - INFO - 停止泵 37",
+    "2026-05-22 11:31:59,275 - INFO - 停止泵 38",
+    "2026-05-22 11:32:00,286 - INFO - 停止泵 39",
+    "2026-05-22 11:32:01,291 - INFO - 停止泵 40",
+    "2026-05-22 11:32:01,794 - INFO - 设置泵 9 的转动圈数为 65.0",
+    "2026-05-22 11:32:02,800 - INFO - 设置泵 19 的转动圈数为 70.0",
+    "2026-05-22 11:32:03,805 - INFO - 设置泵 29 的转动圈数为 75.0",
+    "2026-05-22 11:32:04,809 - INFO - 设置泵 39 的转动圈数为 60.0",
+    "2026-05-22 11:32:06,319 - INFO - 启动泵 9",
+    "2026-05-22 11:32:07,825 - INFO - 启动泵 19",
+    "2026-05-22 11:32:09,334 - INFO - 启动泵 29",
+    "2026-05-22 11:32:10,842 - INFO - 启动泵 39",
+    "2026-05-22 11:32:54,935 - INFO - KOH已加液完成",
+    "2026-05-22 11:32:54,935 - INFO - 开始lsv测试",
+    "2026-05-22 11:32:54,935 - INFO - 正在进行第 1 次LSV测试",
+    "D:\\Desktop\\GSCX\\api\\api_src.py:810: UserWarning: Starting a Matplotlib GUI outside of the main thread will likely fail.",
+    "  plt.figure(figsize=(10, 6))",
+    "D:\\Desktop\\GSCX\\api\\api_src.py:810: UserWarning: Starting a Matplotlib GUI outside of the main thread will likely fail.",
+    "  plt.figure(figsize=(10, 6))",
+    "D:\\Desktop\\GSCX\\api\\api_src.py:810: UserWarning: Starting a Matplotlib GUI outside of the main thread will likely fail.",
+    "  plt.figure(figsize=(10, 6))",
+    "2026-05-22 11:35:17,770 - INFO - lsv已完成，测量数据保存完成",
+    "2026-05-22 11:35:17,771 - INFO - 第 1 次lsv测试已完成",
+    "2026-05-22 11:35:18,353 - INFO - 电动阀 1 打开",
+    "2026-05-22 11:35:18,353 - INFO - 升降电机前往准备位",
+    "2026-05-22 11:35:18,855 - INFO - 电动阀 2 打开",
+    "2026-05-22 11:35:19,356 - INFO - 电动阀 3 打开",
+    "2026-05-22 11:35:19,857 - INFO - 电动阀 4 打开",
+    "2026-05-22 11:35:21,365 - INFO - 已打开所有电动阀",
+    "2026-05-22 11:35:21,859 - INFO - 升降电机到达准备位",
+    "2026-05-22 11:35:22,362 - INFO - 平移电机前往丢弃位",
+    "2026-05-22 11:35:27,876 - INFO - 平移电机到达丢弃位",
+    "2026-05-22 11:35:28,378 - INFO - 升降电机前往丢弃位",
+    "2026-05-22 11:35:32,892 - INFO - 升降电机到达丢弃位",
+    "2026-05-22 11:35:33,396 - INFO - 电爪 1 打开",
+    "2026-05-22 11:35:33,898 - INFO - 电爪 2 打开",
+    "2026-05-22 11:35:34,400 - INFO - 电爪 3 打开",
+    "2026-05-22 11:35:34,904 - INFO - 电爪 4 打开",
+    "2026-05-22 11:35:36,407 - INFO - 已打开所有电爪",
+    "2026-05-22 11:35:36,879 - INFO - 电动阀 1 关闭",
+    "2026-05-22 11:35:36,911 - INFO - 已经丢弃镍片",
+    "2026-05-22 11:35:37,386 - INFO - 电动阀 2 关闭",
+    "2026-05-22 11:35:37,888 - INFO - 电动阀 3 关闭",
+    "2026-05-22 11:35:38,390 - INFO - 电动阀 4 关闭",
+    "2026-05-22 11:35:39,891 - INFO - 已关闭所有电动阀",
+    "2026-05-22 11:35:40,898 - INFO - 停止泵 1",
+    "2026-05-22 11:35:41,907 - INFO - 停止泵 2",
+    "2026-05-22 11:35:42,914 - INFO - 停止泵 3",
+    "2026-05-22 11:35:43,920 - INFO - 停止泵 4",
+    "2026-05-22 11:35:44,928 - INFO - 停止泵 5",
+    "2026-05-22 11:35:45,933 - INFO - 停止泵 6",
+    "2026-05-22 11:35:46,940 - INFO - 停止泵 7",
+    "2026-05-22 11:35:47,948 - INFO - 停止泵 8",
+    "2026-05-22 11:35:48,957 - INFO - 停止泵 9",
+    "2026-05-22 11:35:49,971 - INFO - 停止泵 10",
+    "2026-05-22 11:35:50,986 - INFO - 停止泵 11",
+    "2026-05-22 11:35:51,992 - INFO - 停止泵 12",
+    "2026-05-22 11:35:53,006 - INFO - 停止泵 13",
+    "2026-05-22 11:35:54,012 - INFO - 停止泵 14",
+    "2026-05-22 11:35:55,017 - INFO - 停止泵 15",
+    "2026-05-22 11:35:56,023 - INFO - 停止泵 16",
+    "2026-05-22 11:35:57,031 - INFO - 停止泵 17",
+    "2026-05-22 11:35:58,039 - INFO - 停止泵 18",
+    "2026-05-22 11:35:59,043 - INFO - 停止泵 19",
+    "2026-05-22 11:36:00,056 - INFO - 停止泵 20",
+    "2026-05-22 11:36:01,062 - INFO - 停止泵 21",
+    "2026-05-22 11:36:02,066 - INFO - 停止泵 22",
+    "2026-05-22 11:36:03,072 - INFO - 停止泵 23",
+    "2026-05-22 11:36:04,080 - INFO - 停止泵 24",
+    "2026-05-22 11:36:05,089 - INFO - 停止泵 25",
+    "2026-05-22 11:36:06,098 - INFO - 停止泵 26",
+    "2026-05-22 11:36:07,108 - INFO - 停止泵 27",
+    "2026-05-22 11:36:08,114 - INFO - 停止泵 28",
+    "2026-05-22 11:36:09,123 - INFO - 停止泵 29",
+    "2026-05-22 11:36:10,127 - INFO - 停止泵 30",
+    "2026-05-22 11:36:11,135 - INFO - 停止泵 31",
+    "2026-05-22 11:36:12,146 - INFO - 停止泵 32",
+    "2026-05-22 11:36:13,150 - INFO - 停止泵 33",
+    "2026-05-22 11:36:14,155 - INFO - 停止泵 34",
+    "2026-05-22 11:36:15,160 - INFO - 停止泵 35",
+    "2026-05-22 11:36:16,166 - INFO - 停止泵 36",
+    "2026-05-22 11:36:17,171 - INFO - 停止泵 37",
+    "2026-05-22 11:36:18,177 - INFO - 停止泵 38",
+    "2026-05-22 11:36:19,182 - INFO - 停止泵 39",
+    "2026-05-22 11:36:20,186 - INFO - 停止泵 40",
+    "2026-05-22 11:36:20,690 - INFO - 设置泵 10 的转动圈数为 70.417",
+    "2026-05-22 11:36:21,696 - INFO - 设置泵 20 的转动圈数为 60.0",
+    "2026-05-22 11:36:22,699 - INFO - 设置泵 30 的转动圈数为 70.0",
+    "2026-05-22 11:36:23,703 - INFO - 设置泵 40 的转动圈数为 70.0",
+    "2026-05-22 11:36:25,211 - INFO - 启动泵 10",
+    "2026-05-22 11:36:26,720 - INFO - 启动泵 20",
+    "2026-05-22 11:36:28,227 - INFO - 启动泵 30",
+    "2026-05-22 11:36:29,731 - INFO - 启动泵 40",
+    "2026-05-22 11:37:12,800 - INFO - 第一次加水已完成",
+    "2026-05-22 11:37:23,315 - INFO - 电动阀 1 打开",
+    "2026-05-22 11:37:23,819 - INFO - 电动阀 2 打开",
+    "2026-05-22 11:37:24,322 - INFO - 电动阀 3 打开",
+    "2026-05-22 11:37:24,835 - INFO - 电动阀 4 打开",
+    "2026-05-22 11:37:26,337 - INFO - 已打开所有电动阀",
+    "2026-05-22 11:37:41,846 - INFO - 电动阀 1 关闭",
+    "2026-05-22 11:37:42,347 - INFO - 电动阀 2 关闭",
+    "2026-05-22 11:37:42,850 - INFO - 电动阀 3 关闭",
+    "2026-05-22 11:37:43,352 - INFO - 电动阀 4 关闭",
+    "2026-05-22 11:37:44,856 - INFO - 已关闭所有电动阀",
+    "2026-05-22 11:37:45,863 - INFO - 停止泵 1",
+    "2026-05-22 11:37:46,869 - INFO - 停止泵 2",
+    "2026-05-22 11:37:47,877 - INFO - 停止泵 3",
+    "2026-05-22 11:37:48,883 - INFO - 停止泵 4",
+    "2026-05-22 11:37:49,892 - INFO - 停止泵 5",
+    "2026-05-22 11:37:50,897 - INFO - 停止泵 6",
+    "2026-05-22 11:37:51,902 - INFO - 停止泵 7",
+    "2026-05-22 11:37:52,906 - INFO - 停止泵 8",
+    "2026-05-22 11:37:53,912 - INFO - 停止泵 9",
+    "2026-05-22 11:37:54,917 - INFO - 停止泵 10",
+    "2026-05-22 11:37:55,924 - INFO - 停止泵 11",
+    "2026-05-22 11:37:56,931 - INFO - 停止泵 12",
+    "2026-05-22 11:37:57,938 - INFO - 停止泵 13",
+    "2026-05-22 11:37:58,946 - INFO - 停止泵 14",
+    "2026-05-22 11:37:59,951 - INFO - 停止泵 15",
+    "2026-05-22 11:38:00,960 - INFO - 停止泵 16",
+    "2026-05-22 11:38:01,968 - INFO - 停止泵 17",
+    "2026-05-22 11:38:02,974 - INFO - 停止泵 18",
+    "2026-05-22 11:38:03,981 - INFO - 停止泵 19",
+    "2026-05-22 11:38:04,988 - INFO - 停止泵 20",
+    "2026-05-22 11:38:05,994 - INFO - 停止泵 21",
+    "2026-05-22 11:38:07,002 - INFO - 停止泵 22",
+    "2026-05-22 11:38:08,007 - INFO - 停止泵 23",
+    "2026-05-22 11:38:09,014 - INFO - 停止泵 24",
+    "2026-05-22 11:38:10,022 - INFO - 停止泵 25",
+    "2026-05-22 11:38:11,033 - INFO - 停止泵 26",
+    "2026-05-22 11:38:12,041 - INFO - 停止泵 27",
+    "2026-05-22 11:38:13,046 - INFO - 停止泵 28",
+    "2026-05-22 11:38:14,054 - INFO - 停止泵 29",
+    "2026-05-22 11:38:15,064 - INFO - 停止泵 30",
+    "2026-05-22 11:38:16,070 - INFO - 停止泵 31",
+    "2026-05-22 11:38:17,077 - INFO - 停止泵 32",
+    "2026-05-22 11:38:18,083 - INFO - 停止泵 33",
+    "2026-05-22 11:38:19,090 - INFO - 停止泵 34",
+    "2026-05-22 11:38:20,098 - INFO - 停止泵 35",
+    "2026-05-22 11:38:21,102 - INFO - 停止泵 36",
+    "2026-05-22 11:38:22,108 - INFO - 停止泵 37",
+    "2026-05-22 11:38:23,116 - INFO - 停止泵 38",
+    "2026-05-22 11:38:24,127 - INFO - 停止泵 39",
+    "2026-05-22 11:38:25,134 - INFO - 停止泵 40",
+    "2026-05-22 11:38:25,641 - INFO - 设置泵 10 的转动圈数为 23.472333333333335",
+    "2026-05-22 11:38:26,645 - INFO - 设置泵 20 的转动圈数为 20.0",
+    "2026-05-22 11:38:27,651 - INFO - 设置泵 30 的转动圈数为 23.333333333333332",
+    "2026-05-22 11:38:28,656 - INFO - 设置泵 40 的转动圈数为 23.333333333333332",
+    "2026-05-22 11:38:30,167 - INFO - 启动泵 10",
+    "2026-05-22 11:38:31,674 - INFO - 启动泵 20",
+    "2026-05-22 11:38:33,180 - INFO - 启动泵 30",
+    "2026-05-22 11:38:34,693 - INFO - 启动泵 40",
+    "2026-05-22 11:38:48,723 - INFO - 第二次加水已完成",
+    "2026-05-22 11:38:59,229 - INFO - 电动阀 1 打开",
+    "2026-05-22 11:38:59,731 - INFO - 电动阀 2 打开",
+    "2026-05-22 11:39:00,233 - INFO - 电动阀 3 打开",
+    "2026-05-22 11:39:00,735 - INFO - 电动阀 4 打开",
+    "2026-05-22 11:39:02,238 - INFO - 已打开所有电动阀",
+    "2026-05-22 11:39:17,742 - INFO - 电动阀 1 关闭",
+    "2026-05-22 11:39:18,243 - INFO - 电动阀 2 关闭",
+    "2026-05-22 11:39:18,749 - INFO - 电动阀 3 关闭",
+    "2026-05-22 11:39:19,250 - INFO - 电动阀 4 关闭",
+    "2026-05-22 11:39:20,752 - INFO - 已关闭所有电动阀",
+    "2026-05-22 11:39:21,267 - INFO - 清洗完成",
+    "2026-05-22 11:39:21,303 - INFO - 任务 ['Co_1.0', 'Fe_1.0', 'Ni_1.0', 'Ni_1.0'] 执行完毕，结果保存在 ['./api_output/Co_1.0_20260522_112319_0', './api_output/Fe_1.0_20260522_112320_1', './api_output/Ni_1.0_20260522_112320_2', './api_output/Ni_1.0_20260522_112320_3']"
+  ]
+}
