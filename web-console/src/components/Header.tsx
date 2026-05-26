@@ -6,10 +6,13 @@ import {
   getLabById,
   getObserveQueueBundle,
   getObserveRunningSession,
+  getObserveSessionByViewIndex,
   getQueuedExperimentsForLab,
+  getQueuedExperimentView,
   getSessionForLab,
   isObserveMode,
 } from "../data/mock";
+import type { SessionInfo, WorkbenchExperimentStatus } from "../types";
 import { InstitutionLogo } from "./InstitutionLogo";
 import { ExperimentListTimeMeta } from "./ExperimentListTimeMeta";
 import { PageContainer } from "./PageContainer";
@@ -21,6 +24,63 @@ const VISUAL_STYLE_OPTIONS = [
 ] as const;
 
 type VisualStyle = (typeof VISUAL_STYLE_OPTIONS)[number]["id"];
+
+const EXPERIMENT_STATUS_LABELS: Record<WorkbenchExperimentStatus, string> = {
+  running: "进行中",
+  queued: "排队中",
+  completed: "已完成",
+};
+
+const EXPERIMENT_STATUS_CLASS: Record<WorkbenchExperimentStatus, string> = {
+  running: "running",
+  queued: "queued",
+  completed: "completed",
+};
+
+function getExperimentGoal(session: SessionInfo | null | undefined, fallback?: string): string {
+  return session?.intro.originalGoal ?? session?.intro.summary ?? fallback ?? "—";
+}
+
+interface ExperimentListItemButtonProps {
+  status: WorkbenchExperimentStatus;
+  goal: string;
+  submittedAt?: string;
+  completedAt?: string;
+  active: boolean;
+  onSelect: () => void;
+}
+
+function ExperimentListItemButton({
+  status,
+  goal,
+  submittedAt,
+  completedAt,
+  active,
+  onSelect,
+}: ExperimentListItemButtonProps) {
+  const statusClass = EXPERIMENT_STATUS_CLASS[status];
+
+  return (
+    <button
+      type="button"
+      className={`header-lab-queue-dropdown-item header-lab-queue-dropdown-item--${statusClass} ${active ? "is-active" : ""}`}
+      onClick={onSelect}
+      aria-current={active ? "true" : undefined}
+    >
+      <span className={`header-lab-queue-dropdown-badge header-lab-queue-dropdown-badge--${statusClass}`}>
+        {EXPERIMENT_STATUS_LABELS[status]}
+      </span>
+      <span className="header-lab-queue-dropdown-item-text">
+        <span className="header-lab-queue-dropdown-goal">{goal}</span>
+        <ExperimentListTimeMeta
+          submittedAt={submittedAt}
+          completedAt={completedAt}
+          status={status}
+        />
+      </span>
+    </button>
+  );
+}
 
 function readInitialVisualStyle(): VisualStyle {
   if (typeof window === "undefined") return "tech";
@@ -175,191 +235,92 @@ export function Header() {
                           <>
                             <div className="header-lab-queue-dropdown-head">
                               <span className="header-lab-queue-dropdown-title">实验列表</span>
-                              <span className="header-lab-queue-dropdown-meta">
-                                <span className="header-lab-queue-dropdown-meta-queued">
-                                  排队 {observeQueue.queued.length}
-                                </span>
-                                <span className="header-lab-queue-dropdown-meta-sep" aria-hidden>
-                                  ·
-                                </span>
-                                <span className="header-lab-queue-dropdown-meta-completed">
-                                  已完成 {observeQueue.completed.length}
-                                </span>
-                              </span>
                             </div>
                             <ul className="header-lab-queue-dropdown-list">
                               <li>
-                                <button
-                                  type="button"
-                                  className={`header-lab-queue-dropdown-item header-lab-queue-dropdown-item--running ${viewIndex === 0 ? "is-active" : ""}`}
-                                  onClick={() => selectQueueView(0)}
-                                  aria-current={viewIndex === 0 ? "true" : undefined}
-                                >
-                                  <span className="header-lab-queue-dropdown-badge header-lab-queue-dropdown-badge--running">
-                                    进行中
-                                  </span>
-                                  <span className="header-lab-queue-dropdown-item-text">
-                                    <span className="header-lab-queue-dropdown-name">
-                                      {runningSession?.experimentName}
-                                    </span>
-                                    {observeQueue.running.subtitle && (
-                                      <span className="header-lab-queue-dropdown-sub">
-                                        {observeQueue.running.subtitle}
-                                      </span>
-                                    )}
-                                    <ExperimentListTimeMeta
-                                      submittedAt={observeQueue.running.submittedAt}
-                                      completedAt={observeQueue.running.completedAt}
-                                      status={observeQueue.running.status}
-                                    />
-                                  </span>
-                                </button>
+                                <ExperimentListItemButton
+                                  status={observeQueue.running.status}
+                                  goal={getExperimentGoal(runningSession, observeQueue.running.experimentName)}
+                                  submittedAt={observeQueue.running.submittedAt}
+                                  completedAt={observeQueue.running.completedAt}
+                                  active={viewIndex === 0}
+                                  onSelect={() => selectQueueView(0)}
+                                />
                               </li>
+                              {observeQueue.queued.map((item, index) => {
+                                const listIndex = index + 1;
+                                const queuedSession = labId
+                                  ? getObserveSessionByViewIndex(labId, listIndex)
+                                  : null;
+                                return (
+                                  <li key={item.id}>
+                                    <ExperimentListItemButton
+                                      status={item.status}
+                                      goal={getExperimentGoal(queuedSession, item.experimentName)}
+                                      submittedAt={item.submittedAt}
+                                      completedAt={item.completedAt}
+                                      active={viewIndex === listIndex}
+                                      onSelect={() => selectQueueView(listIndex)}
+                                    />
+                                  </li>
+                                );
+                              })}
+                              {observeQueue.completed.map((item, index) => {
+                                const listIndex = observeQueue.queued.length + index + 1;
+                                const completedSession = labId
+                                  ? getObserveSessionByViewIndex(labId, listIndex)
+                                  : null;
+                                return (
+                                  <li key={item.id}>
+                                    <ExperimentListItemButton
+                                      status={item.status}
+                                      goal={getExperimentGoal(completedSession, item.experimentName)}
+                                      submittedAt={item.submittedAt}
+                                      completedAt={item.completedAt}
+                                      active={viewIndex === listIndex}
+                                      onSelect={() => selectQueueView(listIndex)}
+                                    />
+                                  </li>
+                                );
+                              })}
                             </ul>
-                            <div className="header-lab-queue-dropdown-section header-lab-queue-dropdown-section--queued">
-                              <span className="header-lab-queue-dropdown-section-label">
-                                排队中 · {observeQueue.queued.length}
-                              </span>
-                              <ul className="header-lab-queue-dropdown-list">
-                                {observeQueue.queued.map((item, index) => {
-                                  const listIndex = index + 1;
-                                  return (
-                                    <li key={item.id}>
-                                      <button
-                                        type="button"
-                                        className={`header-lab-queue-dropdown-item header-lab-queue-dropdown-item--queued ${viewIndex === listIndex ? "is-active" : ""}`}
-                                        onClick={() => selectQueueView(listIndex)}
-                                        aria-current={viewIndex === listIndex ? "true" : undefined}
-                                      >
-                                        <span className="header-lab-queue-dropdown-badge header-lab-queue-dropdown-badge--queued">
-                                          排队 {index + 1}
-                                        </span>
-                                        <span className="header-lab-queue-dropdown-item-text">
-                                          <span className="header-lab-queue-dropdown-name">
-                                            {item.experimentName}
-                                          </span>
-                                          {item.subtitle && (
-                                            <span className="header-lab-queue-dropdown-sub">{item.subtitle}</span>
-                                          )}
-                                          <ExperimentListTimeMeta
-                                            submittedAt={item.submittedAt}
-                                            completedAt={item.completedAt}
-                                            status={item.status}
-                                          />
-                                        </span>
-                                      </button>
-                                    </li>
-                                  );
-                                })}
-                              </ul>
-                            </div>
-                            <div className="header-lab-queue-dropdown-section header-lab-queue-dropdown-section--completed">
-                              <span className="header-lab-queue-dropdown-section-label">
-                                已完成 · {observeQueue.completed.length}
-                              </span>
-                              <ul className="header-lab-queue-dropdown-list">
-                                {observeQueue.completed.length === 0 ? (
-                                  <li className="header-lab-queue-dropdown-empty">暂无已完成实验</li>
-                                ) : (
-                                  observeQueue.completed.map((item, index) => {
-                                    const listIndex = observeQueue.queued.length + index + 1;
-                                    return (
-                                      <li key={item.id}>
-                                        <button
-                                          type="button"
-                                          className={`header-lab-queue-dropdown-item header-lab-queue-dropdown-item--completed ${viewIndex === listIndex ? "is-active" : ""}`}
-                                          onClick={() => selectQueueView(listIndex)}
-                                          aria-current={viewIndex === listIndex ? "true" : undefined}
-                                        >
-                                          <span className="header-lab-queue-dropdown-badge header-lab-queue-dropdown-badge--done">
-                                            已完成
-                                          </span>
-                                          <span className="header-lab-queue-dropdown-item-text">
-                                            <span className="header-lab-queue-dropdown-name">
-                                              {item.experimentName}
-                                            </span>
-                                            {item.subtitle && (
-                                              <span className="header-lab-queue-dropdown-sub">{item.subtitle}</span>
-                                            )}
-                                            <ExperimentListTimeMeta
-                                              submittedAt={item.submittedAt}
-                                              completedAt={item.completedAt}
-                                              status={item.status}
-                                            />
-                                          </span>
-                                        </button>
-                                      </li>
-                                    );
-                                  })
-                                )}
-                              </ul>
-                            </div>
                           </>
                         ) : (
                           <>
                             <div className="header-lab-queue-dropdown-head">
                               <span className="header-lab-queue-dropdown-title">实验列表</span>
-                              <span className="header-lab-queue-dropdown-meta">{queueCount} 项</span>
                             </div>
                             <ul className="header-lab-queue-dropdown-list">
                               {runningSession && (
                                 <li>
-                                  <button
-                                    type="button"
-                                    className={`header-lab-queue-dropdown-item header-lab-queue-dropdown-item--running ${viewIndex === 0 ? "is-active" : ""}`}
-                                    onClick={() => selectQueueView(0)}
-                                    aria-current={viewIndex === 0 ? "true" : undefined}
-                                  >
-                                    <span className="header-lab-queue-dropdown-badge header-lab-queue-dropdown-badge--running">
-                                      进行中
-                                    </span>
-                                    <span className="header-lab-queue-dropdown-item-text">
-                                      <span className="header-lab-queue-dropdown-name">
-                                        {runningSession.experimentName}
-                                      </span>
-                                      <ExperimentListTimeMeta
-                                        submittedAt={runningSession.submittedAt}
-                                        completedAt={runningSession.completedAt}
-                                        status="running"
-                                      />
-                                    </span>
-                                  </button>
+                                  <ExperimentListItemButton
+                                    status="running"
+                                    goal={getExperimentGoal(runningSession, runningSession.experimentName)}
+                                    submittedAt={runningSession.submittedAt}
+                                    completedAt={runningSession.completedAt}
+                                    active={viewIndex === 0}
+                                    onSelect={() => selectQueueView(0)}
+                                  />
                                 </li>
                               )}
+                              {queuedExperiments.map((item, index) => {
+                                const queuedSession = labId
+                                  ? getQueuedExperimentView(labId, index)
+                                  : null;
+                                return (
+                                  <li key={item.id}>
+                                    <ExperimentListItemButton
+                                      status="queued"
+                                      goal={getExperimentGoal(queuedSession, item.experimentName)}
+                                      submittedAt={item.submittedAt}
+                                      completedAt={item.completedAt}
+                                      active={viewIndex === index + 1}
+                                      onSelect={() => selectQueueView(index + 1)}
+                                    />
+                                  </li>
+                                );
+                              })}
                             </ul>
-                            {queuedExperiments.length > 0 && (
-                              <div className="header-lab-queue-dropdown-section header-lab-queue-dropdown-section--queued">
-                                <span className="header-lab-queue-dropdown-section-label">
-                                  排队中 · {queuedExperiments.length}
-                                </span>
-                                <ul className="header-lab-queue-dropdown-list">
-                                  {queuedExperiments.map((item, index) => (
-                                    <li key={item.id}>
-                                      <button
-                                        type="button"
-                                        className={`header-lab-queue-dropdown-item header-lab-queue-dropdown-item--queued ${viewIndex === index + 1 ? "is-active" : ""}`}
-                                        onClick={() => selectQueueView(index + 1)}
-                                        aria-current={viewIndex === index + 1 ? "true" : undefined}
-                                      >
-                                        <span className="header-lab-queue-dropdown-badge header-lab-queue-dropdown-badge--queued">
-                                          排队 {index + 1}
-                                        </span>
-                                        <span className="header-lab-queue-dropdown-item-text">
-                                          <span className="header-lab-queue-dropdown-name">
-                                            {item.experimentName}
-                                          </span>
-                                          <ExperimentListTimeMeta
-                                            submittedAt={item.submittedAt}
-                                            completedAt={item.completedAt}
-                                            status="queued"
-                                          />
-                                        </span>
-                                      </button>
-                                    </li>
-                                  ))}
-                                </ul>
-                              </div>
-                            )}
                           </>
                         )}
                       </div>
