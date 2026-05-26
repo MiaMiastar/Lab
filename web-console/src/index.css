@@ -3877,8 +3877,8 @@ input, select { font-family: inherit; }
 
 .device-log-line {
   display: grid;
-  grid-template-columns: 4.25rem 4.5rem minmax(0, 1fr);
-  gap: 0.25rem 0.35rem;
+  grid-template-columns: 4.25rem minmax(0, 1fr);
+  gap: 0.25rem 0.45rem;
   align-items: start;
   padding: 0.16rem 0.22rem;
   border-radius: 2px;
@@ -3940,32 +3940,9 @@ input, select { font-family: inherit; }
   white-space: nowrap;
 }
 
-.device-log-tag {
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  font-weight: 500;
-}
-
-.device-log-tag--dm-feed-down { color: #38bdf8; }
-.device-log-tag--dm-feed-push { color: #0ea5e9; }
-.device-log-tag--dm-lift { color: #a78bfa; }
-.device-log-tag--dm-translate { color: #c084fc; }
-.device-log-tag--dm-vibrate { color: #e879f9; }
-.device-log-tag--dm-valve { color: #fbbf24; }
-.device-log-tag--dm-gripper { color: #fb923c; }
-.device-log-tag--dm-pump { color: #34d399; }
-.device-log-tag--dm-fluid { color: #2dd4bf; }
-.device-log-tag--dm-electrochem { color: #f472b6; }
-.device-log-tag--dm-platform { color: #94a3b8; }
-.device-log-tag--dm-api { color: #60a5fa; }
-.device-log-tag--dm-parser { color: #818cf8; }
-.device-log-tag--dm-reactor { color: #f97316; }
-.device-log-tag--dm-process { color: #34d399; }
-.device-log-tag--dm-status { color: #a3e635; }
-
 .device-log-msg {
   color: #cbd5e1;
+  min-width: 0;
   word-break: break-word;
 }
 
@@ -5897,40 +5874,22 @@ html[data-visual-style="human"] .device-stream-item--pump {
   border-left-color: var(--human-olive);
 }
 
-html[data-visual-style="human"] .device-log-tag--dm-feed-down,
-html[data-visual-style="human"] .device-log-tag--dm-feed-push,
-html[data-visual-style="human"] .device-log-tag--dm-api,
 html[data-visual-style="human"] .device-stream-tag--feed {
   color: var(--awaiting);
 }
 
-html[data-visual-style="human"] .device-log-tag--dm-lift,
-html[data-visual-style="human"] .device-log-tag--dm-translate,
-html[data-visual-style="human"] .device-log-tag--dm-parser,
 html[data-visual-style="human"] .device-stream-tag--lift {
   color: var(--human-indigo);
 }
 
-html[data-visual-style="human"] .device-log-tag--dm-vibrate,
-html[data-visual-style="human"] .device-log-tag--dm-electrochem,
 html[data-visual-style="human"] .device-stream-tag--electrochem {
   color: var(--human-rose);
 }
 
-html[data-visual-style="human"] .device-log-tag--dm-valve,
 html[data-visual-style="human"] .device-stream-tag--valve {
   color: var(--human-gold);
 }
 
-html[data-visual-style="human"] .device-log-tag--dm-gripper,
-html[data-visual-style="human"] .device-log-tag--dm-reactor {
-  color: var(--human-seal);
-}
-
-html[data-visual-style="human"] .device-log-tag--dm-pump,
-html[data-visual-style="human"] .device-log-tag--dm-fluid,
-html[data-visual-style="human"] .device-log-tag--dm-process,
-html[data-visual-style="human"] .device-log-tag--dm-status,
 html[data-visual-style="human"] .device-stream-tag--pump {
   color: var(--human-olive);
 }

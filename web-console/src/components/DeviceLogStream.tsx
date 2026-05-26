@@ -174,7 +174,6 @@ export function DeviceLogStream({
                 <span className="device-log-ts-time">{time}</span>
                 {date ? <span className="device-log-ts-date">{date}</span> : null}
               </span>
-              <span className={`device-log-tag device-log-tag--${dm}`}>{event.device}</span>
               <span className="device-log-msg">{event.message}</span>
             </div>
           );
